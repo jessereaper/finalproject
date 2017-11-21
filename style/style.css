@@ -1,53 +1,70 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
 /*
-*Mobile Mix-ins
-*(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
-*/
+Error: Invalid CSS after "$sidebarbackground": expected selector or at-rule, was ":#1b3c50;"
+        on line 7 of _presets.scss
+        from line 2 of style.scss
 
-/*# sourceMappingURL=style.css.map */
+2: $font-montserrat: "Montserrat",
+3: sans-serif;
+4: $roboto: "roboto slab", serif;
+5: //colors//
+6: $backgroundcolor:#2fcfba
+7: $sidebarbackground:#1b3c50;
+8: //text colors//
+9: $text-headerblack:#1b3c50;
+10: $text-lightblue: #48a2ba;
+11: $text-hblue:#59aac0;
+12: //container colors//
+
+Backtrace:
+_presets.scss:7
+style.scss:2
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/eagascarodriguez171/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$sidebarbackground\": expected selector or at-rule, was \":#1b3c50;\"\A         on line 7 of _presets.scss\A         from line 2 of style.scss\A \A 2: $font-montserrat: \"Montserrat\",\A 3: sans-serif;\A 4: $roboto: \"roboto slab\", serif;\A 5: //colors//\A 6: $backgroundcolor:#2fcfba\A 7: $sidebarbackground:#1b3c50;\A 8: //text colors//\A 9: $text-headerblack:#1b3c50;\A 10: $text-lightblue: #48a2ba;\A 11: $text-hblue:#59aac0;\A 12: //container colors//"; }
