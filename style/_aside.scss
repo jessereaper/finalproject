@@ -14,6 +14,7 @@ html,body {
     background-color: #1b3c50;
     margin: 24px 0px 24px 32px;
     display: block;
+    padding-top: 55px;
   }
   .oval-image {
 	width: 100px;
@@ -21,4 +22,71 @@ html,body {
   background-image:url("../images/profilepic.png");
   background-size: contain;
   margin: 0px 85px 0px 55px;
+}
+.henrietta-schmidtt {
+	width: 220px;
+	height: 19px;
+	font-family: $font-montserrat;
+	font-size: 15px;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: #f7f7f7;
+  margin-top: 20px;
+}
+.Aside-P {
+  margin-top: 10px;
+}
+.AcademicServices {
+  @extend .henrietta-schmidtt;
+  font-size: 13px;
+  text-align: left;
+  margin: 27px 11.5px 0px 21.5px;
+}
+.CollegeInformation {
+  @extend .henrietta-schmidtt;
+  font-size: 13px;
+  text-align: left;
+  margin: 27px 11.5px 0px 21.5px;
+}
+.CurrentSchedule {
+  @extend .henrietta-schmidtt;
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px
+}
+.GradesReporting {
+  @extend .henrietta-schmidtt;
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px
+}
+.UpcomingCourses {
+  @extend .henrietta-schmidtt;
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px
+}
+.CollegeCalendar {
+  @extend .henrietta-schmidtt;
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px
+}
+.FinancialAid {
+  @extend .henrietta-schmidtt;
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px
+}
+.StudentServices {
+  @extend .henrietta-schmidtt;
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px
 }

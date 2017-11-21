@@ -64,7 +64,8 @@ aside {
   height: 720px;
   background-color: #1b3c50;
   margin: 24px 0px 24px 32px;
-  display: block; }
+  display: block;
+  padding-top: 55px; }
 
 .oval-image {
   width: 100px;
@@ -72,5 +73,64 @@ aside {
   background-image: url("../images/profilepic.png");
   background-size: contain;
   margin: 0px 85px 0px 55px; }
+
+.henrietta-schmidtt, .AcademicServices, .CollegeInformation, .CurrentSchedule, .GradesReporting, .UpcomingCourses, .CollegeCalendar, .FinancialAid, .StudentServices {
+  width: 220px;
+  height: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #f7f7f7;
+  margin-top: 20px; }
+
+.Aside-P {
+  margin-top: 10px; }
+
+.AcademicServices {
+  font-size: 13px;
+  text-align: left;
+  margin: 27px 11.5px 0px 21.5px; }
+
+.CollegeInformation {
+  font-size: 13px;
+  text-align: left;
+  margin: 27px 11.5px 0px 21.5px; }
+
+.CurrentSchedule {
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px; }
+
+.GradesReporting {
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px; }
+
+.UpcomingCourses {
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px; }
+
+.CollegeCalendar {
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px; }
+
+.FinancialAid {
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px; }
+
+.StudentServices {
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
