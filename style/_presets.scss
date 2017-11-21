@@ -1,0 +1,17 @@
+//fonts//
+$font-montserrat: "Montserrat",
+sans-serif;
+$roboto: "roboto slab", serif;
+//colors//
+$backgroundcolor:#2fcfba
+$sidebarbackground:#1b3c50;
+//text colors//
+$text-headerblack:#1b3c50;
+$text-lightblue: #48a2ba;
+$text-hblue:#59aac0;
+//container colors//
+$bar-color: #6291a9;
+/*
+*Mobile Mix-ins
+*(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
+*/
