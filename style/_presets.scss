@@ -15,3 +15,32 @@ $bar-color: #6291a9;
 *Mobile Mix-ins
 *(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
 */
+
+
+/* jesse's presets */
+.text-m-1{
+  font-family: $font-montserrat;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.text-m-2{
+  font-family: $font-montserrat;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.text-r-1{
+  font-family: $roboto;
+  font-size: 13px;
+	line-height: 1.62;
+	letter-spacing: 0.2px;
+	text-align: left;
+}
+.text-r-2{
+  font-family: $roboto;
+  font-size: 13px;
+	line-height: 1.62;
+	letter-spacing: 0.2px;
+	text-align: left;
+}
