@@ -1,20 +1,42 @@
-/*
-Error: Invalid CSS after "$sidebarbackground": expected selector or at-rule, was ":#1b3c50;"
-        on line 7 of _presets.scss
-        from line 2 of style.scss
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-2: $font-montserrat: "Montserrat",
-3: sans-serif;
-4: $roboto: "roboto slab", serif;
-5: //colors//
-6: $backgroundcolor:#2fcfba
-7: $sidebarbackground:#1b3c50;
-8: //text colors//
-9: $text-headerblack:#1b3c50;
-10: $text-lightblue: #48a2ba;
-11: $text-hblue:#59aac0;
-12: //container colors//
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
 
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+<<<<<<< HEAD
 Backtrace:
 _presets.scss:7
 style.scss:2
@@ -62,8 +84,20 @@ style.scss:2
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
 /usr/local/bin/sass:23:in `load'
 /usr/local/bin/sass:23:in `<main>'
+=======
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*
+*Mobile Mix-ins
+*(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
+>>>>>>> 861431336f87e99b8ce9ba149cd56c82e180c268
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"$sidebarbackground\": expected selector or at-rule, was \":#1b3c50;\"\A         on line 7 of _presets.scss\A         from line 2 of style.scss\A \A 2: $font-montserrat: \"Montserrat\",\A 3: sans-serif;\A 4: $roboto: \"roboto slab\", serif;\A 5: //colors//\A 6: $backgroundcolor:#2fcfba\A 7: $sidebarbackground:#1b3c50;\A 8: //text colors//\A 9: $text-headerblack:#1b3c50;\A 10: $text-lightblue: #48a2ba;\A 11: $text-hblue:#59aac0;\A 12: //container colors//"; }
+
+/*# sourceMappingURL=style.css.map */
