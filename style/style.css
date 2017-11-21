@@ -99,5 +99,91 @@ table {
 *(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
 >>>>>>> 861431336f87e99b8ce9ba149cd56c82e180c268
 */
+/* jesse's presets */
+.text-m-1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  text-align: left; }
+
+.text-m-2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  text-align: left; }
+
+.text-r-1 {
+  font-family: "roboto slab", serif;
+  font-size: 13px;
+  line-height: 1.62;
+  letter-spacing: 0.2px;
+  text-align: left; }
+
+.text-r-2 {
+  font-family: "roboto slab", serif;
+  font-size: 13px;
+  line-height: 1.62;
+  letter-spacing: 0.2px;
+  text-align: left; }
+
+.header {
+  margin-left: 40px; }
+  .header .home {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #1b3c50;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 400px; }
+  .header .log-out {
+    margin-left: 400px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #48a2ba; }
+  .header .bar {
+    background-color: #6291a9;
+    height: 2px;
+    width: 63%;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.header-section {
+  margin-left: 40px; }
+  .header-section .current-prog .text-m-1 {
+    color: #59aac0;
+    padding-bottom: 10px; }
+  .header-section .current-prog .text-m-2 {
+    padding-bottom: 10px; }
+  .header-section .bar {
+    background-color: #6291a9;
+    height: 2px;
+    width: 63%;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.header-block {
+  display: inline-block;
+  width: 63%; }
+  .header-block .first {
+    display: inline-block;
+    width: 34%; }
+    .header-block .first .text-m-1 {
+      font-weight: bold;
+      padding-bottom: 10px; }
+  .header-block .second {
+    display: inline-block;
+    padding-left: 30px;
+    width: 23%; }
+    .header-block .second .text-m-1 {
+      font-weight: bold;
+      padding-bottom: 10px; }
+  .header-block .third {
+    display: inline-block;
+    padding-left: 120px;
+    width: 23%; }
+    .header-block .third .text-m-1 {
+      font-weight: bold;
+      padding-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */
