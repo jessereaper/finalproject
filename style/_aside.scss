@@ -1,0 +1,24 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  body {
+    background-color: $backgroundcolor;
+  }
+  aside {
+    width: 220px;
+    height: 720px;
+    background-color: #1b3c50;
+    margin: 24px 0px 24px 32px;
+    display: block;
+  }
+  .oval-image {
+	width: 100px;
+	height: 100px;
+  background-image:url("../images/profilepic.png");
+  background-size: contain;
+  margin: 0px 85px 0px 55px;
+}
