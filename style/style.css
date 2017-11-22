@@ -114,51 +114,22 @@ aside {
 .Aside-P {
   margin-top: 10px; }
 
-.AcademicServices {
+.AcademicServices, .CollegeInformation {
   font-size: 13px;
   text-align: left;
   margin: 27px 11.5px 0px 21.5px; }
 
-.CollegeInformation {
-  font-size: 13px;
-  text-align: left;
-  margin: 27px 11.5px 0px 21.5px; }
-
-.CurrentSchedule {
+.CurrentSchedule, .GradesReporting, .UpcomingCourses, .CollegeCalendar, .FinancialAid, .StudentServices {
   font-size: 11px;
   text-decoration: none;
   display: block;
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding-top: 10px; }
 
-.GradesReporting {
-  font-size: 11px;
-  text-decoration: none;
-  display: block;
-  margin-top: 10px; }
-
-.UpcomingCourses {
-  font-size: 11px;
-  text-decoration: none;
-  display: block;
-  margin-top: 10px; }
-
-.CollegeCalendar {
-  font-size: 11px;
-  text-decoration: none;
-  display: block;
-  margin-top: 10px; }
-
-.FinancialAid {
-  font-size: 11px;
-  text-decoration: none;
-  display: block;
-  margin-top: 10px; }
-
-.StudentServices {
-  font-size: 11px;
-  text-decoration: none;
-  display: block;
-  margin-top: 10px; }
+a:hover {
+  width: 220px;
+  height: 25px;
+  background-color: #0b2535; }
 
 .header {
   margin-left: 40px; }
