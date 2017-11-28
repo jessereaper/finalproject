@@ -52,12 +52,16 @@ html,body {
   display: block;
   margin-top: 10px;
   padding-top: 10px;
+  text-align: left;
+  padding-left: 55px;
 }
 .GradesReporting {
   @extend .CurrentSchedule;
+  margin-left: 0px;
 }
 .UpcomingCourses {
   @extend .CurrentSchedule;
+
 }
 .CollegeCalendar {
   @extend .CurrentSchedule;
@@ -69,7 +73,7 @@ html,body {
   @extend .CurrentSchedule;
 }
 a:hover {
-  width: 220px;
+  width: 165px;
   height: 25px;
   background-color: #0b2535;
 }
