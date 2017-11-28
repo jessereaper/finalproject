@@ -291,4 +291,50 @@ a:hover {
   .schedule-list .list-uno .text-m-2 {
     padding-top: 10px; }
 
+.schedule-table {
+  margin-left: 40px;
+  width: 60%;
+  border: solid red; }
+  .schedule-table .t-r {
+    width: 45px;
+    height: 50px;
+    background-color: rgba(47, 207, 186, 0.15);
+    margin-right: 2px; }
+    .schedule-table .t-r .t-d-1 {
+      padding-top: 10px;
+      padding-left: 20px; }
+    .schedule-table .t-r .t-d-2 {
+      background-color: #1b3c50;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 10px;
+      color: white; }
+    .schedule-table .t-r .t-d-3 {
+      padding-bottom: 120px; }
+    .schedule-table .t-r .t-d-4 {
+      height: 120px; }
+    .schedule-table .t-r .t-d-5 {
+      background-color: #1b3c50;
+      padding-top: 90px;
+      padding-left: 30px;
+      padding-bottom: 10px;
+      color: white;
+      width: 134px;
+      height: 157px;
+      text-align: center; }
+    .schedule-table .t-r .t-d-6 {
+      background-color: #1b3c50;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-bottom: 10px;
+      color: white; }
+    .schedule-table .t-r .d {
+      background-color: rgba(47, 207, 186, 0.15);
+      height: 5px; }
+  .schedule-table .t-r-2 {
+    width: 45px;
+    height: 20px;
+    background-color: rgba(47, 207, 186, 0.15);
+    margin-right: 2px; }
+
 /*# sourceMappingURL=style.css.map */
