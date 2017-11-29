@@ -84,7 +84,7 @@ html, body {
   overflow-x: hidden; }
 
 .body {
-  background-color: white;
+  background-color: #f7f7f7;
   border: solid #2fcfba 24px; }
 
 aside {
@@ -418,15 +418,15 @@ a:hover {
   margin-top: 35px; }
 
 .flex-container {
-  display: inline-flex; }
+  display: inline-flex;
+  margin-left: 300px; }
 
 .Day-one, .Day-two, .Day-three, .Day-four, .Day-five {
   width: 134px;
   height: 375px;
   background-color: rgba(47, 207, 186, 0.15);
   flex-direction: row;
-  margin-right: 1px;
-  margin-top: 50px; }
+  margin-right: 2px; }
 
 .monday, .tuesday, .Wednesday, .Thursday, .Friday {
   width: 130px;
