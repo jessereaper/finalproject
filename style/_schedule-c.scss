@@ -1,13 +1,13 @@
 .flex-container {
   display: inline-flex;
+  margin-left: 300px;
 }
 .Day-one {
     width: 134px;
     height: 375px;
     background-color: rgba(47, 207, 186, 0.15);
-  flex-direction: row;
-  margin-right: 1px;
-  margin-top: 50px;
+    flex-direction: row;
+    margin-right: 2px;
 }
 .monday, .tuesday, .Wednesday, .Thursday, .Friday {
     width: 130px;
@@ -17,8 +17,8 @@
     letter-spacing: 0.2px;
     text-align: center;
     color: #2e0a3a;
-  padding-top: 12px;
-  padding-bottom: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 .Monday-english-container, .Tuesday-math-container, .Wednesday-english-container, .Thursday-math-container {
     width: 134px;
