@@ -1,0 +1,53 @@
+.view-as{
+  display: inline-block;
+  width: 100%;
+  .text-m-1{
+    width: 43%;
+    display: inline-block;
+  }
+  .text-m-2{
+    width: 50%;
+    display: inline-block;
+    float: right;
+    margin-top:-18px;
+    height: 15px;
+  }
+}
+.registerbox{
+  width: 870px;
+  height: 235px;
+  background-color: white;
+  margin-left: 40px;
+  margin-top: 25px;
+  h1{
+    color: $text-lightblue;
+    font-family: $font-montserrat;
+    text-align: center;
+    font-weight: bold;
+      letter-spacing: 0.2px;
+      padding-top: 50px;
+  }
+}
+.registerbox{
+h2{
+text-align: center;
+font-family:  $font-montserrat;
+font-weight: 550;
+margin-top: 5px;
+letter-spacing: 0.2px;
+font-size: 16px;
+}
+}
+.startb{
+  width: 120px;
+ height: 50px;
+ font-family: $font-montserrat;
+ font-size: 14px;
+ font-weight: bold;
+ letter-spacing: 0.2px;
+ text-align: center;
+ color: #f7f7f7;
+ background-color: $text-lightblue;
+ margin-left: 365px;
+ margin-top: 35px;
+}
