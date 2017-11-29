@@ -2,6 +2,10 @@
   display: none;
 }
 
+.aslde{
+  position: fixed;
+}
+
 .second-section{
   margin-left: 0px;
   display: inline-block;
@@ -40,7 +44,7 @@
     background-color: $bar-color;
     height: 2px;
     width: 89%;
-    margin-top: 150px;
+    margin-top: 160px;
     margin-bottom: 10px;
   }
 }
@@ -48,6 +52,7 @@
 .college-announcments{
   margin-left: 0px;
   margin-top: 30px;
+  display: inline-block;
   .Tutoring{
     .text-m-1{
       color: $text-hblue;
@@ -59,7 +64,7 @@
     .text-r-1{
       color: #373737;
       font-size: 15px;
-      width: 30%;
+      width: 100%;
     }
   }
   .intern{
@@ -70,10 +75,81 @@
     .text-r-1{
       color: #373737;
       font-size: 15px;
-      width: 30%;
+      width: 100%;
     }
   }
   .UpEvents{
-    
+    display: inline-block;
+    width: 19%;
+    margin-left: 340px;
+
+    .text-m-1{
+      color: $text-hblue;
+      padding-bottom: 25px;
+    }
+    .text-m-2{
+      padding-bottom: 25px;
+    }
+  }
+  .thisWillMoveL{
+    display: inline-block;
+    width: 30%;
+  }
+  .bar{
+    background-color: $bar-color;
+    height: 2px;
+    width: 73%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.Software-Project-I{
+  .S-P-I{
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 620px;
+    .text-m-1{
+      color: $text-hblue;
+      padding-bottom: 10px;
+    }
+  }
+  .bar{
+    background-color: $bar-color;
+    height: 2px;
+    width: 73%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.TutoringAvailable{
+  display: inline-block;
+  padding-bottom: 20px;
+  .C-A-L{
+    display: inline-block;
+    width: 40%;
+    .text-m-1{
+      color: $text-hblue;
+      padding-bottom: 10px;
+    }
+    .text-m-2{
+      padding-bottom: 10px;
+    }
+    .text-r-1{
+      font-size: 15px;
+      padding-bottom: 5px;
+      color: #373737;
+    }
+  }
+  .upcoming-events2{
+    margin-left: 200px;
+    display: inline-block;
+    width: 24%;
+    .text-m-1{
+      color: $text-hblue;
+      padding-bottom: 10px;
+    }
   }
 }
