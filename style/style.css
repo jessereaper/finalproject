@@ -503,13 +503,15 @@ a:hover {
     text-align: left;
     color: #1b3c50;
     font-family: "Montserrat", sans-serif;
-    margin-right: 400px; }
+    margin-right: 400px;
+    text-decoration: none; }
   .headerupcoming .log-out {
     margin-left: 350px;
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: right;
-    color: #48a2ba; }
+    color: #48a2ba;
+    text-decoration: none; }
   .headerupcoming .bar {
     background-color: #6291a9;
     height: 2px;
