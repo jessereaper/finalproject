@@ -417,9 +417,51 @@ a:hover {
   margin-left: 340px;
   margin-top: 35px; }
 
+.CS-container {
+  display: inline-flex; }
+
+.CS-inlineflex {
+  flex-direction: row; }
+
+.CS {
+  width: 368px;
+  height: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #48a2ba;
+  margin-top: 17px; }
+
+.View-as-c, .list-c, .line-c, .Calendar-c {
+  width: 165.1px;
+  height: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #2e0a3a;
+  margin-top: 17px; }
+
+.list-c {
+  float: right;
+  text-decoration: none;
+  margin-left: -90px; }
+
+.line-c {
+  float: right;
+  text-decoration: none;
+  margin-left: -130px; }
+
+.Calendar-c {
+  text-decoration: none;
+  float: right;
+  margin-left: -150px; }
+
 .flex-container {
   display: inline-flex;
-  margin-left: 300px; }
+  margin-top: 14px; }
 
 .Day-one, .Day-two, .Day-three, .Day-four, .Day-five {
   width: 134px;
