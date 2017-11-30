@@ -416,6 +416,16 @@ a:hover {
   margin-left: 340px;
   margin-top: 35px; }
 
+.Sundaytwo-one {
+  width: 238px;
+  height: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  float: right;
+  color: #1b3c50; }
+
 .CS-container {
   display: inline-flex; }
 
