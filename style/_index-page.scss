@@ -9,6 +9,8 @@
 .second-section{
   margin-left: 0px;
   display: inline-block;
+  margin-left: 280px;
+  margin-top: 200px;
   .program-announ{
     float: left;
     .text-m-1{
@@ -43,14 +45,14 @@
   .bar{
     background-color: $bar-color;
     height: 2px;
-    width: 89%;
+    width: 92.9%;
     margin-top: 160px;
     margin-bottom: 10px;
   }
 }
 
 .college-announcments{
-  margin-left: 0px;
+  margin-left: 280px;
   margin-top: 30px;
   display: inline-block;
   .Tutoring{
@@ -81,7 +83,7 @@
   .UpEvents{
     display: inline-block;
     width: 19%;
-    margin-left: 340px;
+    margin-left: 280px;
 
     .text-m-1{
       color: $text-hblue;
@@ -98,13 +100,14 @@
   .bar{
     background-color: $bar-color;
     height: 2px;
-    width: 73%;
+    width: 79%;
     margin-top: 0px;
     margin-bottom: 10px;
   }
 }
 
 .Software-Project-I{
+  margin-left: 280px;
   .S-P-I{
     width: 20%;
     padding-top: 20px;
@@ -118,13 +121,15 @@
   .bar{
     background-color: $bar-color;
     height: 2px;
-    width: 73%;
+    width: 79%;
     margin-top: 0px;
     margin-bottom: 10px;
+    margin-left: 0px;
   }
 }
 
 .TutoringAvailable{
+  margin-left: 280px;
   display: inline-block;
   padding-bottom: 20px;
   .C-A-L{
