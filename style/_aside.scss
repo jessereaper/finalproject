@@ -3,7 +3,7 @@ html,body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    
+
   }
   .body {
     background-color: #f7f7f7;
@@ -11,7 +11,7 @@ html,body {
 
   }
   aside {
-    width: 15%;
+    width: 20%;
     height: 720px;
     background-color: #1b3c50;
     margin: 0px 0px 24px 0px;
@@ -19,45 +19,52 @@ html,body {
     padding-top: 55px;
     box-shadow: 5px 5px 5px;
     float: left;
+    position: fixed;
   }
   .oval-image {
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
   background-image:url("../images/profilepic.png");
   background-size: contain;
-  margin: 0px 85px 0px 55px;
+  margin: 0px 85px 0px 90px;
 }
 .henrietta-schmidtt {
 	width: 220px;
 	height: 19px;
 	font-family: $font-montserrat;
-	font-size: 15px;
+	font-size: 20px;
 	letter-spacing: 0.2px;
 	text-align: center;
 	color: #f7f7f7;
   margin-top: 20px;
+  padding-left: 40px;
 }
 .Aside-P {
   margin-top: 10px;
 }
 .AcademicServices {
   @extend .henrietta-schmidtt;
-  font-size: 13px;
+  font-size: 16px;
   text-align: left;
-  margin: 27px 11.5px 0px 21.5px;
+  margin: 40px 11.5px 0px 0px;
 }
 .CollegeInformation {
   @extend .AcademicServices;
 }
 .CurrentSchedule {
-  @extend .henrietta-schmidtt;
-  font-size: 11px;
+  width: 220px;
+	height: 19px;
+	font-family: $font-montserrat;
+	font-size: 20px;
+	letter-spacing: 0.2px;
+	color: #f7f7f7;
+  font-size: 14px;
   text-decoration: none;
   display: block;
   margin-top: 10px;
   padding-top: 10px;
   text-align: left;
-  padding-left: 55px;
+  padding-left: 85px;
 }
 .GradesReporting {
   @extend .CurrentSchedule;
@@ -77,7 +84,7 @@ html,body {
   @extend .CurrentSchedule;
 }
 a:hover {
-  width: 165px;
+  width: 203px;
   height: 25px;
   background-color: #0b2535;
 }
