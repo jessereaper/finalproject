@@ -3,11 +3,12 @@ html,body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    
   }
   .body {
     background-color: #f7f7f7;
     border: solid $bordercolor 24px;
+
   }
   aside {
     width: 15%;

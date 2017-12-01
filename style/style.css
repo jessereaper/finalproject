@@ -80,8 +80,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
-  padding: 0px;
-  overflow-x: hidden; }
+  padding: 0px; }
 
 .body {
   background-color: #f7f7f7;
@@ -163,7 +162,7 @@ a:hover {
     letter-spacing: 0.2px;
     text-align: right;
     color: #48a2ba; }
-  .header .bar {
+  .header .bar, .header .bar-schedule {
     background-color: #6291a9;
     height: 2px;
     width: 70%;
@@ -179,7 +178,7 @@ a:hover {
     padding-bottom: 10px; }
   .header-section .current-prog .text-m-2 {
     padding-bottom: 10px; }
-  .header-section .bar {
+  .header-section .bar, .header-section .bar-schedule {
     background-color: #6291a9;
     height: 2px;
     width: 73%;
@@ -243,7 +242,7 @@ a:hover {
       word-wrap: break-word;
       padding-bottom: 10px;
       font-weight: bold; }
-  .second-section .bar {
+  .second-section .bar, .second-section .bar-schedule {
     background-color: #6291a9;
     height: 2px;
     width: 89%;
@@ -282,7 +281,7 @@ a:hover {
   .college-announcments .thisWillMoveL {
     display: inline-block;
     width: 30%; }
-  .college-announcments .bar {
+  .college-announcments .bar, .college-announcments .bar-schedule {
     background-color: #6291a9;
     height: 2px;
     width: 73%;
@@ -297,7 +296,7 @@ a:hover {
   .Software-Project-I .S-P-I .text-m-1 {
     color: #59aac0;
     padding-bottom: 10px; }
-.Software-Project-I .bar {
+.Software-Project-I .bar, .Software-Project-I .bar-schedule {
   background-color: #6291a9;
   height: 2px;
   width: 73%;
@@ -416,6 +415,9 @@ a:hover {
   margin-left: 340px;
   margin-top: 35px; }
 
+.bar-schedule {
+  padding-right: 65px; }
+
 .Sundaytwo-one {
   width: 238px;
   height: 13px;
@@ -452,7 +454,8 @@ a:hover {
   font-weight: bold;
   letter-spacing: 0.2px;
   color: #2e0a3a;
-  margin-top: 17px; }
+  margin-top: 17px;
+  margin-left: 365px; }
 
 .list-c {
   float: right;
@@ -474,7 +477,7 @@ a:hover {
   margin-top: 14px; }
 
 .Day-one, .Day-two, .Day-three, .Day-four, .Day-five {
-  width: 134px;
+  width: 180px;
   height: 375px;
   background-color: rgba(47, 207, 186, 0.15);
   flex-direction: row;
@@ -489,10 +492,11 @@ a:hover {
   text-align: center;
   color: #2e0a3a;
   padding-top: 12px;
-  padding-bottom: 12px; }
+  padding-bottom: 12px;
+  padding-left: 20px; }
 
 .Monday-english-container, .Tuesday-math-container, .Wednesday-english-container, .Thursday-math-container {
-  width: 134px;
+  width: 180px;
   height: 59px;
   background-color: #1b3c50; }
 
@@ -505,14 +509,15 @@ a:hover {
   letter-spacing: 0.2px;
   text-align: center;
   color: #f7f7f7;
-  padding-top: 15px; }
+  padding-top: 15px;
+  padding-left: 20px; }
 
 .English-Composition, .College-algebra {
   font-size: 10px;
   line-height: 1.2; }
 
 .CSET-0neZeroFive-container, .CSET-0neten-container-wed, .CSET-0neten-container, .CSET-0netwozero-container {
-  width: 134px;
+  width: 180px;
   height: 177px;
   background-color: #1b3c50;
   margin-top: 78px; }
@@ -563,7 +568,7 @@ a:hover {
     letter-spacing: 0.2px;
     text-align: right;
     color: #48a2ba; }
-  .headerupcoming .bar {
+  .headerupcoming .bar, .headerupcoming .bar-schedule {
     background-color: #6291a9;
     height: 2px;
     width: 70%;
@@ -579,7 +584,7 @@ a:hover {
     padding-bottom: 10px; }
   .header-section .current-prog .text-m-2 {
     padding-bottom: 10px; }
-  .header-section .bar {
+  .header-section .bar, .header-section .bar-schedule {
     background-color: #6291a9;
     height: 2px;
     width: 73%;
