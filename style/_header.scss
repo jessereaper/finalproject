@@ -1,7 +1,8 @@
 .header{
   background-color: #f7f7f7;
-  margin-left: 240px;
+  margin-left: 230px;
   margin-top: 20px;
+  position: fixed;
   .home{
     margin-left: 50px;
     font-size: 14px;
@@ -22,16 +23,21 @@
   .bar{
     background-color: $bar-color;
     height: 2px;
-    width: 70%;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 50px;
   }
 }
 
+.body-index{
+  background-color: #f7f7f7;
 .header-section{
   background-color: #f7f7f7;
-  margin-left: 0px;
+  position: fixed;
+  margin-top: 50px;
+  margin-left: 280px;
+  width: 70%;
   .current-prog{
     .text-m-1{
       color: $text-hblue;
@@ -44,15 +50,16 @@
   .bar{
     background-color: $bar-color;
     height: 2px;
-    width: 73%;
+    width: 87%;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 }
-
+}
 .header-block{
   display: inline-block;
   width: 77%;
+  margin-top: 22px;
   .first{
     display: inline-block;
     width: 34%;

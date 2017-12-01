@@ -1,24 +1,31 @@
-.view-as{
-  display: inline-block;
-  width: 100%;
-  float: right;
-  .text-m-1{
-    width: 43%;
-    height: 15px;
-  }
-  .text-m-2{
-    width: 50%;
-    float: right;
-    margin-top:-18px;
-    height: 15px;
-  }
+.semester-up {
+  width: 165.1px;
+	height: 13px;
+	font-family: $font-montserrat;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+  margin-left: 340px;
+  color: #48a2ba;
+  margin-top: 17px;
+}
+.spring-up {
+  width: 165.1px;
+  height: 13px;
+  font-family: $font-montserrat;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #5bd8c8;
+  margin-top: 17px;
+  margin-left: -90px;
 }
 .registerbox{
   width: 800px;
   height: 235px;
   background-color: white;
-  margin-left: 40px;
   margin-top: 25px;
+  padding-right: 40px;
   h1{
     color: $text-lightblue;
     font-family: $font-montserrat;
