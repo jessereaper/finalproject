@@ -188,7 +188,8 @@ a:hover {
 
 .header-block {
   display: inline-block;
-  width: 77%; }
+  width: 77%;
+  margin-top: 22px; }
   .header-block .first {
     display: inline-block;
     width: 34%; }
@@ -368,25 +369,34 @@ a:hover {
   .schedule-list .list-uno .text-m-2 {
     padding-top: 10px; }
 
-.view-as {
-  display: inline-block;
-  width: 100%;
-  float: right; }
-  .view-as .text-m-1 {
-    width: 43%;
-    height: 15px; }
-  .view-as .text-m-2 {
-    width: 50%;
-    float: right;
-    margin-top: -18px;
-    height: 15px; }
+.semester-up {
+  width: 165.1px;
+  height: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  margin-left: 340px;
+  color: #48a2ba;
+  margin-top: 17px; }
+
+.spring-up {
+  width: 165.1px;
+  height: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #5bd8c8;
+  margin-top: 17px;
+  margin-left: -90px; }
 
 .registerbox {
   width: 800px;
   height: 235px;
   background-color: white;
-  margin-left: 40px;
-  margin-top: 25px; }
+  margin-top: 25px;
+  padding-right: 40px; }
   .registerbox h1 {
     color: #48a2ba;
     font-family: "Montserrat", sans-serif;
@@ -547,7 +557,7 @@ a:hover {
 .headerupcoming {
   background-color: #f7f7f7;
   margin-left: 240px;
-  margin-top: 20px; }
+  margin-top: 40px; }
   .headerupcoming .home {
     margin-left: 50px;
     font-size: 14px;
