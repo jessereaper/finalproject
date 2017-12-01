@@ -395,8 +395,8 @@ a:hover {
   width: 800px;
   height: 235px;
   background-color: white;
-  margin-left: 40px;
-  margin-top: 25px; }
+  margin-top: 25px;
+  padding-right: 40px; }
   .registerbox h1 {
     color: #48a2ba;
     font-family: "Montserrat", sans-serif;
