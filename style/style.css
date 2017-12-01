@@ -87,54 +87,62 @@ html, body {
   border: solid #2fcfba 24px; }
 
 aside {
-  width: 15%;
+  width: 20%;
   height: 720px;
   background-color: #1b3c50;
   margin: 0px 0px 24px 0px;
   display: inline-block;
   padding-top: 55px;
   box-shadow: 5px 5px 5px;
-  float: left; }
+  float: left;
+  position: fixed; }
 
 .oval-image {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   background-image: url("../images/profilepic.png");
   background-size: contain;
-  margin: 0px 85px 0px 55px; }
+  margin: 0px 85px 0px 90px; }
 
-.henrietta-schmidtt, .AcademicServices, .CollegeInformation, .CurrentSchedule, .GradesReporting, .UpcomingCourses, .CollegeCalendar, .FinancialAid, .StudentServices {
+.henrietta-schmidtt, .AcademicServices, .CollegeInformation {
   width: 220px;
   height: 19px;
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 0.2px;
   text-align: center;
   color: #f7f7f7;
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding-left: 40px; }
 
 .Aside-P {
   margin-top: 10px; }
 
 .AcademicServices, .CollegeInformation {
-  font-size: 13px;
+  font-size: 16px;
   text-align: left;
-  margin: 27px 11.5px 0px 21.5px; }
+  margin: 40px 11.5px 0px 0px; }
 
 .CurrentSchedule, .GradesReporting, .UpcomingCourses, .CollegeCalendar, .FinancialAid, .StudentServices {
-  font-size: 11px;
+  width: 220px;
+  height: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #f7f7f7;
+  font-size: 14px;
   text-decoration: none;
   display: block;
   margin-top: 10px;
   padding-top: 10px;
   text-align: left;
-  padding-left: 55px; }
+  padding-left: 85px; }
 
 .GradesReporting {
   margin-left: 0px; }
 
 a:hover {
-  width: 165px;
+  width: 203px;
   height: 25px;
   background-color: #0b2535; }
 
@@ -171,22 +179,6 @@ a:hover {
     margin-bottom: 10px;
     margin-left: 50px; }
 
-
-.header-section {
-  background-color: #f7f7f7;
-  margin-left: 0px; }
-  .header-section .current-prog .text-m-1 {
-    color: #59aac0;
-    padding-bottom: 10px; }
-  .header-section .current-prog .text-m-2 {
-    padding-bottom: 10px; }
-  .header-section .bar, .header-section .bar-schedule {
-    background-color: #6291a9;
-    height: 2px;
-    width: 73%;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-
 .body-index {
   background-color: #f7f7f7; }
   .body-index .header-section {
@@ -200,13 +192,12 @@ a:hover {
       padding-bottom: 10px; }
     .body-index .header-section .current-prog .text-m-2 {
       padding-bottom: 10px; }
-    .body-index .header-section .bar {
+    .body-index .header-section .bar, .body-index .header-section .bar-schedule {
       background-color: #6291a9;
       height: 2px;
       width: 87%;
       margin-top: 10px;
       margin-bottom: 10px; }
-
 
 .header-block {
   display: inline-block;
@@ -314,22 +305,6 @@ a:hover {
     margin-top: 0px;
     margin-bottom: 10px; }
 
-
-.Software-Project-I .S-P-I {
-  width: 20%;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  padding-left: 620px; }
-  .Software-Project-I .S-P-I .text-m-1 {
-    color: #59aac0;
-    padding-bottom: 10px; }
-.Software-Project-I .bar, .Software-Project-I .bar-schedule {
-  background-color: #6291a9;
-  height: 2px;
-  width: 73%;
-  margin-top: 0px;
-  margin-bottom: 10px; }
-
 .Software-Project-I {
   margin-left: 280px; }
   .Software-Project-I .S-P-I {
@@ -340,14 +315,13 @@ a:hover {
     .Software-Project-I .S-P-I .text-m-1 {
       color: #59aac0;
       padding-bottom: 10px; }
-  .Software-Project-I .bar {
+  .Software-Project-I .bar, .Software-Project-I .bar-schedule {
     background-color: #6291a9;
     height: 2px;
     width: 79%;
     margin-top: 0px;
     margin-bottom: 10px;
     margin-left: 0px; }
-
 
 .TutoringAvailable {
   margin-left: 280px;
@@ -624,13 +598,9 @@ a:hover {
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: right;
-
-    color: #48a2ba; }
-  .headerupcoming .bar, .headerupcoming .bar-schedule {
-
     color: #48a2ba;
     text-decoration: none; }
-  .headerupcoming .bar {
+  .headerupcoming .bar, .headerupcoming .bar-schedule {
     background-color: #6291a9;
     height: 2px;
     width: 70%;
