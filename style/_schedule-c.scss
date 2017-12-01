@@ -1,3 +1,7 @@
+.bar-schedule {
+	@extend .bar;
+	padding-right: 65px;
+}
 .Sundaytwo-one {
 	width: 238px;
 	height: 13px;
@@ -7,6 +11,7 @@
 	letter-spacing: 0.2px;
 	float: right;
 	color: #1b3c50;
+ padding-right: 170px;
 }
 .Current-schedule-c {
   @extend .upcominglink;
@@ -37,6 +42,7 @@ display: inline-flex;
 	letter-spacing: 0.2px;
 	color: #2e0a3a;
   margin-top: 17px;
+	margin-left: 365px;
 }
 .list-c {
   @extend .View-as-c;
@@ -62,7 +68,7 @@ display: inline-flex;
   margin-top: 14px;
 }
 .Day-one {
-    width: 134px;
+    width: 180px;
     height: 375px;
     background-color: rgba(47, 207, 186, 0.15);
     flex-direction: row;
@@ -78,9 +84,10 @@ display: inline-flex;
     color: #2e0a3a;
     padding-top: 12px;
     padding-bottom: 12px;
+		padding-left: 20px;
 }
 .Monday-english-container, .Tuesday-math-container, .Wednesday-english-container, .Thursday-math-container {
-    width: 134px;
+    width: 180px;
     height: 59px;
     background-color: #1b3c50;
 }
@@ -93,7 +100,8 @@ display: inline-flex;
     letter-spacing: 0.2px;
     text-align: center;
     color: #f7f7f7;
-  padding-top: 15px;
+  	padding-top: 15px;
+		padding-left: 20px;
 }
 .English-Composition, .College-algebra {
   @extend .Monday-english;
@@ -101,7 +109,7 @@ display: inline-flex;
     line-height: 1.2;
 }
 .CSET-0neZeroFive-container, .CSET-0neten-container {
-    width: 134px;
+    width: 180px;
     height: 177px;
     background-color: #1b3c50;
   margin-top: 78px;
