@@ -1,6 +1,27 @@
+.Header-schedule {
+	margin-top: 39px;
+	margin-bottom: 39px;
+}
+.Home-schedule {
+	margin-left: 28%;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: $text-headerblack;
+	font-family: $font-montserrat;
+}
+.AcademicServices-schedule {
+
+}
+.Logout-schedule {
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	text-align: right;
+	color: $text-lightblue;
+}
 .bar-schedule {
 	@extend .bar;
-	padding-right: 65px;
+	padding-right: 90px;
 }
 .Sundaytwo-one {
 	width: 238px;
@@ -15,6 +36,7 @@
 }
 .Current-schedule-c {
   @extend .upcominglink;
+	margin-left: 1000px;
 }
 .CS-container {
 display: inline-flex;
