@@ -161,36 +161,36 @@ a:hover {
 
 .header {
   background-color: #f7f7f7;
-  margin-left: 240px;
-  margin-top: 40px; }
+  margin-left: 350px;
+  margin-top: 0px;
+  position: fixed; }
   .header .home {
-    margin-left: -15px;
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: left;
     color: #1b3c50;
     font-family: "Montserrat", sans-serif;
-    margin-right: 400px; }
+    margin-right: 390px; }
   .header .log-out {
-    margin-left: 160px;
+    margin-left: 400px;
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: right;
     color: #48a2ba; }
-  .header .bar, .header .bar-schedule {
+  .header .bar {
     background-color: #6291a9;
     height: 2px;
-    width: 60%;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 140px; }
+    margin-left: 0px; }
 
 .body-index {
   background-color: #f7f7f7; }
   .body-index .header-section {
     background-color: #f7f7f7;
     position: fixed;
-    margin-top: 50px;
+    margin-top: 35px;
     margin-left: 350px;
     width: 70%; }
     .body-index .header-section .current-prog .text-m-1 {
@@ -198,7 +198,7 @@ a:hover {
       padding-bottom: 10px; }
     .body-index .header-section .current-prog .text-m-2 {
       padding-bottom: 10px; }
-    .body-index .header-section .bar, .body-index .header-section .bar-schedule {
+    .body-index .header-section .bar {
       background-color: #6291a9;
       height: 2px;
       width: 87%;
@@ -274,7 +274,7 @@ a:hover {
       word-wrap: break-word;
       padding-bottom: 10px;
       font-weight: bold; }
-  .second-section .bar, .second-section .bar-schedule {
+  .second-section .bar {
     background-color: #6291a9;
     height: 2px;
     width: 92.9%;
@@ -313,7 +313,7 @@ a:hover {
   .college-announcments .thisWillMoveL {
     display: inline-block;
     width: 30%; }
-  .college-announcments .bar, .college-announcments .bar-schedule {
+  .college-announcments .bar {
     background-color: #6291a9;
     height: 2px;
     width: 79%;
@@ -330,7 +330,7 @@ a:hover {
     .Software-Project-I .S-P-I .text-m-1 {
       color: #59aac0;
       padding-bottom: 10px; }
-  .Software-Project-I .bar, .Software-Project-I .bar-schedule {
+  .Software-Project-I .bar {
     background-color: #6291a9;
     height: 2px;
     width: 79%;
@@ -472,14 +472,30 @@ a:hover {
   color: #1b3c50;
   font-family: "Montserrat", sans-serif; }
 
+.CurrentSchedule-schedule {
+  color: #59aac0; }
+
 .Logout-schedule {
+  margin-left: 330px;
   font-size: 14px;
   letter-spacing: 0.2px;
   text-align: right;
   color: #48a2ba; }
 
 .bar-schedule {
-  padding-right: 90px; }
+  background-color: #6291a9;
+  height: 2px;
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 380px; }
+
+.bar-schedules {
+  background-color: #6291a9;
+  height: 2px;
+  width: 83%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .Sundaytwo-one {
   width: 238px;
@@ -643,7 +659,7 @@ a:hover {
     text-align: right;
     color: #48a2ba;
     text-decoration: none; }
-  .headerupcoming .bar, .headerupcoming .bar-schedule {
+  .headerupcoming .bar {
     background-color: #6291a9;
     height: 2px;
     width: 70%;
@@ -659,7 +675,7 @@ a:hover {
     padding-bottom: 10px; }
   .header-section .current-prog .text-m-2 {
     padding-bottom: 10px; }
-  .header-section .bar, .header-section .bar-schedule {
+  .header-section .bar {
     background-color: #6291a9;
     height: 2px;
     width: 73%;
