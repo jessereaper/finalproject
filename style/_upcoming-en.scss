@@ -2,4 +2,60 @@
   display: inline-block;
   margin-left: 350px;
   margin-top: 200px;
+  .up-courses-en{
+    border: solid red;
+    display: inline-block;
+    float: left;
+    .text-m-1{
+      color: $text-hblue;
+    }
+    .sem-spring{
+      display: inline-block;
+      border: solid red;
+      float: right;
+      .text-m-1{
+        color: $text-lightblue;
+      }
+      .text-m-2{
+        color: $text-hblue;
+      }
+    }
+  }
+}
+.courseregistration{
+  margin-top: 40px;
+  color: #33c7ba;
+  font-family: $font-montserrat;
+  font-weight: bold;
+  letter-spacing: .2px;
+  margin-left: 380px;
+  float: left;
+}
+.course-sixty{
+display: inline-block;
+}
+.sixty{
+  margin-top: 40px;
+  color: #33c7ba;
+  font-family: $font-montserrat;
+  font-weight: bold;
+  letter-spacing: .2px;
+  float: right;
+  margin-left: 525px;
+}
+//LINE CODE BELOW//
+.lightblueline{
+width: 381px;
+height: 5px;
+background-color: #50e3c2;
+float: left;
+}
+.darkblueline{
+   width: 812px;
+ height: 5px;
+ background-color: #359ca1;
+}
+.linetogether{
+  display: inline-block;
+  margin-left: 385px;
 }
