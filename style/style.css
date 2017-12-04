@@ -161,11 +161,11 @@ a:hover {
 
 .header {
   background-color: #f7f7f7;
-  margin-left: 230px;
+  margin-left: 300px;
   margin-top: 20px;
   position: fixed; }
   .header .home {
-    margin-left: 50px;
+    margin-left: 70px;
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: left;
@@ -192,7 +192,9 @@ a:hover {
     background-color: #f7f7f7;
     position: fixed;
     margin-top: 50px;
-    margin-left: 365px;
+
+    margin-left: 350px;
+
     width: 70%; }
     .body-index .header-section .current-prog .text-m-1 {
       color: #59aac0;
@@ -241,7 +243,7 @@ a:hover {
 .second-section {
   margin-left: 0px;
   display: inline-block;
-  margin-left: 280px;
+  margin-left: 350px;
   margin-top: 200px; }
   .second-section .program-announ {
     float: left; }
@@ -275,7 +277,7 @@ a:hover {
     margin-bottom: 10px; }
 
 .college-announcments {
-  margin-left: 280px;
+  margin-left: 350px;
   margin-top: 30px;
   display: inline-block; }
   .college-announcments .Tutoring .text-m-1 {
@@ -314,7 +316,7 @@ a:hover {
     margin-bottom: 10px; }
 
 .Software-Project-I {
-  margin-left: 280px; }
+  margin-left: 350px; }
   .Software-Project-I .S-P-I {
     width: 20%;
     padding-top: 20px;
@@ -332,7 +334,7 @@ a:hover {
     margin-left: 0px; }
 
 .TutoringAvailable {
-  margin-left: 280px;
+  margin-left: 350px;
   display: inline-block;
   padding-bottom: 20px; }
   .TutoringAvailable .C-A-L {
@@ -677,5 +679,10 @@ a:hover {
   margin-right: 805px;
   margin-top: -15px;
   color: #52a5af; }
+
+.upcoming-courses-en {
+  display: inline-block;
+  margin-left: 350px;
+  margin-top: 200px; }
 
 /*# sourceMappingURL=style.css.map */
