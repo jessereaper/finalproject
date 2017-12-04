@@ -13,15 +13,32 @@
 .AcademicServices-schedule {
 
 }
+.CurrentSchedule-schedule{
+	color: $text-hblue;
+}
 .Logout-schedule {
+	margin-left: 330px;
 	font-size: 14px;
 	letter-spacing: 0.2px;
 	text-align: right;
 	color: $text-lightblue;
 }
 .bar-schedule {
-	@extend .bar;
-	padding-right: 90px;
+	background-color: $bar-color;
+	height: 2px;
+	width: 60%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 380px;
+}
+
+.bar-schedules {
+	background-color: $bar-color;
+	height: 2px;
+	width: 83%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 }
 .Sundaytwo-one {
 	width: 238px;
