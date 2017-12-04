@@ -782,4 +782,155 @@ a:hover {
   display: inline-block;
   margin-left: 385px; }
 
+.headerupcoming {
+  background-color: #f7f7f7;
+  margin-left: 240px;
+  margin-top: 40px; }
+  .headerupcoming .home {
+    margin-left: 10%;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #1b3c50;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 400px;
+    text-decoration: none; }
+  .headerupcoming .log-out {
+    margin-left: 350px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #48a2ba;
+    text-decoration: none; }
+  .headerupcoming .bar, .headerupcoming .bar-schedule {
+    background-color: #6291a9;
+    height: 2px;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px; }
+
+.header-section {
+  background-color: #f7f7f7;
+  margin-left: 0px; }
+  .header-section .current-prog .text-m-1 {
+    color: #59aac0;
+    padding-bottom: 10px; }
+  .header-section .current-prog .text-m-2 {
+    padding-bottom: 10px; }
+  .header-section .bar, .header-section .bar-schedule {
+    background-color: #6291a9;
+    height: 2px;
+    width: 73%;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.header-block {
+  display: inline-block;
+  width: 77%; }
+  .header-block .first {
+    display: inline-block;
+    width: 34%; }
+    .header-block .first .text-m-1 {
+      font-weight: bold;
+      padding-bottom: 10px; }
+  .header-block .second {
+    display: inline-block;
+    padding-left: 30px;
+    width: 23%; }
+    .header-block .second .text-m-1 {
+      font-weight: bold;
+      padding-bottom: 10px; }
+  .header-block .third {
+    display: inline-block;
+    padding-left: 60px;
+    width: 23%; }
+    .header-block .third .text-m-1 {
+      font-weight: bold;
+      padding-bottom: 10px; }
+
+.academic-services {
+  color: #1b3c50;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  border-color: red;
+  float: right;
+  margin-right: 950px;
+  margin-top: -15px; }
+
+.upcominglink, .Current-schedule-c {
+  color: #1b3c50;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  border-color: red;
+  float: right;
+  margin-right: 805px;
+  margin-top: -15px;
+  color: #52a5af; }
+
+.genedsbox {
+  background-color: white;
+  width: 840px;
+  height: 500px;
+  margin-top: 25px; }
+
+.courseregistration {
+  color: #33c7ba;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: .2px;
+  margin-left: 20px;
+  float: left;
+  padding-top: 20px; }
+
+.course-sixty {
+  display: inline-block; }
+
+.sixty {
+  color: #33c7ba;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: .2px;
+  float: right;
+  margin-left: 525px;
+  padding-top: 20px; }
+
+.lightblueline {
+  width: 321px;
+  height: 5px;
+  background-color: #50e3c2;
+  float: left; }
+
+.darkblueline {
+  width: 642px;
+  height: 5px;
+  background-color: #359ca1; }
+
+.linetogether {
+  display: inline-block;
+  margin-left: 100px; }
+
+.generaleducation {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: .2px;
+  width: 493.9px;
+  height: 18px;
+  margin-top: 10px;
+  margin-left: 15px; }
+
+.genedbar {
+  width: 575px;
+  height: 1px;
+  background-color: #359ca1; }
+
+.cis {
+  color: #44ccc0;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 50px;
+  font-size: 15px;
+  line-height: 2.4;
+  letter-spacing: 0.2px; }
+
 /*# sourceMappingURL=style.css.map */
