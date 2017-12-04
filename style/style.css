@@ -856,9 +856,10 @@ a:hover {
 
 .genedsbox {
   background-color: white;
-  width: 840px;
-  height: 500px;
-  margin-top: 25px; }
+  width: 800px;
+  height: 400px;
+  margin-top: 25px;
+  margin-left: 55px; }
 
 .courseregistration {
   color: #33c7ba;
@@ -867,7 +868,7 @@ a:hover {
   letter-spacing: .2px;
   margin-left: 20px;
   float: left;
-  padding-top: 20px; }
+  padding-top: 5px; }
 
 .course-sixty {
   display: inline-block; }
@@ -878,8 +879,8 @@ a:hover {
   font-weight: bold;
   letter-spacing: .2px;
   float: right;
-  margin-left: 525px;
-  padding-top: 20px; }
+  margin-left: 485px;
+  padding-top: 5px; }
 
 .lightblueline {
   width: 321px;
@@ -905,7 +906,7 @@ a:hover {
   margin-left: 15px; }
 
 .genedbar {
-  width: 575px;
+  width: 720px;
   height: 1px;
   background-color: #359ca1; }
 
@@ -916,5 +917,9 @@ a:hover {
   font-size: 15px;
   line-height: 2.4;
   letter-spacing: 0.2px; }
+
+.greaterthan {
+  float: right;
+  margin-right: 55px; }
 
 /*# sourceMappingURL=style.css.map */
