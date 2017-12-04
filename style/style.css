@@ -192,9 +192,7 @@ a:hover {
     background-color: #f7f7f7;
     position: fixed;
     margin-top: 50px;
-
     margin-left: 350px;
-
     width: 70%; }
     .body-index .header-section .current-prog .text-m-1 {
       color: #59aac0;
@@ -211,8 +209,7 @@ a:hover {
 .header-block {
   display: inline-block;
   width: 77%;
-  margin-top: 22px;
-  margin-left: 10%; }
+  margin-top: 22px; }
   .header-block .first {
     display: inline-block;
     width: 34%; }
@@ -591,6 +588,11 @@ a:hover {
 
 .CSET-0netwozero-container {
   margin-top: 137px; }
+
+.body .headerupcoming {
+  margin-left: 300px; }
+.body .header-section {
+  margin-left: 110px; }
 
 .headerupcoming {
   background-color: #f7f7f7;
