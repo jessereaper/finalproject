@@ -23,7 +23,7 @@ display: inline-flex;
   flex-direction: row;
 }
 .CS {
-	width: 368px;
+	width: 320px;
 	height: 13px;
 	font-family: $font-montserrat;
 	font-size: 12px;
@@ -32,6 +32,7 @@ display: inline-flex;
 	text-align: left;
 	color: #48a2ba;
   margin-top: 17px;
+	margin-left: 35%;
 }
 .View-as-c {
   width: 165.1px;
@@ -42,7 +43,7 @@ display: inline-flex;
 	letter-spacing: 0.2px;
 	color: #2e0a3a;
   margin-top: 17px;
-	margin-left: 365px;
+	margin-left: 415px;
 }
 .list-c {
   @extend .View-as-c;
@@ -66,13 +67,14 @@ display: inline-flex;
 .flex-container {
   display: inline-flex;
   margin-top: 14px;
+	margin-left: 10%;
 }
 .Day-one {
-    width: 180px;
+    width: 160px;
     height: 375px;
     background-color: rgba(47, 207, 186, 0.15);
     flex-direction: row;
-    margin-right: 2px;
+		margin-right: 2px;
 }
 .monday, .tuesday, .Wednesday, .Thursday, .Friday {
     width: 130px;
@@ -87,7 +89,7 @@ display: inline-flex;
 		padding-left: 20px;
 }
 .Monday-english-container, .Tuesday-math-container, .Wednesday-english-container, .Thursday-math-container {
-    width: 180px;
+    width: 160px;
     height: 59px;
     background-color: #1b3c50;
 }
@@ -109,10 +111,10 @@ display: inline-flex;
     line-height: 1.2;
 }
 .CSET-0neZeroFive-container, .CSET-0neten-container {
-    width: 180px;
+    width: 160px;
     height: 177px;
     background-color: #1b3c50;
-  margin-top: 78px;
+  	margin-top: 78px;
 }
 .IntroToWeb-Monday, .Web-development-one {
   width: 85%;

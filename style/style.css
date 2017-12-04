@@ -83,17 +83,24 @@ html, body {
   padding: 0px; }
 
 .body {
+  width: 98%;
+  height: 92%;
+  margin: 2%;
+  background-image: linear-gradient(126deg, #2fcfba, #47a1ba); }
+
+.Schedule-body {
+  width: 94%;
+  height: 92%;
   background-color: #f7f7f7;
-  border: solid #2fcfba 24px; }
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: fixed; }
 
 aside {
   width: 20%;
-  height: 720px;
+  height: 86%;
   background-color: #1b3c50;
-  margin: 0px 0px 24px 0px;
   display: inline-block;
   padding-top: 55px;
-  box-shadow: 5px 5px 5px;
   float: left;
   position: fixed; }
 
@@ -185,7 +192,7 @@ a:hover {
     background-color: #f7f7f7;
     position: fixed;
     margin-top: 50px;
-    margin-left: 280px;
+    margin-left: 365px;
     width: 70%; }
     .body-index .header-section .current-prog .text-m-1 {
       color: #59aac0;
@@ -202,7 +209,8 @@ a:hover {
 .header-block {
   display: inline-block;
   width: 77%;
-  margin-top: 22px; }
+  margin-top: 22px;
+  margin-left: 10%; }
   .header-block .first {
     display: inline-block;
     width: 34%; }
@@ -466,7 +474,7 @@ a:hover {
   flex-direction: row; }
 
 .CS {
-  width: 368px;
+  width: 320px;
   height: 13px;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
@@ -474,7 +482,8 @@ a:hover {
   letter-spacing: 0.2px;
   text-align: left;
   color: #48a2ba;
-  margin-top: 17px; }
+  margin-top: 17px;
+  margin-left: 35%; }
 
 .View-as-c, .list-c, .line-c, .Calendar-c {
   width: 165.1px;
@@ -485,7 +494,7 @@ a:hover {
   letter-spacing: 0.2px;
   color: #2e0a3a;
   margin-top: 17px;
-  margin-left: 365px; }
+  margin-left: 415px; }
 
 .list-c {
   float: right;
@@ -504,10 +513,11 @@ a:hover {
 
 .flex-container {
   display: inline-flex;
-  margin-top: 14px; }
+  margin-top: 14px;
+  margin-left: 10%; }
 
 .Day-one, .Day-two, .Day-three, .Day-four, .Day-five {
-  width: 180px;
+  width: 160px;
   height: 375px;
   background-color: rgba(47, 207, 186, 0.15);
   flex-direction: row;
@@ -526,7 +536,7 @@ a:hover {
   padding-left: 20px; }
 
 .Monday-english-container, .Tuesday-math-container, .Wednesday-english-container, .Thursday-math-container {
-  width: 180px;
+  width: 160px;
   height: 59px;
   background-color: #1b3c50; }
 
@@ -547,7 +557,7 @@ a:hover {
   line-height: 1.2; }
 
 .CSET-0neZeroFive-container, .CSET-0neten-container-wed, .CSET-0neten-container, .CSET-0netwozero-container {
-  width: 180px;
+  width: 160px;
   height: 177px;
   background-color: #1b3c50;
   margin-top: 78px; }
