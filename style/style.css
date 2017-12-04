@@ -161,11 +161,10 @@ a:hover {
 
 .header {
   background-color: #f7f7f7;
-  margin-left: 300px;
-  margin-top: 20px;
-  position: fixed; }
+  margin-left: 240px;
+  margin-top: 40px; }
   .header .home {
-    margin-left: 70px;
+    margin-left: -15px;
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: left;
@@ -173,7 +172,7 @@ a:hover {
     font-family: "Montserrat", sans-serif;
     margin-right: 400px; }
   .header .log-out {
-    margin-left: 350px;
+    margin-left: 160px;
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: right;
@@ -181,10 +180,10 @@ a:hover {
   .header .bar, .header .bar-schedule {
     background-color: #6291a9;
     height: 2px;
-    width: 100%;
+    width: 60%;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 50px; }
+    margin-left: 140px; }
 
 .body-index {
   background-color: #f7f7f7; }
@@ -230,6 +229,15 @@ a:hover {
     .header-block .third .text-m-1 {
       font-weight: bold;
       padding-bottom: 10px; }
+
+.Header-academic-services {
+  color: #1b3c50;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  border-color: red;
+  float: left;
+  margin-top: 5px; }
 
 .hide {
   display: none; }
@@ -452,8 +460,26 @@ a:hover {
   margin-left: 340px;
   margin-top: 35px; }
 
+.Header-schedule {
+  margin-top: 39px;
+  margin-bottom: 39px; }
+
+.Home-schedule {
+  margin-left: 28%;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #1b3c50;
+  font-family: "Montserrat", sans-serif; }
+
+.Logout-schedule {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: right;
+  color: #48a2ba; }
+
 .bar-schedule {
-  padding-right: 65px; }
+  padding-right: 90px; }
 
 .Sundaytwo-one {
   width: 238px;
@@ -465,6 +491,9 @@ a:hover {
   float: right;
   color: #1b3c50;
   padding-right: 170px; }
+
+.Current-schedule-c {
+  margin-left: 1000px; }
 
 .CS-container {
   display: inline-flex; }
@@ -599,7 +628,7 @@ a:hover {
   margin-left: 240px;
   margin-top: 40px; }
   .headerupcoming .home {
-    margin-left: 50px;
+    margin-left: 10%;
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: left;
