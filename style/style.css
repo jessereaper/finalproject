@@ -407,11 +407,24 @@ aside {
   .schedule-list .list-uno .text-m-2 {
     padding-top: 10px; }
 
-.fall-2017 {
+.fall-2017, .CSET-list-schedule, .ComputerSoftwareEngineeringTechnology {
   margin-top: 10px; }
 
 .Enrolled-credit-hours, .Current-semester-schedule, .Academic-Standing-Schedule {
   width: 100%; }
+
+.CSET-list-schedule {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 20px; }
+
+.Current-program-schedule {
+  width: 100%;
+  color: #48a2ba;
+  font-size: 17px; }
+
+.ComputerSoftwareEngineeringTechnology {
+  font-size: 18px; }
 
 .semester-up {
   width: 165.1px;
