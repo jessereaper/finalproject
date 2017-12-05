@@ -440,7 +440,8 @@ aside {
   height: 235px;
   background-color: white;
   margin-top: 25px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  margin-left: 40px; }
   .registerbox h1 {
     color: #48a2ba;
     font-family: "Montserrat", sans-serif;
@@ -885,7 +886,7 @@ aside {
   width: 800px;
   height: 400px;
   margin-top: 25px;
-  margin-left: 55px; }
+  margin-left: 10%; }
 
 .courseregistration {
   color: #33c7ba;
