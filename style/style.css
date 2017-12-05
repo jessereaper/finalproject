@@ -371,6 +371,47 @@ aside {
     .schedule-page .current-schedule .current-schedu {
       display: inline-block;
 
+.text-m-1, .Enrolled-credit-hours, .Current-semester-schedule, .Academic-Standing-Schedule {
+  color: #59aac0;
+  display: inline-block;
+  width: 13%; }
+
+.text-m-2 {
+  display: inline-block;
+  width: 34%; }
+
+.text-r-1 {
+  display: inline-block;
+  width: 3%; }
+
+.schedule-list {
+  display: block;
+  margin-top: 10px;
+  margin-left: 115px; }
+  .schedule-list .list-uno .text-m-1, .schedule-list .list-uno .Enrolled-credit-hours, .schedule-list .list-uno .Current-semester-schedule, .schedule-list .list-uno .Academic-Standing-Schedule {
+    padding-top: 15px;
+    color: #2e0a3a;
+    font-weight: bold; }
+  .schedule-list .list-uno .text-m-2 {
+    padding-top: 10px; }
+
+.fall-2017, .CSET-list-schedule, .ComputerSoftwareEngineeringTechnology {
+  margin-top: 10px; }
+
+.Enrolled-credit-hours, .Current-semester-schedule, .Academic-Standing-Schedule {
+  width: 100%;
+  color: #2e0a3a; }
+
+.CSET-list-schedule {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 20px; }
+
+.Current-program-schedule {
+  width: 100%;
+  color: #48a2ba;
+  font-size: 15px; }
+=======
       width: 50%; }
       .schedule-page .current-schedule .current-schedu .text-m-1, .schedule-page .current-schedule .current-schedu .Enrolled-credit-hours, .schedule-page .current-schedule .current-schedu .Current-semester-schedule, .schedule-page .current-schedule .current-schedu .Academic-Standing-Schedule {
         display: inline-block;
@@ -415,6 +456,7 @@ aside {
     font-size: 17px; }
   .schedule-page .ComputerSoftwareEngineeringTechnology {
     font-size: 18px; }
+
 
 
 .semester-up {
