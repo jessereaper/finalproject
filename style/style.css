@@ -751,60 +751,150 @@ aside {
   margin-top: -15px;
   color: #52a5af; }
 
-.upcoming-courses-en {
-  display: inline-block;
-  margin-left: 350px;
-  margin-top: 200px; }
-  .upcoming-courses-en .up-courses-en {
-    border: solid red;
+.body-uper-c-en {
+  background-color: #f7f7f7; }
+  .body-uper-c-en .header-section {
+    background-color: #f7f7f7;
+    position: fixed;
+    margin-top: 35px;
+    margin-left: 350px;
+    width: 70%; }
+    .body-uper-c-en .header-section .current-prog .text-m-1 {
+      color: #59aac0;
+      padding-bottom: 10px; }
+    .body-uper-c-en .header-section .current-prog .text-m-2 {
+      padding-bottom: 10px; }
+    .body-uper-c-en .header-section .bar {
+      background-color: #6291a9;
+      height: 2px;
+      width: 87%;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+  .body-uper-c-en .upcoming-courses-en {
     display: inline-block;
-    float: left; }
-    .upcoming-courses-en .up-courses-en .text-m-1, .upcoming-courses-en .up-courses-en .Enrolled-credit-hours, .upcoming-courses-en .up-courses-en .Current-semester-schedule, .upcoming-courses-en .up-courses-en .Academic-Standing-Schedule {
-      color: #59aac0; }
-    .upcoming-courses-en .up-courses-en .sem-spring {
-      display: inline-block;
+
+    margin-left: 350px;
+    margin-top: 200px; }
+    .body-uper-c-en .upcoming-courses-en .up-courses-en {
       border: solid red;
-      float: right; }
-      .upcoming-courses-en .up-courses-en .sem-spring .text-m-1, .upcoming-courses-en .up-courses-en .sem-spring .Enrolled-credit-hours, .upcoming-courses-en .up-courses-en .sem-spring .Current-semester-schedule, .upcoming-courses-en .up-courses-en .sem-spring .Academic-Standing-Schedule {
-        color: #48a2ba; }
-      .upcoming-courses-en .up-courses-en .sem-spring .text-m-2 {
+      display: inline-block;
+      float: left; }
+      .body-uper-c-en .upcoming-courses-en .up-courses-en .text-m-1 {
         color: #59aac0; }
-
-.courseregistration {
-  margin-top: 40px;
-  color: #33c7ba;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  letter-spacing: .2px;
-  margin-left: 380px;
-  float: left; }
-
-.course-sixty {
-  display: inline-block; }
-
-.sixty {
-  margin-top: 40px;
-  color: #33c7ba;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  letter-spacing: .2px;
-  float: right;
-  margin-left: 525px; }
-
-.lightblueline {
-  width: 381px;
-  height: 5px;
-  background-color: #50e3c2;
-  float: left; }
-
-.darkblueline {
-  width: 812px;
-  height: 5px;
-  background-color: #359ca1; }
-
-.linetogether {
-  display: inline-block;
-  margin-left: 385px; }
+      .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring {
+        display: inline-block;
+        border: solid red;
+        float: right; }
+        .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring .text-m-1 {
+          color: #48a2ba; }
+        .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring .text-m-2 {
+          color: #59aac0; }
+  .body-uper-c-en .CS-container {
+    display: inline-flex;
+    margin-left: 280px;
+    margin-top: 200px; }
+    .body-uper-c-en .CS-container .CS-inlineflex {
+      flex-direction: row; }
+    .body-uper-c-en .CS-container .semester-up {
+      width: 165.1px;
+      height: 13px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 10px;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      margin-left: 400px;
+      color: #48a2ba;
+      margin-top: 17px; }
+    .body-uper-c-en .CS-container .spring-up {
+      width: 165.1px;
+      height: 13px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 10px;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      color: #5bd8c8;
+      margin-top: 17px;
+      margin-left: -90px; }
+  .body-uper-c-en .course-rege-en .courseregistration {
+    margin-top: 40px;
+    color: #33c7ba;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: .2px;
+    margin-left: 380px;
+    float: left; }
+  .body-uper-c-en .course-rege-en .course-sixty {
+    display: inline-block; }
+  .body-uper-c-en .course-rege-en .sixty {
+    margin-top: 40px;
+    color: #33c7ba;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: .2px;
+    float: right;
+    margin-left: 525px; }
+  .body-uper-c-en .course-rege-en .lightblueline {
+    width: 381px;
+    height: 5px;
+    background-color: #50e3c2;
+    float: left; }
+  .body-uper-c-en .course-rege-en .darkblueline {
+    width: 812px;
+    height: 5px;
+    background-color: #359ca1; }
+  .body-uper-c-en .course-rege-en .linetogether {
+    display: inline-block;
+    margin-left: 385px; }
+  .body-uper-c-en .course-rege-en .gen-edu {
+    margin-left: 390px;
+    margin-top: 40px; }
+    .body-uper-c-en .course-rege-en .gen-edu .text-m-1 {
+      font-size: 18px; }
+  .body-uper-c-en .course-rege-en .english-solo {
+    margin-left: 410px;
+    margin-top: 40px; }
+    .body-uper-c-en .course-rege-en .english-solo .text-m-1 {
+      font-size: 16px;
+      color: #59aac0; }
+  .body-uper-c-en .course-rege-en .bar2 {
+    background-color: #6291a9;
+    height: 2px;
+    width: 53%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 415px; }
+  .body-uper-c-en .eng-boxes {
+    margin-left: 455px;
+    display: flex;
+    display: inline-block;
+    width: 55%; }
+    .body-uper-c-en .eng-boxes .text-m-1 {
+      color: #59aac0;
+      padding-bottom: 20px;
+      font-size: 20px; }
+    .body-uper-c-en .eng-boxes .text-m-2 {
+      font-size: 18px;
+      padding-bottom: 20px; }
+    .body-uper-c-en .eng-boxes .boxes-for-eng-page {
+      padding-right: 190px;
+      display: inline-block; }
+    .body-uper-c-en .eng-boxes .boxes-for-eng-page-2 {
+      padding-right: 158px;
+      display: inline-block; }
+  .body-uper-c-en .button-regi {
+    margin-left: 260px; }
+    .body-uper-c-en .button-regi .startb {
+      width: 120px;
+      height: 50px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      text-align: center;
+      color: #f7f7f7;
+      background-color: #48a2ba;
+      margin-left: 340px;
+      margin-top: 35px; }
 
 .headerupcoming {
   background-color: #f7f7f7;
