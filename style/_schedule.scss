@@ -13,7 +13,7 @@
     padding-top: 10px;
     color: $text-hblue;
     width: 100%;
-
+  }
   }
 }
   .view-as{
@@ -34,12 +34,11 @@
       display: inline-block;
       width: 3%;
     }
-}
 
 .schedule-list{
   display: block;
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 115px;
   .list-uno{
     .text-m-1{
       padding-top: 15px;
@@ -50,4 +49,11 @@
       padding-top: 10px;
     }
   }
+}
+.fall-2017 {
+  margin-top: 10px;
+}
+.Enrolled-credit-hours, .Current-semester-schedule, .Academic-Standing-Schedule {
+  @extend .text-m-1;
+  width: 100%;
 }
