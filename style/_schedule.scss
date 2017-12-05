@@ -57,3 +57,18 @@
   @extend .text-m-1;
   width: 100%;
 }
+.CSET-list-schedule {
+  @extend .fall-2017;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.Current-program-schedule {
+    width: 100%;
+  	color: #48a2ba;
+    font-size: 17px;
+}
+.ComputerSoftwareEngineeringTechnology {
+  @extend .fall-2017;
+  font-size: 18px;
+}
