@@ -50,7 +50,7 @@ table {
 *(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
 */
 /* jesse's presets */
-.text-m-1 {
+.text-m-1, .Enrolled-credit-hours, .Current-semester-schedule, .Academic-Standing-Schedule {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   letter-spacing: 0.2px;
@@ -148,7 +148,7 @@ aside {
 .GradesReporting {
   margin-left: 0px; }
 
-a:hover {
+.CurrentSchedule:hover, .GradesReporting:hover, .UpcomingCourses:hover, .CollegeCalendar:hover, .FinancialAid:hover, .StudentServices:hover {
   width: 203px;
   height: 25px;
   background-color: #0b2535; }
@@ -193,7 +193,7 @@ a:hover {
     margin-top: 35px;
     margin-left: 350px;
     width: 70%; }
-    .body-index .header-section .current-prog .text-m-1 {
+    .body-index .header-section .current-prog .text-m-1, .body-index .header-section .current-prog .Enrolled-credit-hours, .body-index .header-section .current-prog .Current-semester-schedule, .body-index .header-section .current-prog .Academic-Standing-Schedule {
       color: #59aac0;
       padding-bottom: 10px; }
     .body-index .header-section .current-prog .text-m-2 {
@@ -212,21 +212,21 @@ a:hover {
   .header-block .first {
     display: inline-block;
     width: 34%; }
-    .header-block .first .text-m-1 {
+    .header-block .first .text-m-1, .header-block .first .Enrolled-credit-hours, .header-block .first .Current-semester-schedule, .header-block .first .Academic-Standing-Schedule {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .second {
     display: inline-block;
     padding-left: 30px;
     width: 23%; }
-    .header-block .second .text-m-1 {
+    .header-block .second .text-m-1, .header-block .second .Enrolled-credit-hours, .header-block .second .Current-semester-schedule, .header-block .second .Academic-Standing-Schedule {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .third {
     display: inline-block;
     padding-left: 60px;
     width: 23%; }
-    .header-block .third .text-m-1 {
+    .header-block .third .text-m-1, .header-block .third .Enrolled-credit-hours, .header-block .third .Current-semester-schedule, .header-block .third .Academic-Standing-Schedule {
       font-weight: bold;
       padding-bottom: 10px; }
 
@@ -252,7 +252,7 @@ a:hover {
   margin-top: 200px; }
   .second-section .program-announ {
     float: left; }
-    .second-section .program-announ .text-m-1 {
+    .second-section .program-announ .text-m-1, .second-section .program-announ .Enrolled-credit-hours, .second-section .program-announ .Current-semester-schedule, .second-section .program-announ .Academic-Standing-Schedule {
       padding-bottom: 10px;
       color: #59aac0; }
     .second-section .program-announ .text-m-2 {
@@ -265,7 +265,7 @@ a:hover {
   .second-section .upcoming-dates {
     padding-right: 10px;
     float: right; }
-    .second-section .upcoming-dates .text-m-1 {
+    .second-section .upcoming-dates .text-m-1, .second-section .upcoming-dates .Enrolled-credit-hours, .second-section .upcoming-dates .Current-semester-schedule, .second-section .upcoming-dates .Academic-Standing-Schedule {
       padding-bottom: 10px;
       color: #59aac0;
       word-wrap: break-word; }
@@ -285,7 +285,7 @@ a:hover {
   margin-left: 350px;
   margin-top: 30px;
   display: inline-block; }
-  .college-announcments .Tutoring .text-m-1 {
+  .college-announcments .Tutoring .text-m-1, .college-announcments .Tutoring .Enrolled-credit-hours, .college-announcments .Tutoring .Current-semester-schedule, .college-announcments .Tutoring .Academic-Standing-Schedule {
     color: #59aac0;
     padding-bottom: 10px; }
   .college-announcments .Tutoring .text-m-2 {
@@ -305,7 +305,7 @@ a:hover {
     display: inline-block;
     width: 19%;
     margin-left: 280px; }
-    .college-announcments .UpEvents .text-m-1 {
+    .college-announcments .UpEvents .text-m-1, .college-announcments .UpEvents .Enrolled-credit-hours, .college-announcments .UpEvents .Current-semester-schedule, .college-announcments .UpEvents .Academic-Standing-Schedule {
       color: #59aac0;
       padding-bottom: 25px; }
     .college-announcments .UpEvents .text-m-2 {
@@ -327,7 +327,7 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 40px;
     padding-left: 620px; }
-    .Software-Project-I .S-P-I .text-m-1 {
+    .Software-Project-I .S-P-I .text-m-1, .Software-Project-I .S-P-I .Enrolled-credit-hours, .Software-Project-I .S-P-I .Current-semester-schedule, .Software-Project-I .S-P-I .Academic-Standing-Schedule {
       color: #59aac0;
       padding-bottom: 10px; }
   .Software-Project-I .bar {
@@ -345,7 +345,7 @@ a:hover {
   .TutoringAvailable .C-A-L {
     display: inline-block;
     width: 40%; }
-    .TutoringAvailable .C-A-L .text-m-1 {
+    .TutoringAvailable .C-A-L .text-m-1, .TutoringAvailable .C-A-L .Enrolled-credit-hours, .TutoringAvailable .C-A-L .Current-semester-schedule, .TutoringAvailable .C-A-L .Academic-Standing-Schedule {
       color: #59aac0;
       padding-bottom: 10px; }
     .TutoringAvailable .C-A-L .text-m-2 {
@@ -358,7 +358,7 @@ a:hover {
     margin-left: 200px;
     display: inline-block;
     width: 24%; }
-    .TutoringAvailable .upcoming-events2 .text-m-1 {
+    .TutoringAvailable .upcoming-events2 .text-m-1, .TutoringAvailable .upcoming-events2 .Enrolled-credit-hours, .TutoringAvailable .upcoming-events2 .Current-semester-schedule, .TutoringAvailable .upcoming-events2 .Academic-Standing-Schedule {
       color: #59aac0;
       padding-bottom: 10px; }
 
@@ -372,36 +372,46 @@ a:hover {
   .current-schedule .current-schedu {
     display: inline-block;
     width: 50%; }
-    .current-schedule .current-schedu .text-m-1 {
+    .current-schedule .current-schedu .text-m-1, .current-schedule .current-schedu .Enrolled-credit-hours, .current-schedule .current-schedu .Current-semester-schedule, .current-schedule .current-schedu .Academic-Standing-Schedule {
       display: inline-block;
       padding-top: 10px;
       color: #59aac0;
       width: 100%; }
-  .current-schedule .view-as {
-    display: inline-block;
-    width: 20%;
-    margin-left: 250px; }
-  .current-schedule .text-m-1 {
-    color: #59aac0;
-    display: inline-block;
-    width: 13%; }
-  .current-schedule .text-m-2 {
-    display: inline-block;
-    width: 34%; }
-  .current-schedule .text-r-1 {
-    display: inline-block;
-    width: 3%; }
+
+.view-as {
+  display: inline-block;
+  width: 20%;
+  margin-left: 250px; }
+
+.text-m-1, .Enrolled-credit-hours, .Current-semester-schedule, .Academic-Standing-Schedule {
+  color: #59aac0;
+  display: inline-block;
+  width: 13%; }
+
+.text-m-2 {
+  display: inline-block;
+  width: 34%; }
+
+.text-r-1 {
+  display: inline-block;
+  width: 3%; }
 
 .schedule-list {
   display: block;
   margin-top: 10px;
-  margin-left: 40px; }
-  .schedule-list .list-uno .text-m-1 {
+  margin-left: 115px; }
+  .schedule-list .list-uno .text-m-1, .schedule-list .list-uno .Enrolled-credit-hours, .schedule-list .list-uno .Current-semester-schedule, .schedule-list .list-uno .Academic-Standing-Schedule {
     padding-top: 15px;
     color: #2e0a3a;
     font-weight: bold; }
   .schedule-list .list-uno .text-m-2 {
     padding-top: 10px; }
+
+.fall-2017 {
+  margin-top: 10px; }
+
+.Enrolled-credit-hours, .Current-semester-schedule, .Academic-Standing-Schedule {
+  width: 100%; }
 
 .semester-up {
   width: 165.1px;
@@ -430,7 +440,8 @@ a:hover {
   height: 235px;
   background-color: white;
   margin-top: 25px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  margin-left: 40px; }
   .registerbox h1 {
     color: #48a2ba;
     font-family: "Montserrat", sans-serif;
@@ -670,7 +681,7 @@ a:hover {
 .header-section {
   background-color: #f7f7f7;
   margin-left: 0px; }
-  .header-section .current-prog .text-m-1 {
+  .header-section .current-prog .text-m-1, .header-section .current-prog .Enrolled-credit-hours, .header-section .current-prog .Current-semester-schedule, .header-section .current-prog .Academic-Standing-Schedule {
     color: #59aac0;
     padding-bottom: 10px; }
   .header-section .current-prog .text-m-2 {
@@ -688,21 +699,21 @@ a:hover {
   .header-block .first {
     display: inline-block;
     width: 34%; }
-    .header-block .first .text-m-1 {
+    .header-block .first .text-m-1, .header-block .first .Enrolled-credit-hours, .header-block .first .Current-semester-schedule, .header-block .first .Academic-Standing-Schedule {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .second {
     display: inline-block;
     padding-left: 30px;
     width: 23%; }
-    .header-block .second .text-m-1 {
+    .header-block .second .text-m-1, .header-block .second .Enrolled-credit-hours, .header-block .second .Current-semester-schedule, .header-block .second .Academic-Standing-Schedule {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .third {
     display: inline-block;
     padding-left: 60px;
     width: 23%; }
-    .header-block .third .text-m-1 {
+    .header-block .third .text-m-1, .header-block .third .Enrolled-credit-hours, .header-block .third .Current-semester-schedule, .header-block .third .Academic-Standing-Schedule {
       font-weight: bold;
       padding-bottom: 10px; }
 
@@ -748,6 +759,7 @@ a:hover {
       margin-bottom: 10px; }
   .body-uper-c-en .upcoming-courses-en {
     display: inline-block;
+
     margin-left: 350px;
     margin-top: 200px; }
     .body-uper-c-en .upcoming-courses-en .up-courses-en {
@@ -902,7 +914,7 @@ a:hover {
 .header-section {
   background-color: #f7f7f7;
   margin-left: 0px; }
-  .header-section .current-prog .text-m-1 {
+  .header-section .current-prog .text-m-1, .header-section .current-prog .Enrolled-credit-hours, .header-section .current-prog .Current-semester-schedule, .header-section .current-prog .Academic-Standing-Schedule {
     color: #59aac0;
     padding-bottom: 10px; }
   .header-section .current-prog .text-m-2 {
@@ -920,21 +932,21 @@ a:hover {
   .header-block .first {
     display: inline-block;
     width: 34%; }
-    .header-block .first .text-m-1 {
+    .header-block .first .text-m-1, .header-block .first .Enrolled-credit-hours, .header-block .first .Current-semester-schedule, .header-block .first .Academic-Standing-Schedule {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .second {
     display: inline-block;
     padding-left: 30px;
     width: 23%; }
-    .header-block .second .text-m-1 {
+    .header-block .second .text-m-1, .header-block .second .Enrolled-credit-hours, .header-block .second .Current-semester-schedule, .header-block .second .Academic-Standing-Schedule {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .third {
     display: inline-block;
     padding-left: 60px;
     width: 23%; }
-    .header-block .third .text-m-1 {
+    .header-block .third .text-m-1, .header-block .third .Enrolled-credit-hours, .header-block .third .Current-semester-schedule, .header-block .third .Academic-Standing-Schedule {
       font-weight: bold;
       padding-bottom: 10px; }
 
@@ -961,9 +973,10 @@ a:hover {
 
 .genedsbox {
   background-color: white;
-  width: 840px;
-  height: 500px;
-  margin-top: 25px; }
+  width: 800px;
+  height: 400px;
+  margin-top: 25px;
+  margin-left: 10%; }
 
 .courseregistration {
   color: #33c7ba;
@@ -972,7 +985,7 @@ a:hover {
   letter-spacing: .2px;
   margin-left: 20px;
   float: left;
-  padding-top: 20px; }
+  padding-top: 5px; }
 
 .course-sixty {
   display: inline-block; }
@@ -983,8 +996,8 @@ a:hover {
   font-weight: bold;
   letter-spacing: .2px;
   float: right;
-  margin-left: 525px;
-  padding-top: 20px; }
+  margin-left: 485px;
+  padding-top: 5px; }
 
 .lightblueline {
   width: 321px;
@@ -1010,7 +1023,7 @@ a:hover {
   margin-left: 15px; }
 
 .genedbar {
-  width: 575px;
+  width: 720px;
   height: 1px;
   background-color: #359ca1; }
 
@@ -1021,5 +1034,9 @@ a:hover {
   font-size: 15px;
   line-height: 2.4;
   letter-spacing: 0.2px; }
+
+.greaterthan {
+  float: right;
+  margin-right: 55px; }
 
 /*# sourceMappingURL=style.css.map */
