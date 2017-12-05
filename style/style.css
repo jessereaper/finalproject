@@ -411,7 +411,8 @@ aside {
   margin-top: 10px; }
 
 .Enrolled-credit-hours, .Current-semester-schedule, .Academic-Standing-Schedule {
-  width: 100%; }
+  width: 100%;
+  color: #2e0a3a; }
 
 .CSET-list-schedule {
   font-weight: bold;
