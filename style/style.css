@@ -430,7 +430,8 @@ a:hover {
   height: 235px;
   background-color: white;
   margin-top: 25px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  margin-left: 40px; }
   .registerbox h1 {
     color: #48a2ba;
     font-family: "Montserrat", sans-serif;
@@ -802,7 +803,7 @@ a:hover {
     text-align: right;
     color: #48a2ba;
     text-decoration: none; }
-  .headerupcoming .bar, .headerupcoming .bar-schedule {
+  .headerupcoming .bar {
     background-color: #6291a9;
     height: 2px;
     width: 70%;
@@ -818,7 +819,7 @@ a:hover {
     padding-bottom: 10px; }
   .header-section .current-prog .text-m-2 {
     padding-bottom: 10px; }
-  .header-section .bar, .header-section .bar-schedule {
+  .header-section .bar {
     background-color: #6291a9;
     height: 2px;
     width: 73%;
@@ -875,7 +876,7 @@ a:hover {
   width: 800px;
   height: 400px;
   margin-top: 25px;
-  margin-left: 55px; }
+  margin-left: 10%; }
 
 .courseregistration {
   color: #33c7ba;
