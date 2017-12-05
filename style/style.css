@@ -370,6 +370,7 @@ aside {
     margin-left: 40px; }
     .schedule-page .current-schedule .current-schedu {
       display: inline-block;
+
       width: 50%; }
       .schedule-page .current-schedule .current-schedu .text-m-1, .schedule-page .current-schedule .current-schedu .Enrolled-credit-hours, .schedule-page .current-schedule .current-schedu .Current-semester-schedule, .schedule-page .current-schedule .current-schedu .Academic-Standing-Schedule {
         display: inline-block;
@@ -414,6 +415,7 @@ aside {
     font-size: 17px; }
   .schedule-page .ComputerSoftwareEngineeringTechnology {
     font-size: 18px; }
+
 
 .semester-up {
   width: 165.1px;
@@ -752,7 +754,9 @@ aside {
     margin-top: 35px;
     margin-left: 350px;
     width: 70%; }
+
     .body-uper-c-en .header-section .current-prog .text-m-1, .body-uper-c-en .header-section .current-prog .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .header-section .current-prog .Enrolled-credit-hours, .body-uper-c-en .header-section .current-prog .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .header-section .current-prog .Current-semester-schedule, .body-uper-c-en .header-section .current-prog .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .header-section .current-prog .Academic-Standing-Schedule {
+
       color: #59aac0;
       padding-bottom: 10px; }
     .body-uper-c-en .header-section .current-prog .text-m-2 {
@@ -771,13 +775,17 @@ aside {
       border: solid red;
       display: inline-block;
       float: left; }
+
       .body-uper-c-en .upcoming-courses-en .up-courses-en .text-m-1, .body-uper-c-en .upcoming-courses-en .up-courses-en .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .upcoming-courses-en .up-courses-en .Enrolled-credit-hours, .body-uper-c-en .upcoming-courses-en .up-courses-en .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .upcoming-courses-en .up-courses-en .Current-semester-schedule, .body-uper-c-en .upcoming-courses-en .up-courses-en .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .upcoming-courses-en .up-courses-en .Academic-Standing-Schedule {
+
         color: #59aac0; }
       .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring {
         display: inline-block;
         border: solid red;
         float: right; }
+
         .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring .text-m-1, .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring .Enrolled-credit-hours, .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring .Current-semester-schedule, .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring .Academic-Standing-Schedule {
+
           color: #48a2ba; }
         .body-uper-c-en .upcoming-courses-en .up-courses-en .sem-spring .text-m-2 {
           color: #59aac0; }
@@ -840,12 +848,16 @@ aside {
   .body-uper-c-en .course-rege-en .gen-edu {
     margin-left: 390px;
     margin-top: 40px; }
+
     .body-uper-c-en .course-rege-en .gen-edu .text-m-1, .body-uper-c-en .course-rege-en .gen-edu .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .course-rege-en .gen-edu .Enrolled-credit-hours, .body-uper-c-en .course-rege-en .gen-edu .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .course-rege-en .gen-edu .Current-semester-schedule, .body-uper-c-en .course-rege-en .gen-edu .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .course-rege-en .gen-edu .Academic-Standing-Schedule {
+
       font-size: 18px; }
   .body-uper-c-en .course-rege-en .english-solo {
     margin-left: 410px;
     margin-top: 40px; }
+
     .body-uper-c-en .course-rege-en .english-solo .text-m-1, .body-uper-c-en .course-rege-en .english-solo .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .course-rege-en .english-solo .Enrolled-credit-hours, .body-uper-c-en .course-rege-en .english-solo .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .course-rege-en .english-solo .Current-semester-schedule, .body-uper-c-en .course-rege-en .english-solo .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .course-rege-en .english-solo .Academic-Standing-Schedule {
+
       font-size: 16px;
       color: #59aac0; }
   .body-uper-c-en .course-rege-en .bar2 {
@@ -860,7 +872,9 @@ aside {
     display: flex;
     display: inline-block;
     width: 55%; }
+
     .body-uper-c-en .eng-boxes .text-m-1, .body-uper-c-en .eng-boxes .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .eng-boxes .Enrolled-credit-hours, .body-uper-c-en .eng-boxes .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .eng-boxes .Current-semester-schedule, .body-uper-c-en .eng-boxes .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .eng-boxes .Academic-Standing-Schedule {
+
       color: #59aac0;
       padding-bottom: 20px;
       font-size: 20px; }
