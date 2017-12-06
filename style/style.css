@@ -869,7 +869,7 @@ aside {
       .body-uper-c-en .back-j .course-rege-en .bar2 {
         background-color: #6291a9;
         height: 2px;
-        width: 53%;
+        width: 78%;
         margin-top: 30px;
         margin-bottom: 10px;
         margin-left: 105px; }
@@ -1063,5 +1063,24 @@ aside {
 .greaterthan {
   float: right;
   margin-right: 55px; }
+
+.body-uper-c-en {
+  width: 98%;
+  height: 89%;
+  margin: 2%;
+  background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
+  position: static; }
+  .body-uper-c-en .back-j {
+    background-color: #f7f7f7;
+    width: 96.5%; }
+  .body-uper-c-en .eng-boxes .boexes-for-comp-page {
+    display: block; }
+    .body-uper-c-en .eng-boxes .boexes-for-comp-page .text-m-1, .body-uper-c-en .eng-boxes .boexes-for-comp-page .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .eng-boxes .boexes-for-comp-page .Enrolled-credit-hours, .body-uper-c-en .eng-boxes .boexes-for-comp-page .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .eng-boxes .boexes-for-comp-page .Current-semester-schedule, .body-uper-c-en .eng-boxes .boexes-for-comp-page .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .eng-boxes .boexes-for-comp-page .Academic-Standing-Schedule {
+      color: #59aac0;
+      padding-bottom: 20px;
+      font-size: 20px; }
+    .body-uper-c-en .eng-boxes .boexes-for-comp-page .text-m-2 {
+      font-size: 18px;
+      padding-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
