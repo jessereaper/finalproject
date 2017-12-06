@@ -10,6 +10,7 @@
     color: $text-headerblack;
     font-family: $font-montserrat;
     margin-right: 390px;
+    text-decoration: none;
   }
   .log-out{
     margin-left: 400px;
@@ -17,6 +18,7 @@
     letter-spacing: 0.2px;
     text-align: right;
     color: $text-lightblue;
+    text-decoration: none;
   }
   .bar{
     background-color: $bar-color;
@@ -95,6 +97,5 @@
   letter-spacing: 0.2px;
   border-color: red;
   float: left;
-  //margin-right: 950px;
   margin-top: 5px;
 }

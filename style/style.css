@@ -170,13 +170,15 @@ aside {
     text-align: left;
     color: #1b3c50;
     font-family: "Montserrat", sans-serif;
-    margin-right: 390px; }
+    margin-right: 390px;
+    text-decoration: none; }
   .header .log-out {
     margin-left: 400px;
     font-size: 14px;
     letter-spacing: 0.2px;
     text-align: right;
-    color: #48a2ba; }
+    color: #48a2ba;
+    text-decoration: none; }
   .header .bar {
     background-color: #6291a9;
     height: 2px;
@@ -483,7 +485,8 @@ aside {
   letter-spacing: 0.2px;
   text-align: left;
   color: #1b3c50;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none; }
 
 .CurrentSchedule-schedule {
   color: #59aac0; }
@@ -493,7 +496,8 @@ aside {
   font-size: 14px;
   letter-spacing: 0.2px;
   text-align: right;
-  color: #48a2ba; }
+  color: #48a2ba;
+  text-decoration: none; }
 
 .bar-schedule {
   background-color: #6291a9;
