@@ -1,5 +1,12 @@
 .body-uper-c-en{
-  background-color: #f7f7f7;
+  width: 98%;
+  height: 89%;
+  margin: 2%;
+  background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
+  position: static;
+  .back-j{
+    background-color: #f7f7f7;
+    width: 96.5%;
   .header-section{
     .first{
       display: inline-block;
@@ -58,7 +65,7 @@
 .CS-container {
 display: inline-flex;
 margin-left: 280px;
-margin-top: 200px;
+margin-top: 155px;
 
   .CS-inlineflex {
   flex-direction: row;
@@ -86,15 +93,20 @@ margin-top: 200px;
     margin-left: -90px;
   }
 }
+
   .course-rege-en{
+    background-color: white;
+    width: 65%;
+    margin-left: 365px;
     .courseregistration{
       margin-top: 40px;
       color: #33c7ba;
       font-family: $font-montserrat;
       font-weight: bold;
       letter-spacing: .2px;
-      margin-left: 380px;
+      margin-left: 20px;
       float: left;
+      background-color: white;
     }
     .course-sixty{
     display: inline-block;
@@ -106,7 +118,7 @@ margin-top: 200px;
       font-weight: bold;
       letter-spacing: .2px;
       float: right;
-      margin-left: 525px;
+      margin-left: 425px;
     }
     //LINE CODE BELOW//
     .lightblueline{
@@ -122,17 +134,17 @@ margin-top: 200px;
     }
     .linetogether{
       display: inline-block;
-      margin-left: 385px;
+      margin-left: 25px;
     }
   .gen-edu{
-    margin-left: 390px;
+    margin-left: 70px;
     margin-top: 40px;
     .text-m-1{
       font-size: 18px;
     }
   }
   .english-solo{
-    margin-left: 410px;
+    margin-left: 90px;
     margin-top: 40px;
     .text-m-1{
       font-size: 16px;
@@ -145,14 +157,14 @@ margin-top: 200px;
     width: 53%;
     margin-top: 30px;
     margin-bottom: 10px;
-    margin-left: 415px;
+    margin-left: 105px;
   }
 }
   .eng-boxes{
-    margin-left: 455px;
+    margin-left: 105px;
     display: flex;
     display: inline-block;
-    width: 55%;
+    width: 77%;
     .text-m-1{
       color: $text-hblue;
       padding-bottom: 20px;
@@ -163,11 +175,11 @@ margin-top: 200px;
       padding-bottom: 20px;
     }
     .boxes-for-eng-page{
-      padding-right: 190px;
+      padding-right: 155px;
       display: inline-block;
     }
     .boxes-for-eng-page-2{
-      padding-right: 158px;
+      padding-right: 130px;
       display: inline-block;
     }
   }
@@ -184,7 +196,8 @@ margin-top: 200px;
      color: #f7f7f7;
      background-color: $text-lightblue;
      margin-left: 340px;
-     margin-top: 35px;
+     margin-top: 15px;
     }
   }
+}
 }
