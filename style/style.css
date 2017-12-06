@@ -1131,4 +1131,24 @@ aside {
       font-size: 18px;
       padding-bottom: 20px; }
 
+.GR-CSET, .GR-ITWA {
+  width: 262px;
+  height: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #2e0a3a;
+  margin-left: 35%;
+  margin-top: 20px; }
+
+.GR-ITWA {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #202020;
+  margin-top: 0px; }
+
 /*# sourceMappingURL=style.css.map */
