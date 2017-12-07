@@ -1131,4 +1131,76 @@ aside {
       font-size: 18px;
       padding-bottom: 20px; }
 
+.bar-login {
+  background-color: #6291a9;
+  height: 2px;
+  width: 90%;
+  margin-left: 70px; }
+
+.time-index {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2px;
+  text-align: right;
+  color: #1b3c50;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 60px;
+  font-size: 10px;
+  font-weight: bold; }
+
+.whiteboxindex {
+  width: 600px;
+  height: 370px;
+  background-color: white;
+  margin-left: 28%;
+  margin-top: 10%; }
+
+.thad-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 40px; }
+
+.studentportal {
+  text-align: center;
+  color: #3bb9ba;
+  font-size: 21px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  letter-spacing: 0.2px;
+  padding-bottom: 30px; }
+
+.submitb-index {
+  width: 120px;
+  height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #f7f7f7;
+  background-color: #48a2ba; }
+
+.email-index {
+  border: solid 1px #3bb9ba;
+  width: 348px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #3bb9ba;
+  letter-spacing: 0.2px; }
+
+.passw-index {
+  border: solid 1px #3bb9ba;
+  width: 348px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #3bb9ba;
+  letter-spacing: 0.2px; }
+
 /*# sourceMappingURL=style.css.map */
