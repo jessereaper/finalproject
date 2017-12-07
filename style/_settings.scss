@@ -1,0 +1,209 @@
+.settings-body{
+  width: 98%;
+  height: 89%;
+  margin: 2%;
+  background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
+  position: static;
+  .back-j{
+    background-color: #f7f7f7;
+    width: 96.5%;
+  }
+  .settings{
+    margin-left: 355px;
+    padding-top: 60px;
+      .text-m-1{
+        color: $text-hblue;
+        font-size: 16px;
+        padding-bottom: 16px;
+      }
+      .text-m-2{
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 20px;
+      }
+    }
+    .information-boxes{
+      margin-left: 355px;
+      display: block;
+      width: 60%;
+      .boxes-for-setting-page{
+        display: inline-block;
+        padding-right: 220px;
+        width: 30%;
+        padding-bottom: 20px;
+        .Edit-Link{
+          display: inline-block;
+          .text-m-1{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 40px;
+            color: #2e0a3a;
+            display: inline-block;
+            padding-right: 80px;
+          }
+          .text-m-2{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 10px;
+            color: #2e0a3a;
+            display: inline-block;
+          }
+        }
+        .text-m-2{
+          font-size: 16px;
+          padding-top: 0px;
+          font-weight: bold;
+        }
+      }
+      .boxes-for-setting-page2{
+        display: inline-block;
+        padding-right: 220px;
+        width: 30%;
+        padding-bottom: 40px;
+        display: inline-block;
+        .Edit-Link{
+          display: inline-block;
+          .text-m-1{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 10px;
+            color: #2e0a3a;
+            display: inline-block;
+            padding-right: 110px;
+          }
+          .text-m-2{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 0px;
+            color: #2e0a3a;
+            display: inline-block;
+          }
+        }
+        .text-m-2{
+          font-size: 16px;
+          padding-top: 40px;
+          font-weight: bold;
+        }
+      }
+      .boxes-for-setting-page3{
+        display: inline-block;
+        padding-right: 220px;
+        width: 30%;
+        padding-bottom: 40px;
+        display: inline-block;
+        .Edit-Link{
+          .text-m-1{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 10px;
+            color: #2e0a3a;
+            display: inline-block;
+            padding-right: 80px;
+          }
+          .text-m-2{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 0px;
+            color: #2e0a3a;
+            display: inline-block;
+          }
+        }
+        .text-m-2{
+          font-size: 16px;
+          padding-top: 40px;
+          font-weight: bold;
+        }
+      }
+      .boxes-for-setting-page4{
+        display: inline-block;
+        padding-right: 80px;
+        padding-bottom: 20px;
+        width: 30%;
+        display: inline-block;
+        .Edit-Link{
+          .text-m-1{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 0px;
+            color: #2e0a3a;
+            display: inline-block;
+            padding-right: 45px;
+          }
+          .text-m-2{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 0px;
+            color: #2e0a3a;
+            display: inline-block;
+          }
+        }
+        .text-m-2{
+          font-size: 16px;
+          padding-top: 40px;
+          font-weight: bold;
+        }
+      }
+      .boxes-for-setting-page5{
+        display: inline-block;
+        padding-right: 80px;
+        width: 30%;
+        padding-bottom: 40px;
+        display: inline-block;
+        .Edit-Link{
+          .text-m-1{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 10px;
+            color: #2e0a3a;
+            display: inline-block;
+            padding-right: 40px;
+          }
+          .text-m-2{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 0px;
+            color: #2e0a3a;
+            display: inline-block;
+          }
+        }
+        .text-m-2{
+          font-size: 16px;
+          padding-top: 40px;
+          font-weight: bold;
+        }
+      }
+      .boxes-for-setting-page6{
+        display: inline-block;
+        padding-right: 80px;
+        width: 30%;
+        padding-bottom: 40px;
+        display: inline-block;
+        .Edit-Link{
+          .text-m-1{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 10px;
+            color: #2e0a3a;
+            display: inline-block;
+            padding-right: 47px;
+          }
+          .text-m-2{
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 0px;
+            color: #2e0a3a;
+            display: inline-block;
+          }
+        }
+        .text-m-2{
+          font-size: 16px;
+          padding-top: 40px;
+          font-weight: bold;
+        }
+      }
+        .button-regi{
+          padding-left: 250px;
+          padding-bottom: 80px;
+        }
+      }
+    }
