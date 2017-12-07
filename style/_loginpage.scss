@@ -1,0 +1,90 @@
+.bar-login {
+	background-color: $bar-color;
+	height: 2px;
+	width: 90%;
+  margin-left: 70px;
+}
+.time-index{
+ font-family: $font-montserrat;
+ letter-spacing: 0.2px;
+ text-align: right;
+ color: #1b3c50;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ margin-right: 60px;
+ font-size: 10px;
+ font-weight: bold;
+}
+.whiteboxindex{
+  width: 600px;
+height: 370px;
+background-color: white;
+margin-left: 28%;
+margin-top: 10%;
+}
+.thad-title{
+    text-align: center;
+    font-family: $font-montserrat;
+      letter-spacing: 0.2px;
+       font-size: 24px;
+       font-weight: bold;
+       padding-top: 60px;
+}
+.studentportal{
+  text-align: center;
+ color: #3bb9ba;
+ font-size: 21px;
+ font-family: $font-montserrat;
+ padding-top: 10px;
+  letter-spacing: 0.2px;
+  padding-bottom: 30px;
+}
+.submitb-index{
+  width: 140px;
+ height: 50px;
+ font-family: $font-montserrat;
+ font-size: 14px;
+ font-weight: bold;
+ letter-spacing: 0.2px;
+ text-align: center;
+ color: #f7f7f7;
+ background-color: #3bb9ba;
+ margin-left: 140px;
+ margin-top: 40px;
+ }
+.email-index{
+  border: solid 1px #3bb9ba;
+  width: 348px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  font-family: $font-montserrat;
+   color: #3bb9ba;
+    letter-spacing: 0.2px;
+    margin-left: 20%;
+      background-color: #f7f7f7;
+}
+.passw-index{
+  border: solid 1px #3bb9ba;
+  width: 348px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  font-family: $font-montserrat;
+   color: #3bb9ba;
+     background-color: #f7f7f7;
+    letter-spacing: 0.2px;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+.forgot-index{
+  text-decoration: none;
+  padding-left: 40px;
+   color: #3bb9ba;
+   font-family: $font-montserrat;
+    font-size: 12px;
+      letter-spacing: 0.2px;
+}
+.submit-forgot{
+  display: inline-block;
+}
