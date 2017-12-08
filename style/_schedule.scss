@@ -34,6 +34,7 @@
       width: 3%;
     }
 
+}
 .schedule-list{
   display: block;
   margin-top: 10px;
@@ -49,27 +50,6 @@
     }
   }
 }
-.fall-2017 {
-  margin-top: 10px;
-}
-.Enrolled-credit-hours, .Current-semester-schedule, .Academic-Standing-Schedule {
-  @extend .text-m-1;
-  width: 100%;
-	color: #2e0a3a;
-}
-.CSET-list-schedule {
-  @extend .fall-2017;
-  font-weight: bold;
-  font-size: 12px;
-  margin-top: 20px;
-}
-.Current-program-schedule {
-    width: 100%;
-  	color: #48a2ba;
-    font-size: 15px;
-}
-.ComputerSoftwareEngineeringTechnology {
-  @extend .fall-2017;
-  font-size: 18px;
-}
+#solo{
+  color: $text-lightblue;
 }
