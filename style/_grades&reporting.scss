@@ -1,3 +1,9 @@
+.inline-block-davian {
+  width: 80%;
+  height: 500px;
+  display: inline-block;
+  float: right;
+  background-color: #f7f7f7;}
 .GR-CSET {
   width: 262px;
 height: 20px;
@@ -27,6 +33,7 @@ margin-top: 20px;
   margin-top: 10px;
   background-image:
   linear-gradient(to right, transparent 50%, teal 0);
+  display: inline-block;
 }
 .pie::before {
   content: '';
@@ -67,4 +74,96 @@ margin-top: 20px;
 	text-align: center;
 	color: #4a4a4a;
   margin-left: 35px;
+}
+.pie-container {
+	width: 380px;
+	height: 190px;
+	background-color: #ffffff;
+  margin-left: 10%;
+  padding-top: 3px;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+.pie-date {
+float: right;
+}
+.StartDate-GR {
+  width: auto;
+	height:20px;
+	font-family: $font-montserrat;
+	letter-spacing: 0.2px;
+  font-size: 12px;
+	font-weight: bold;
+	color: #4ca2b9;
+  margin-top: 20px;
+}
+.August-GR {
+  width: auto;
+  height:30px;
+  font-family: $font-montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #4a4a4a;
+}
+.EndDate-GR {
+  @extend .StartDate-GR;
+}
+.December-GR {
+  @extend .August-GR;
+}
+.nine-zero-GR {
+	width:110px;
+	height: 70px;
+	background-color: #ffffff;
+  padding: 15px 10px 0px 10px;
+  margin-left: 390px;
+}
+.Nine-Zero-percent-GR {
+	width: 100%;
+	height: auto;
+	font-family: $font-montserrat;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: #33c7ba;
+}
+.CurrentGrade-GR {
+	width:100%;
+	height: 20px;
+	font-family: $font-montserrat;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	color: #4ca2b9;
+  text-align: center;
+}
+.RecentlyGraded-GR {
+  width: auto;
+  height:20px;
+  font-family: $font-montserrat;
+  letter-spacing: 0.2px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4ca2b9;
+}
+table {
+  width: 50%;
+}
+td {
+    width: auto;
+    height: 20px;
+    font-family: $font-montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    color: #33c7ba;
+}
+.Table-container {
+  width: 50%;
+  height: auto;
+  float: right;
+  margin-top: -160px;
 }

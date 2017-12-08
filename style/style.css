@@ -896,6 +896,13 @@ aside {
         margin-left: 340px;
         margin-top: 15px; }
 
+.inline-block-davian {
+  width: 80%;
+  height: 500px;
+  display: inline-block;
+  float: right;
+  background-color: #f7f7f7; }
+
 .GR-CSET, .GR-ITWA {
   width: 262px;
   height: 20px;
@@ -923,7 +930,8 @@ aside {
   background: #d8d8d8;
   margin-left: 12%;
   margin-top: 10px;
-  background-image: linear-gradient(to right, transparent 50%, teal 0); }
+  background-image: linear-gradient(to right, transparent 50%, teal 0);
+  display: inline-block; }
 
 .pie::before {
   content: '';
@@ -965,6 +973,92 @@ aside {
   text-align: center;
   color: #4a4a4a;
   margin-left: 35px; }
+
+.pie-container {
+  width: 380px;
+  height: 190px;
+  background-color: #ffffff;
+  margin-left: 10%;
+  padding-top: 3px;
+  margin-top: 10px;
+  padding-right: 30px; }
+
+.pie-date {
+  float: right; }
+
+.StartDate-GR, .EndDate-GR {
+  width: auto;
+  height: 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4ca2b9;
+  margin-top: 20px; }
+
+.August-GR, .December-GR {
+  width: auto;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #4a4a4a; }
+
+.nine-zero-GR {
+  width: 110px;
+  height: 70px;
+  background-color: #ffffff;
+  padding: 15px 10px 0px 10px;
+  margin-left: 390px; }
+
+.Nine-Zero-percent-GR {
+  width: 100%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #33c7ba; }
+
+.CurrentGrade-GR {
+  width: 100%;
+  height: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #4ca2b9;
+  text-align: center; }
+
+.RecentlyGraded-GR {
+  width: auto;
+  height: 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4ca2b9; }
+
+table {
+  width: 50%; }
+
+td {
+  width: auto;
+  height: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  color: #33c7ba; }
+
+.Table-container {
+  width: 50%;
+  height: auto;
+  float: right;
+  margin-top: -160px; }
 
 .headerupcoming {
   background-color: #f7f7f7;
