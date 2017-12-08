@@ -267,14 +267,15 @@ aside {
           width: 70%;
           font-size: 14px; }
       .body-index .main-index-page .second-section .upcoming-dates {
-        padding-right: 10px;
+        padding-right: 0px;
+        padding-left: 40px;
         float: right; }
         .body-index .main-index-page .second-section .upcoming-dates .text-m-1 {
           padding-bottom: 10px;
           color: #59aac0;
           word-wrap: break-word; }
         .body-index .main-index-page .second-section .upcoming-dates .text-m-2 {
-          width: 80%;
+          width: 60%;
           word-wrap: break-word;
           padding-bottom: 10px;
           font-weight: bold; }
@@ -319,23 +320,23 @@ aside {
       .body-index .main-index-page .college-announcments .bar {
         background-color: #6291a9;
         height: 2px;
-        width: 79%;
+        width: 88%;
         margin-top: 0px;
         margin-bottom: 10px; }
     .body-index .main-index-page .Software-Project-I {
       margin-left: 350px; }
       .body-index .main-index-page .Software-Project-I .S-P-I {
-        width: 20%;
+        width: 23%;
         padding-top: 20px;
         padding-bottom: 40px;
-        padding-left: 620px; }
+        padding-left: 585px; }
         .body-index .main-index-page .Software-Project-I .S-P-I .text-m-1 {
           color: #59aac0;
           padding-bottom: 10px; }
       .body-index .main-index-page .Software-Project-I .bar {
         background-color: #6291a9;
         height: 2px;
-        width: 79%;
+        width: 88%;
         margin-top: 0px;
         margin-bottom: 10px;
         margin-left: 0px; }
@@ -356,7 +357,7 @@ aside {
           padding-bottom: 5px;
           color: #373737; }
       .body-index .main-index-page .TutoringAvailable .upcoming-events2 {
-        margin-left: 200px;
+        margin-left: 175px;
         display: inline-block;
         width: 24%; }
         .body-index .main-index-page .TutoringAvailable .upcoming-events2 .text-m-1 {
