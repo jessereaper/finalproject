@@ -50,7 +50,7 @@ table {
 *(note that these mixins do not set every block. certain text and colors will need to be overridden. For the most part these mixins are universal)
 */
 /* jesse's presets */
-.text-m-1, .schedule-page .Enrolled-credit-hours, .schedule-page .Current-semester-schedule, .schedule-page .Academic-Standing-Schedule {
+.text-m-1 {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   letter-spacing: 0.2px;
@@ -195,7 +195,7 @@ aside {
     margin-top: 35px;
     margin-left: 350px;
     width: 70%; }
-    .body-index .header-section .current-prog .text-m-1, .body-index .header-section .current-prog .schedule-page .Enrolled-credit-hours, .schedule-page .body-index .header-section .current-prog .Enrolled-credit-hours, .body-index .header-section .current-prog .schedule-page .Current-semester-schedule, .schedule-page .body-index .header-section .current-prog .Current-semester-schedule, .body-index .header-section .current-prog .schedule-page .Academic-Standing-Schedule, .schedule-page .body-index .header-section .current-prog .Academic-Standing-Schedule {
+    .body-index .header-section .current-prog .text-m-1 {
       color: #59aac0;
       padding-bottom: 10px; }
     .body-index .header-section .current-prog .text-m-2 {
@@ -214,21 +214,21 @@ aside {
   .header-block .first {
     display: inline-block;
     width: 20%; }
-    .header-block .first .text-m-1, .header-block .first .schedule-page .Enrolled-credit-hours, .schedule-page .header-block .first .Enrolled-credit-hours, .header-block .first .schedule-page .Current-semester-schedule, .schedule-page .header-block .first .Current-semester-schedule, .header-block .first .schedule-page .Academic-Standing-Schedule, .schedule-page .header-block .first .Academic-Standing-Schedule {
+    .header-block .first .text-m-1 {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .second {
     display: inline-block;
     padding-left: 30px;
     width: 23%; }
-    .header-block .second .text-m-1, .header-block .second .schedule-page .Enrolled-credit-hours, .schedule-page .header-block .second .Enrolled-credit-hours, .header-block .second .schedule-page .Current-semester-schedule, .schedule-page .header-block .second .Current-semester-schedule, .header-block .second .schedule-page .Academic-Standing-Schedule, .schedule-page .header-block .second .Academic-Standing-Schedule {
+    .header-block .second .text-m-1 {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .third {
     display: inline-block;
     padding-left: 80px;
     width: 20%; }
-    .header-block .third .text-m-1, .header-block .third .schedule-page .Enrolled-credit-hours, .schedule-page .header-block .third .Enrolled-credit-hours, .header-block .third .schedule-page .Current-semester-schedule, .schedule-page .header-block .third .Current-semester-schedule, .header-block .third .schedule-page .Academic-Standing-Schedule, .schedule-page .header-block .third .Academic-Standing-Schedule {
+    .header-block .third .text-m-1 {
       font-weight: bold;
       padding-bottom: 10px; }
 
@@ -256,7 +256,7 @@ aside {
       margin-top: 200px; }
       .body-index .main-index-page .second-section .program-announ {
         float: left; }
-        .body-index .main-index-page .second-section .program-announ .text-m-1, .body-index .main-index-page .second-section .program-announ .schedule-page .Enrolled-credit-hours, .schedule-page .body-index .main-index-page .second-section .program-announ .Enrolled-credit-hours, .body-index .main-index-page .second-section .program-announ .schedule-page .Current-semester-schedule, .schedule-page .body-index .main-index-page .second-section .program-announ .Current-semester-schedule, .body-index .main-index-page .second-section .program-announ .schedule-page .Academic-Standing-Schedule, .schedule-page .body-index .main-index-page .second-section .program-announ .Academic-Standing-Schedule {
+        .body-index .main-index-page .second-section .program-announ .text-m-1 {
           padding-bottom: 10px;
           color: #59aac0; }
         .body-index .main-index-page .second-section .program-announ .text-m-2 {
@@ -269,7 +269,7 @@ aside {
       .body-index .main-index-page .second-section .upcoming-dates {
         padding-right: 10px;
         float: right; }
-        .body-index .main-index-page .second-section .upcoming-dates .text-m-1, .body-index .main-index-page .second-section .upcoming-dates .schedule-page .Enrolled-credit-hours, .schedule-page .body-index .main-index-page .second-section .upcoming-dates .Enrolled-credit-hours, .body-index .main-index-page .second-section .upcoming-dates .schedule-page .Current-semester-schedule, .schedule-page .body-index .main-index-page .second-section .upcoming-dates .Current-semester-schedule, .body-index .main-index-page .second-section .upcoming-dates .schedule-page .Academic-Standing-Schedule, .schedule-page .body-index .main-index-page .second-section .upcoming-dates .Academic-Standing-Schedule {
+        .body-index .main-index-page .second-section .upcoming-dates .text-m-1 {
           padding-bottom: 10px;
           color: #59aac0;
           word-wrap: break-word; }
@@ -288,7 +288,7 @@ aside {
       margin-left: 350px;
       margin-top: 30px;
       display: inline-block; }
-      .body-index .main-index-page .college-announcments .Tutoring .text-m-1, .body-index .main-index-page .college-announcments .Tutoring .schedule-page .Enrolled-credit-hours, .schedule-page .body-index .main-index-page .college-announcments .Tutoring .Enrolled-credit-hours, .body-index .main-index-page .college-announcments .Tutoring .schedule-page .Current-semester-schedule, .schedule-page .body-index .main-index-page .college-announcments .Tutoring .Current-semester-schedule, .body-index .main-index-page .college-announcments .Tutoring .schedule-page .Academic-Standing-Schedule, .schedule-page .body-index .main-index-page .college-announcments .Tutoring .Academic-Standing-Schedule {
+      .body-index .main-index-page .college-announcments .Tutoring .text-m-1 {
         color: #59aac0;
         padding-bottom: 10px; }
       .body-index .main-index-page .college-announcments .Tutoring .text-m-2 {
@@ -308,7 +308,7 @@ aside {
         display: inline-block;
         width: 19%;
         margin-left: 280px; }
-        .body-index .main-index-page .college-announcments .UpEvents .text-m-1, .body-index .main-index-page .college-announcments .UpEvents .schedule-page .Enrolled-credit-hours, .schedule-page .body-index .main-index-page .college-announcments .UpEvents .Enrolled-credit-hours, .body-index .main-index-page .college-announcments .UpEvents .schedule-page .Current-semester-schedule, .schedule-page .body-index .main-index-page .college-announcments .UpEvents .Current-semester-schedule, .body-index .main-index-page .college-announcments .UpEvents .schedule-page .Academic-Standing-Schedule, .schedule-page .body-index .main-index-page .college-announcments .UpEvents .Academic-Standing-Schedule {
+        .body-index .main-index-page .college-announcments .UpEvents .text-m-1 {
           color: #59aac0;
           padding-bottom: 25px; }
         .body-index .main-index-page .college-announcments .UpEvents .text-m-2 {
@@ -329,7 +329,7 @@ aside {
         padding-top: 20px;
         padding-bottom: 40px;
         padding-left: 620px; }
-        .body-index .main-index-page .Software-Project-I .S-P-I .text-m-1, .body-index .main-index-page .Software-Project-I .S-P-I .schedule-page .Enrolled-credit-hours, .schedule-page .body-index .main-index-page .Software-Project-I .S-P-I .Enrolled-credit-hours, .body-index .main-index-page .Software-Project-I .S-P-I .schedule-page .Current-semester-schedule, .schedule-page .body-index .main-index-page .Software-Project-I .S-P-I .Current-semester-schedule, .body-index .main-index-page .Software-Project-I .S-P-I .schedule-page .Academic-Standing-Schedule, .schedule-page .body-index .main-index-page .Software-Project-I .S-P-I .Academic-Standing-Schedule {
+        .body-index .main-index-page .Software-Project-I .S-P-I .text-m-1 {
           color: #59aac0;
           padding-bottom: 10px; }
       .body-index .main-index-page .Software-Project-I .bar {
@@ -346,7 +346,7 @@ aside {
       .body-index .main-index-page .TutoringAvailable .C-A-L {
         display: inline-block;
         width: 40%; }
-        .body-index .main-index-page .TutoringAvailable .C-A-L .text-m-1, .body-index .main-index-page .TutoringAvailable .C-A-L .schedule-page .Enrolled-credit-hours, .schedule-page .body-index .main-index-page .TutoringAvailable .C-A-L .Enrolled-credit-hours, .body-index .main-index-page .TutoringAvailable .C-A-L .schedule-page .Current-semester-schedule, .schedule-page .body-index .main-index-page .TutoringAvailable .C-A-L .Current-semester-schedule, .body-index .main-index-page .TutoringAvailable .C-A-L .schedule-page .Academic-Standing-Schedule, .schedule-page .body-index .main-index-page .TutoringAvailable .C-A-L .Academic-Standing-Schedule {
+        .body-index .main-index-page .TutoringAvailable .C-A-L .text-m-1 {
           color: #59aac0;
           padding-bottom: 10px; }
         .body-index .main-index-page .TutoringAvailable .C-A-L .text-m-2 {
@@ -359,7 +359,7 @@ aside {
         margin-left: 200px;
         display: inline-block;
         width: 24%; }
-        .body-index .main-index-page .TutoringAvailable .upcoming-events2 .text-m-1, .body-index .main-index-page .TutoringAvailable .upcoming-events2 .schedule-page .Enrolled-credit-hours, .schedule-page .body-index .main-index-page .TutoringAvailable .upcoming-events2 .Enrolled-credit-hours, .body-index .main-index-page .TutoringAvailable .upcoming-events2 .schedule-page .Current-semester-schedule, .schedule-page .body-index .main-index-page .TutoringAvailable .upcoming-events2 .Current-semester-schedule, .body-index .main-index-page .TutoringAvailable .upcoming-events2 .schedule-page .Academic-Standing-Schedule, .schedule-page .body-index .main-index-page .TutoringAvailable .upcoming-events2 .Academic-Standing-Schedule {
+        .body-index .main-index-page .TutoringAvailable .upcoming-events2 .text-m-1 {
           color: #59aac0;
           padding-bottom: 10px; }
 
@@ -372,7 +372,7 @@ aside {
     .schedule-page .current-schedule .current-schedu {
       display: inline-block;
       width: 50%; }
-      .schedule-page .current-schedule .current-schedu .text-m-1, .schedule-page .current-schedule .current-schedu .Enrolled-credit-hours, .schedule-page .current-schedule .current-schedu .Current-semester-schedule, .schedule-page .current-schedule .current-schedu .Academic-Standing-Schedule {
+      .schedule-page .current-schedule .current-schedu .text-m-1 {
         display: inline-block;
         padding-top: 10px;
         color: #59aac0;
@@ -381,7 +381,7 @@ aside {
     display: inline-block;
     width: 20%;
     margin-left: 250px; }
-  .schedule-page .text-m-1, .schedule-page .Enrolled-credit-hours, .schedule-page .Current-semester-schedule, .schedule-page .Academic-Standing-Schedule {
+  .schedule-page .text-m-1 {
     color: #59aac0;
     display: inline-block;
     width: 13%; }
@@ -391,31 +391,20 @@ aside {
   .schedule-page .text-r-1 {
     display: inline-block;
     width: 3%; }
-  .schedule-page .schedule-list {
-    display: block;
-    margin-top: 10px;
-    margin-left: 115px; }
-    .schedule-page .schedule-list .list-uno .text-m-1, .schedule-page .schedule-list .list-uno .Enrolled-credit-hours, .schedule-page .schedule-list .list-uno .Current-semester-schedule, .schedule-page .schedule-list .list-uno .Academic-Standing-Schedule {
-      padding-top: 15px;
-      color: #2e0a3a;
-      font-weight: bold; }
-    .schedule-page .schedule-list .list-uno .text-m-2 {
-      padding-top: 10px; }
-  .schedule-page .fall-2017, .schedule-page .CSET-list-schedule, .schedule-page .ComputerSoftwareEngineeringTechnology {
-    margin-top: 10px; }
-  .schedule-page .Enrolled-credit-hours, .schedule-page .Current-semester-schedule, .schedule-page .Academic-Standing-Schedule {
-    width: 100%;
-    color: #2e0a3a; }
-  .schedule-page .CSET-list-schedule {
-    font-weight: bold;
-    font-size: 12px;
-    margin-top: 20px; }
-  .schedule-page .Current-program-schedule {
-    width: 100%;
-    color: #48a2ba;
-    font-size: 15px; }
-  .schedule-page .ComputerSoftwareEngineeringTechnology {
-    font-size: 18px; }
+
+.schedule-list {
+  display: block;
+  margin-top: 10px;
+  margin-left: 115px; }
+  .schedule-list .list-uno .text-m-1 {
+    padding-top: 15px;
+    color: #2e0a3a;
+    font-weight: bold; }
+  .schedule-list .list-uno .text-m-2 {
+    padding-top: 10px; }
+
+#solo {
+  color: #48a2ba; }
 
 .semester-up {
   width: 165.1px;
@@ -687,7 +676,7 @@ aside {
 .header-section {
   background-color: #f7f7f7;
   margin-left: 0px; }
-  .header-section .current-prog .text-m-1, .header-section .current-prog .schedule-page .Enrolled-credit-hours, .schedule-page .header-section .current-prog .Enrolled-credit-hours, .header-section .current-prog .schedule-page .Current-semester-schedule, .schedule-page .header-section .current-prog .Current-semester-schedule, .header-section .current-prog .schedule-page .Academic-Standing-Schedule, .schedule-page .header-section .current-prog .Academic-Standing-Schedule {
+  .header-section .current-prog .text-m-1 {
     color: #59aac0;
     padding-bottom: 10px; }
   .header-section .current-prog .text-m-2 {
@@ -706,7 +695,7 @@ aside {
     margin-right: 20px;
     display: inline-block;
     width: 26%; }
-    .header-block .first .text-m-1, .header-block .first .schedule-page .Enrolled-credit-hours, .schedule-page .header-block .first .Enrolled-credit-hours, .header-block .first .schedule-page .Current-semester-schedule, .schedule-page .header-block .first .Current-semester-schedule, .header-block .first .schedule-page .Academic-Standing-Schedule, .schedule-page .header-block .first .Academic-Standing-Schedule {
+    .header-block .first .text-m-1 {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .second {
@@ -714,14 +703,14 @@ aside {
     padding-left: 65px;
     margin-right: 30px;
     width: 26%; }
-    .header-block .second .text-m-1, .header-block .second .schedule-page .Enrolled-credit-hours, .schedule-page .header-block .second .Enrolled-credit-hours, .header-block .second .schedule-page .Current-semester-schedule, .schedule-page .header-block .second .Current-semester-schedule, .header-block .second .schedule-page .Academic-Standing-Schedule, .schedule-page .header-block .second .Academic-Standing-Schedule {
+    .header-block .second .text-m-1 {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .third {
     display: inline-block;
     padding-left: 80px;
     width: 20%; }
-    .header-block .third .text-m-1, .header-block .third .schedule-page .Enrolled-credit-hours, .schedule-page .header-block .third .Enrolled-credit-hours, .header-block .third .schedule-page .Current-semester-schedule, .schedule-page .header-block .third .Current-semester-schedule, .header-block .third .schedule-page .Academic-Standing-Schedule, .schedule-page .header-block .third .Academic-Standing-Schedule {
+    .header-block .third .text-m-1 {
       font-weight: bold;
       padding-bottom: 10px; }
 
@@ -757,7 +746,7 @@ aside {
     width: 96.5%; }
     .body-uper-c-en .back-j .header-section .first {
       display: inline-block; }
-      .body-uper-c-en .back-j .header-section .first .text-m-1, .body-uper-c-en .back-j .header-section .first .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .back-j .header-section .first .Enrolled-credit-hours, .body-uper-c-en .back-j .header-section .first .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .back-j .header-section .first .Current-semester-schedule, .body-uper-c-en .back-j .header-section .first .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .back-j .header-section .first .Academic-Standing-Schedule {
+      .body-uper-c-en .back-j .header-section .first .text-m-1 {
         padding-bottom: 10px; }
     .body-uper-c-en .back-j .header-section {
       background-color: #f7f7f7;
@@ -765,7 +754,7 @@ aside {
       margin-top: 35px;
       margin-left: 350px;
       width: 70%; }
-      .body-uper-c-en .back-j .header-section .current-prog .text-m-1, .body-uper-c-en .back-j .header-section .current-prog .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .back-j .header-section .current-prog .Enrolled-credit-hours, .body-uper-c-en .back-j .header-section .current-prog .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .back-j .header-section .current-prog .Current-semester-schedule, .body-uper-c-en .back-j .header-section .current-prog .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .back-j .header-section .current-prog .Academic-Standing-Schedule {
+      .body-uper-c-en .back-j .header-section .current-prog .text-m-1 {
         color: #59aac0;
         padding-bottom: 10px; }
       .body-uper-c-en .back-j .header-section .current-prog .text-m-2 {
@@ -784,13 +773,13 @@ aside {
         border: solid red;
         display: inline-block;
         float: left; }
-        .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .text-m-1, .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .Enrolled-credit-hours, .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .Current-semester-schedule, .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .Academic-Standing-Schedule {
+        .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .text-m-1 {
           color: #59aac0; }
         .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .sem-spring {
           display: inline-block;
           border: solid red;
           float: right; }
-          .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .sem-spring .text-m-1, .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .sem-spring .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .sem-spring .Enrolled-credit-hours, .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .sem-spring .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .sem-spring .Current-semester-schedule, .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .sem-spring .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .sem-spring .Academic-Standing-Schedule {
+          .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .sem-spring .text-m-1 {
             color: #48a2ba; }
           .body-uper-c-en .back-j .upcoming-courses-en .up-courses-en .sem-spring .text-m-2 {
             color: #59aac0; }
@@ -858,12 +847,12 @@ aside {
       .body-uper-c-en .back-j .course-rege-en .gen-edu {
         margin-left: 70px;
         margin-top: 40px; }
-        .body-uper-c-en .back-j .course-rege-en .gen-edu .text-m-1, .body-uper-c-en .back-j .course-rege-en .gen-edu .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .back-j .course-rege-en .gen-edu .Enrolled-credit-hours, .body-uper-c-en .back-j .course-rege-en .gen-edu .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .back-j .course-rege-en .gen-edu .Current-semester-schedule, .body-uper-c-en .back-j .course-rege-en .gen-edu .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .back-j .course-rege-en .gen-edu .Academic-Standing-Schedule {
+        .body-uper-c-en .back-j .course-rege-en .gen-edu .text-m-1 {
           font-size: 18px; }
       .body-uper-c-en .back-j .course-rege-en .english-solo {
         margin-left: 90px;
         margin-top: 40px; }
-        .body-uper-c-en .back-j .course-rege-en .english-solo .text-m-1, .body-uper-c-en .back-j .course-rege-en .english-solo .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .back-j .course-rege-en .english-solo .Enrolled-credit-hours, .body-uper-c-en .back-j .course-rege-en .english-solo .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .back-j .course-rege-en .english-solo .Current-semester-schedule, .body-uper-c-en .back-j .course-rege-en .english-solo .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .back-j .course-rege-en .english-solo .Academic-Standing-Schedule {
+        .body-uper-c-en .back-j .course-rege-en .english-solo .text-m-1 {
           font-size: 16px;
           color: #59aac0; }
       .body-uper-c-en .back-j .course-rege-en .bar2 {
@@ -878,7 +867,7 @@ aside {
       display: flex;
       display: inline-block;
       width: 77%; }
-      .body-uper-c-en .back-j .eng-boxes .text-m-1, .body-uper-c-en .back-j .eng-boxes .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .back-j .eng-boxes .Enrolled-credit-hours, .body-uper-c-en .back-j .eng-boxes .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .back-j .eng-boxes .Current-semester-schedule, .body-uper-c-en .back-j .eng-boxes .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .back-j .eng-boxes .Academic-Standing-Schedule {
+      .body-uper-c-en .back-j .eng-boxes .text-m-1 {
         color: #59aac0;
         padding-bottom: 20px;
         font-size: 20px; }
@@ -937,7 +926,7 @@ aside {
 .header-section {
   background-color: #f7f7f7;
   margin-left: 0px; }
-  .header-section .current-prog .text-m-1, .header-section .current-prog .schedule-page .Enrolled-credit-hours, .schedule-page .header-section .current-prog .Enrolled-credit-hours, .header-section .current-prog .schedule-page .Current-semester-schedule, .schedule-page .header-section .current-prog .Current-semester-schedule, .header-section .current-prog .schedule-page .Academic-Standing-Schedule, .schedule-page .header-section .current-prog .Academic-Standing-Schedule {
+  .header-section .current-prog .text-m-1 {
     color: #59aac0;
     padding-bottom: 10px; }
   .header-section .current-prog .text-m-2 {
@@ -956,7 +945,7 @@ aside {
     margin-right: 20px;
     display: inline-block;
     width: 26%; }
-    .header-block .first .text-m-1, .header-block .first .schedule-page .Enrolled-credit-hours, .schedule-page .header-block .first .Enrolled-credit-hours, .header-block .first .schedule-page .Current-semester-schedule, .schedule-page .header-block .first .Current-semester-schedule, .header-block .first .schedule-page .Academic-Standing-Schedule, .schedule-page .header-block .first .Academic-Standing-Schedule {
+    .header-block .first .text-m-1 {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .second {
@@ -964,14 +953,14 @@ aside {
     padding-left: 65px;
     margin-right: 30px;
     width: 26%; }
-    .header-block .second .text-m-1, .header-block .second .schedule-page .Enrolled-credit-hours, .schedule-page .header-block .second .Enrolled-credit-hours, .header-block .second .schedule-page .Current-semester-schedule, .schedule-page .header-block .second .Current-semester-schedule, .header-block .second .schedule-page .Academic-Standing-Schedule, .schedule-page .header-block .second .Academic-Standing-Schedule {
+    .header-block .second .text-m-1 {
       font-weight: bold;
       padding-bottom: 10px; }
   .header-block .third {
     display: inline-block;
     padding-left: 80px;
     width: 20%; }
-    .header-block .third .text-m-1, .header-block .third .schedule-page .Enrolled-credit-hours, .schedule-page .header-block .third .Enrolled-credit-hours, .header-block .third .schedule-page .Current-semester-schedule, .schedule-page .header-block .third .Current-semester-schedule, .header-block .third .schedule-page .Academic-Standing-Schedule, .schedule-page .header-block .third .Academic-Standing-Schedule {
+    .header-block .third .text-m-1 {
       font-weight: bold;
       padding-bottom: 10px; }
 
@@ -1123,14 +1112,13 @@ aside {
     width: 96.5%; }
   .body-uper-c-en .eng-boxes .boexes-for-comp-page {
     display: block; }
-    .body-uper-c-en .eng-boxes .boexes-for-comp-page .text-m-1, .body-uper-c-en .eng-boxes .boexes-for-comp-page .schedule-page .Enrolled-credit-hours, .schedule-page .body-uper-c-en .eng-boxes .boexes-for-comp-page .Enrolled-credit-hours, .body-uper-c-en .eng-boxes .boexes-for-comp-page .schedule-page .Current-semester-schedule, .schedule-page .body-uper-c-en .eng-boxes .boexes-for-comp-page .Current-semester-schedule, .body-uper-c-en .eng-boxes .boexes-for-comp-page .schedule-page .Academic-Standing-Schedule, .schedule-page .body-uper-c-en .eng-boxes .boexes-for-comp-page .Academic-Standing-Schedule {
+    .body-uper-c-en .eng-boxes .boexes-for-comp-page .text-m-1 {
       color: #59aac0;
       padding-bottom: 20px;
       font-size: 20px; }
     .body-uper-c-en .eng-boxes .boexes-for-comp-page .text-m-2 {
       font-size: 18px;
       padding-bottom: 20px; }
-
 
 .settings-body {
   width: 98%;
@@ -1144,7 +1132,7 @@ aside {
   .settings-body .settings {
     margin-left: 355px;
     padding-top: 60px; }
-    .settings-body .settings .text-m-1, .settings-body .settings .schedule-page .Enrolled-credit-hours, .schedule-page .settings-body .settings .Enrolled-credit-hours, .settings-body .settings .schedule-page .Current-semester-schedule, .schedule-page .settings-body .settings .Current-semester-schedule, .settings-body .settings .schedule-page .Academic-Standing-Schedule, .schedule-page .settings-body .settings .Academic-Standing-Schedule {
+    .settings-body .settings .text-m-1 {
       color: #59aac0;
       font-size: 16px;
       padding-bottom: 16px; }
@@ -1163,7 +1151,7 @@ aside {
       padding-bottom: 20px; }
       .settings-body .information-boxes .boxes-for-setting-page .Edit-Link {
         display: inline-block; }
-        .settings-body .information-boxes .boxes-for-setting-page .Edit-Link .text-m-1, .settings-body .information-boxes .boxes-for-setting-page .Edit-Link .schedule-page .Enrolled-credit-hours, .schedule-page .settings-body .information-boxes .boxes-for-setting-page .Edit-Link .Enrolled-credit-hours, .settings-body .information-boxes .boxes-for-setting-page .Edit-Link .schedule-page .Current-semester-schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page .Edit-Link .Current-semester-schedule, .settings-body .information-boxes .boxes-for-setting-page .Edit-Link .schedule-page .Academic-Standing-Schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page .Edit-Link .Academic-Standing-Schedule {
+        .settings-body .information-boxes .boxes-for-setting-page .Edit-Link .text-m-1 {
           font-size: 16px;
           font-weight: bold;
           padding-bottom: 40px;
@@ -1188,7 +1176,7 @@ aside {
       display: inline-block; }
       .settings-body .information-boxes .boxes-for-setting-page2 .Edit-Link {
         display: inline-block; }
-        .settings-body .information-boxes .boxes-for-setting-page2 .Edit-Link .text-m-1, .settings-body .information-boxes .boxes-for-setting-page2 .Edit-Link .schedule-page .Enrolled-credit-hours, .schedule-page .settings-body .information-boxes .boxes-for-setting-page2 .Edit-Link .Enrolled-credit-hours, .settings-body .information-boxes .boxes-for-setting-page2 .Edit-Link .schedule-page .Current-semester-schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page2 .Edit-Link .Current-semester-schedule, .settings-body .information-boxes .boxes-for-setting-page2 .Edit-Link .schedule-page .Academic-Standing-Schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page2 .Edit-Link .Academic-Standing-Schedule {
+        .settings-body .information-boxes .boxes-for-setting-page2 .Edit-Link .text-m-1 {
           font-size: 16px;
           font-weight: bold;
           padding-bottom: 10px;
@@ -1211,7 +1199,7 @@ aside {
       width: 30%;
       padding-bottom: 40px;
       display: inline-block; }
-      .settings-body .information-boxes .boxes-for-setting-page3 .Edit-Link .text-m-1, .settings-body .information-boxes .boxes-for-setting-page3 .Edit-Link .schedule-page .Enrolled-credit-hours, .schedule-page .settings-body .information-boxes .boxes-for-setting-page3 .Edit-Link .Enrolled-credit-hours, .settings-body .information-boxes .boxes-for-setting-page3 .Edit-Link .schedule-page .Current-semester-schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page3 .Edit-Link .Current-semester-schedule, .settings-body .information-boxes .boxes-for-setting-page3 .Edit-Link .schedule-page .Academic-Standing-Schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page3 .Edit-Link .Academic-Standing-Schedule {
+      .settings-body .information-boxes .boxes-for-setting-page3 .Edit-Link .text-m-1 {
         font-size: 16px;
         font-weight: bold;
         padding-bottom: 10px;
@@ -1234,7 +1222,7 @@ aside {
       padding-bottom: 20px;
       width: 30%;
       display: inline-block; }
-      .settings-body .information-boxes .boxes-for-setting-page4 .Edit-Link .text-m-1, .settings-body .information-boxes .boxes-for-setting-page4 .Edit-Link .schedule-page .Enrolled-credit-hours, .schedule-page .settings-body .information-boxes .boxes-for-setting-page4 .Edit-Link .Enrolled-credit-hours, .settings-body .information-boxes .boxes-for-setting-page4 .Edit-Link .schedule-page .Current-semester-schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page4 .Edit-Link .Current-semester-schedule, .settings-body .information-boxes .boxes-for-setting-page4 .Edit-Link .schedule-page .Academic-Standing-Schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page4 .Edit-Link .Academic-Standing-Schedule {
+      .settings-body .information-boxes .boxes-for-setting-page4 .Edit-Link .text-m-1 {
         font-size: 16px;
         font-weight: bold;
         padding-bottom: 0px;
@@ -1257,7 +1245,7 @@ aside {
       width: 30%;
       padding-bottom: 40px;
       display: inline-block; }
-      .settings-body .information-boxes .boxes-for-setting-page5 .Edit-Link .text-m-1, .settings-body .information-boxes .boxes-for-setting-page5 .Edit-Link .schedule-page .Enrolled-credit-hours, .schedule-page .settings-body .information-boxes .boxes-for-setting-page5 .Edit-Link .Enrolled-credit-hours, .settings-body .information-boxes .boxes-for-setting-page5 .Edit-Link .schedule-page .Current-semester-schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page5 .Edit-Link .Current-semester-schedule, .settings-body .information-boxes .boxes-for-setting-page5 .Edit-Link .schedule-page .Academic-Standing-Schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page5 .Edit-Link .Academic-Standing-Schedule {
+      .settings-body .information-boxes .boxes-for-setting-page5 .Edit-Link .text-m-1 {
         font-size: 16px;
         font-weight: bold;
         padding-bottom: 10px;
@@ -1280,7 +1268,7 @@ aside {
       width: 30%;
       padding-bottom: 40px;
       display: inline-block; }
-      .settings-body .information-boxes .boxes-for-setting-page6 .Edit-Link .text-m-1, .settings-body .information-boxes .boxes-for-setting-page6 .Edit-Link .schedule-page .Enrolled-credit-hours, .schedule-page .settings-body .information-boxes .boxes-for-setting-page6 .Edit-Link .Enrolled-credit-hours, .settings-body .information-boxes .boxes-for-setting-page6 .Edit-Link .schedule-page .Current-semester-schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page6 .Edit-Link .Current-semester-schedule, .settings-body .information-boxes .boxes-for-setting-page6 .Edit-Link .schedule-page .Academic-Standing-Schedule, .schedule-page .settings-body .information-boxes .boxes-for-setting-page6 .Edit-Link .Academic-Standing-Schedule {
+      .settings-body .information-boxes .boxes-for-setting-page6 .Edit-Link .text-m-1 {
         font-size: 16px;
         font-weight: bold;
         padding-bottom: 10px;
