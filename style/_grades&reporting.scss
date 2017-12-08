@@ -118,7 +118,7 @@ float: right;
 	height: 70px;
 	background-color: #ffffff;
   padding: 15px 10px 0px 10px;
-  margin-left: 430px;
+  margin-left: 390px;
 }
 .Nine-Zero-percent-GR {
 	width: 100%;
@@ -139,4 +139,31 @@ float: right;
 	letter-spacing: 0.2px;
 	color: #4ca2b9;
   text-align: center;
+}
+.RecentlyGraded-GR {
+  width: auto;
+  height:20px;
+  font-family: $font-montserrat;
+  letter-spacing: 0.2px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4ca2b9;
+}
+table {
+  width: 50%;
+}
+td {
+    width: auto;
+    height: 20px;
+    font-family: $font-montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    color: #33c7ba;
+}
+.Table-container {
+  width: 50%;
+  height: auto;
+  float: right;
+  margin-top: -160px;
 }
