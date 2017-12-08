@@ -97,8 +97,11 @@ margin-top: 40px;
 }
 .gethelp2{
     color: #50e3c2;
-    margin-left: 550px;
-    margin-top: 50px;
+
+    font-family: $font-montserrat;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
 }
 .startb23{
   width: 120px;
@@ -109,10 +112,11 @@ margin-top: 40px;
  letter-spacing: 0.2px;
  text-align: center;
  color: #f7f7f7;
- background-color: $text-lightblue;
- margin-left: 650px;
- margin-top: -50px;
+  background-color: #3bb9ba;
+
 }
 .getstart{
   display: inline-block;
+  margin-left: 570px;
+  margin-top: 40px;
 }
