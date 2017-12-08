@@ -947,10 +947,10 @@ aside {
 
 .circle {
   width: 125px;
-  height: 125px;
+  height: 130px;
   border-radius: 50%;
   background: white;
-  top: -145px;
+  top: -150px;
   left: 25px;
   position: relative; }
 
