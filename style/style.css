@@ -172,6 +172,10 @@ aside {
     font-family: "Montserrat", sans-serif;
     margin-right: 390px;
     text-decoration: none; }
+  .header .date {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 830px; }
   .header .log-out {
     margin-left: 400px;
     font-size: 14px;
@@ -192,7 +196,7 @@ aside {
   .body-index .header-section {
     background-color: #f7f7f7;
     position: fixed;
-    margin-top: 35px;
+    margin-top: 55px;
     margin-left: 350px;
     width: 70%; }
     .body-index .header-section .current-prog .text-m-1 {
@@ -249,120 +253,125 @@ aside {
   .body-index .main-index-page {
     width: 96.5%;
     background-color: #f7f7f7; }
-    .body-index .main-index-page .second-section {
-      margin-left: 0px;
-      display: inline-block;
-      margin-left: 350px;
-      margin-top: 200px; }
-      .body-index .main-index-page .second-section .program-announ {
-        float: left; }
-        .body-index .main-index-page .second-section .program-announ .text-m-1 {
-          padding-bottom: 10px;
-          color: #59aac0; }
-        .body-index .main-index-page .second-section .program-announ .text-m-2 {
-          padding-bottom: 10px; }
-        .body-index .main-index-page .second-section .program-announ .text-r-1 {
-          padding-bottom: 10px;
-          word-wrap: break-word;
-          width: 70%;
-          font-size: 14px; }
-      .body-index .main-index-page .second-section .upcoming-dates {
-        padding-right: 0px;
-        padding-left: 40px;
-        float: right; }
-        .body-index .main-index-page .second-section .upcoming-dates .text-m-1 {
-          padding-bottom: 10px;
-          color: #59aac0;
-          word-wrap: break-word; }
-        .body-index .main-index-page .second-section .upcoming-dates .text-m-2 {
-          width: 60%;
-          word-wrap: break-word;
-          padding-bottom: 10px;
-          font-weight: bold; }
-      .body-index .main-index-page .second-section .bar {
-        background-color: #6291a9;
-        height: 2px;
-        width: 92.9%;
-        margin-top: 160px;
-        margin-bottom: 10px; }
-    .body-index .main-index-page .college-announcments {
-      margin-left: 350px;
-      margin-top: 30px;
-      display: inline-block; }
-      .body-index .main-index-page .college-announcments .Tutoring .text-m-1 {
-        color: #59aac0;
-        padding-bottom: 10px; }
-      .body-index .main-index-page .college-announcments .Tutoring .text-m-2 {
-        padding-bottom: 10px; }
-      .body-index .main-index-page .college-announcments .Tutoring .text-r-1 {
-        color: #373737;
-        font-size: 15px;
-        width: 100%; }
-      .body-index .main-index-page .college-announcments .intern .text-m-2 {
-        padding-top: 20px;
-        padding-bottom: 10px; }
-      .body-index .main-index-page .college-announcments .intern .text-r-1 {
-        color: #373737;
-        font-size: 15px;
-        width: 100%; }
-      .body-index .main-index-page .college-announcments .UpEvents {
+    .body-index .main-index-page .scroll-bar {
+      overflow-y: visible;
+      overflow-x: hidden;
+      height: 30%;
+      width: 99%; }
+      .body-index .main-index-page .scroll-bar .second-section {
+        margin-left: 0px;
         display: inline-block;
-        width: 19%;
-        margin-left: 280px; }
-        .body-index .main-index-page .college-announcments .UpEvents .text-m-1 {
-          color: #59aac0;
-          padding-bottom: 25px; }
-        .body-index .main-index-page .college-announcments .UpEvents .text-m-2 {
-          padding-bottom: 25px; }
-      .body-index .main-index-page .college-announcments .thisWillMoveL {
-        display: inline-block;
-        width: 30%; }
-      .body-index .main-index-page .college-announcments .bar {
-        background-color: #6291a9;
-        height: 2px;
-        width: 88%;
-        margin-top: 0px;
-        margin-bottom: 10px; }
-    .body-index .main-index-page .Software-Project-I {
-      margin-left: 350px; }
-      .body-index .main-index-page .Software-Project-I .S-P-I {
-        width: 23%;
-        padding-top: 20px;
-        padding-bottom: 40px;
-        padding-left: 585px; }
-        .body-index .main-index-page .Software-Project-I .S-P-I .text-m-1 {
-          color: #59aac0;
-          padding-bottom: 10px; }
-      .body-index .main-index-page .Software-Project-I .bar {
-        background-color: #6291a9;
-        height: 2px;
-        width: 88%;
-        margin-top: 0px;
-        margin-bottom: 10px;
-        margin-left: 0px; }
-    .body-index .main-index-page .TutoringAvailable {
-      margin-left: 350px;
-      display: inline-block;
-      padding-bottom: 20px; }
-      .body-index .main-index-page .TutoringAvailable .C-A-L {
-        display: inline-block;
-        width: 40%; }
-        .body-index .main-index-page .TutoringAvailable .C-A-L .text-m-1 {
+        margin-left: 350px;
+        margin-top: 200px; }
+        .body-index .main-index-page .scroll-bar .second-section .program-announ {
+          float: left; }
+          .body-index .main-index-page .scroll-bar .second-section .program-announ .text-m-1 {
+            padding-bottom: 10px;
+            color: #59aac0; }
+          .body-index .main-index-page .scroll-bar .second-section .program-announ .text-m-2 {
+            padding-bottom: 10px; }
+          .body-index .main-index-page .scroll-bar .second-section .program-announ .text-r-1 {
+            padding-bottom: 10px;
+            word-wrap: break-word;
+            width: 70%;
+            font-size: 14px; }
+        .body-index .main-index-page .scroll-bar .second-section .upcoming-dates {
+          padding-right: 0px;
+          padding-left: 40px;
+          float: right; }
+          .body-index .main-index-page .scroll-bar .second-section .upcoming-dates .text-m-1 {
+            padding-bottom: 10px;
+            color: #59aac0;
+            word-wrap: break-word; }
+          .body-index .main-index-page .scroll-bar .second-section .upcoming-dates .text-m-2 {
+            width: 60%;
+            word-wrap: break-word;
+            padding-bottom: 10px;
+            font-weight: bold; }
+        .body-index .main-index-page .scroll-bar .second-section .bar {
+          background-color: #6291a9;
+          height: 2px;
+          width: 92.9%;
+          margin-top: 160px;
+          margin-bottom: 10px; }
+      .body-index .main-index-page .scroll-bar .college-announcments {
+        margin-left: 350px;
+        margin-top: 30px;
+        display: inline-block; }
+        .body-index .main-index-page .scroll-bar .college-announcments .Tutoring .text-m-1 {
           color: #59aac0;
           padding-bottom: 10px; }
-        .body-index .main-index-page .TutoringAvailable .C-A-L .text-m-2 {
+        .body-index .main-index-page .scroll-bar .college-announcments .Tutoring .text-m-2 {
           padding-bottom: 10px; }
-        .body-index .main-index-page .TutoringAvailable .C-A-L .text-r-1 {
+        .body-index .main-index-page .scroll-bar .college-announcments .Tutoring .text-r-1 {
+          color: #373737;
           font-size: 15px;
-          padding-bottom: 5px;
-          color: #373737; }
-      .body-index .main-index-page .TutoringAvailable .upcoming-events2 {
-        margin-left: 175px;
-        display: inline-block;
-        width: 24%; }
-        .body-index .main-index-page .TutoringAvailable .upcoming-events2 .text-m-1 {
-          color: #59aac0;
+          width: 100%; }
+        .body-index .main-index-page .scroll-bar .college-announcments .intern .text-m-2 {
+          padding-top: 20px;
           padding-bottom: 10px; }
+        .body-index .main-index-page .scroll-bar .college-announcments .intern .text-r-1 {
+          color: #373737;
+          font-size: 15px;
+          width: 100%; }
+        .body-index .main-index-page .scroll-bar .college-announcments .UpEvents {
+          display: inline-block;
+          width: 19%;
+          margin-left: 280px; }
+          .body-index .main-index-page .scroll-bar .college-announcments .UpEvents .text-m-1 {
+            color: #59aac0;
+            padding-bottom: 25px; }
+          .body-index .main-index-page .scroll-bar .college-announcments .UpEvents .text-m-2 {
+            padding-bottom: 25px; }
+        .body-index .main-index-page .scroll-bar .college-announcments .thisWillMoveL {
+          display: inline-block;
+          width: 30%; }
+        .body-index .main-index-page .scroll-bar .college-announcments .bar {
+          background-color: #6291a9;
+          height: 2px;
+          width: 88%;
+          margin-top: 0px;
+          margin-bottom: 10px; }
+      .body-index .main-index-page .scroll-bar .Software-Project-I {
+        margin-left: 350px; }
+        .body-index .main-index-page .scroll-bar .Software-Project-I .S-P-I {
+          width: 23%;
+          padding-top: 20px;
+          padding-bottom: 40px;
+          padding-left: 585px; }
+          .body-index .main-index-page .scroll-bar .Software-Project-I .S-P-I .text-m-1 {
+            color: #59aac0;
+            padding-bottom: 10px; }
+        .body-index .main-index-page .scroll-bar .Software-Project-I .bar {
+          background-color: #6291a9;
+          height: 2px;
+          width: 88%;
+          margin-top: 0px;
+          margin-bottom: 10px;
+          margin-left: 0px; }
+      .body-index .main-index-page .scroll-bar .TutoringAvailable {
+        margin-left: 350px;
+        display: inline-block;
+        padding-bottom: 20px; }
+        .body-index .main-index-page .scroll-bar .TutoringAvailable .C-A-L {
+          display: inline-block;
+          width: 40%; }
+          .body-index .main-index-page .scroll-bar .TutoringAvailable .C-A-L .text-m-1 {
+            color: #59aac0;
+            padding-bottom: 10px; }
+          .body-index .main-index-page .scroll-bar .TutoringAvailable .C-A-L .text-m-2 {
+            padding-bottom: 10px; }
+          .body-index .main-index-page .scroll-bar .TutoringAvailable .C-A-L .text-r-1 {
+            font-size: 15px;
+            padding-bottom: 5px;
+            color: #373737; }
+        .body-index .main-index-page .scroll-bar .TutoringAvailable .upcoming-events2 {
+          margin-left: 175px;
+          display: inline-block;
+          width: 24%; }
+          .body-index .main-index-page .scroll-bar .TutoringAvailable .upcoming-events2 .text-m-1 {
+            color: #59aac0;
+            padding-bottom: 10px; }
 
 .schedule-page {
   background-color: #f7f7f7; }
