@@ -66,6 +66,9 @@ letter-spacing: 0.2px;
 .greaterthan{
   float: right;
   margin-right: 55px;
+  text-decoration: none;
+  color: #44ccc0;
+  font-family: $font-montserrat;
 }
 .cset155{
   font-family: $font-montserrat;
@@ -119,4 +122,11 @@ margin-top: 40px;
   display: inline-block;
   margin-left: 570px;
   margin-top: 40px;
+}
+.textlink{
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  font-family: $font-montserrat;
+  font-size: 15px;
+  color: #44ccc0;
 }
