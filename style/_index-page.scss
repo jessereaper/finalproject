@@ -6,6 +6,11 @@
 .main-index-page{
   width: 96.5%;
   background-color: #f7f7f7;
+.scroll-bar{
+  overflow-y: visible;
+  overflow-x: hidden;
+  height: 30%;
+  width: 99%;
 .second-section{
   margin-left: 0px;
   display: inline-block;
@@ -158,6 +163,7 @@
       padding-bottom: 10px;
     }
   }
+}
 }
 }
 }

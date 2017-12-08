@@ -46,11 +46,25 @@
       </div>
     </aside>
     <header class="header">
-      <a class="home" href="home.html">HOME</a>
-      <a class="log-out" href="#">LOG OUT?</a>
-      <div class="">
+      <div class="date">
+        <p class="text-m-1">
+          <script>
+            var m_names = new Array("Jan", "Feb", "Mar",
+              "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+              "Oct", "Nov", "Dec");
+
+            var d = new Date();
+            var curr_date = d.getDate();
+            var curr_month = d.getMonth();
+            var curr_year = d.getFullYear();
+            document.write(curr_date + "-" + m_names[curr_month] +
+              "-" + curr_year);
+          </script>
+        </p>
         <!--date done in JS-->
       </div>
+      <a class="home" href="home.html">HOME</a>
+      <a class="log-out" href="#">LOG OUT?</a>
       <div class="bar">
         <!-- this is for the bar -->
       </div>
@@ -78,85 +92,87 @@
         <!-- this space is for the bar -->
       </div>
     </section>
-    <section class="second-section">
-      <div class="program-announ">
-        <h1 class="text-m-1">Program Announcements:</h1>
-        <h2 class="text-m-2">Industry Panel: Friday, 1pm</h2>
-        <p class="text-r-1">Students should arrive to the auditorium by 12:45pm, with questions prepared to ask the panel.</p>
-      </div>
-      <div class="upcoming-dates">
-        <h1 class="text-m-1">Upcoming Due Dates:</h1>
-        <h1 class="text-m-1">11/15</h1>
-        <h2 class="text-m-2">Web Development I: JavaScript Fundamentals Test</h2>
-        <h1 class="text-m-1">12/15</h1>
-        <h2 class="text-m-2">Software Project I: Final Project due by 11:55pm EST</h2>
-      </div>
-      <div class="bar">
-        <!-- this space is for the bar -->
-      </div>
-    </section>
-    <section class="college-announcments">
-      <div class="thisWillMoveL">
-        <div class="Tutoring">
-          <h1 class="text-m-1">College Announcements:</h1>
+    <section class="scroll-bar">
+      <section class="second-section">
+        <div class="program-announ">
+          <h1 class="text-m-1">Program Announcements:</h1>
+          <h2 class="text-m-2">Industry Panel: Friday, 1pm</h2>
+          <p class="text-r-1">Students should arrive to the auditorium by 12:45pm, with questions prepared to ask the panel.</p>
+        </div>
+        <div class="upcoming-dates">
+          <h1 class="text-m-1">Upcoming Due Dates:</h1>
+          <h1 class="text-m-1">11/15</h1>
+          <h2 class="text-m-2">Web Development I: JavaScript Fundamentals Test</h2>
+          <h1 class="text-m-1">12/15</h1>
+          <h2 class="text-m-2">Software Project I: Final Project due by 11:55pm EST</h2>
+        </div>
+        <div class="bar">
+          <!-- this space is for the bar -->
+        </div>
+      </section>
+      <section class="college-announcments">
+        <div class="thisWillMoveL">
+          <div class="Tutoring">
+            <h1 class="text-m-1">College Announcements:</h1>
+            <h2 class="text-m-2">Tutoring Availabile</h2>
+            <p class="text-r-1">Students may request free tutoring support in general education and program related courses at the Student Academic Center. Email tutoring@stevenscollege.edu to reserve a timeslot.</p>
+          </div>
+          <div class="intern">
+            <h2 class="text-m-2">internship Workshops </h2>
+            <p class="text-r-1">Learn how to register for and utilize our college central netowrk to connect with job and internship opportunities. We’ll also provide you resources to connect with companies in your hometown for summer internships.</p>
+          </div>
+        </div>
+        <div class="UpEvents">
+          <h1 class="text-m-1">upcoming events:</h1>
+          <h1 class="text-m-1">11/15, 3:00pm</h1>
+          <h2 class="text-m-2">math study group</h2>
+          <h1 class="text-m-1">11/15, 7:00pm</h1>
+          <h2 class="text-m-2">intermural dodgeball</h2>
+          <h1 class="text-m-1">11/15, 9:00pm</h1>
+          <h2 class="text-m-2">Movie Night</h2>
+        </div>
+        <div class="bar">
+          <!-- space left empty for bar -->
+        </div>
+      </section>
+      <section class="Software-Project-I">
+        <div class="S-P-I">
+          <h1 class="text-m-1">12/15</h1>
+          <h2 class="text-m-2">Software Project I: Final Project due by 11:55pm EST</h2>
+        </div>
+        <div class="bar">
+          <!-- space left empty for bar -->
+        </div>
+      </section>
+      <section class="TutoringAvailable">
+        <div class="C-A-L">
+          <h1 class="text-m-1">college anouncments</h1>
           <h2 class="text-m-2">Tutoring Availabile</h2>
           <p class="text-r-1">Students may request free tutoring support in general education and program related courses at the Student Academic Center. Email tutoring@stevenscollege.edu to reserve a timeslot.</p>
+          <h2 class="text-m-2">Internship Workshops</h2>
+          <p class="text-r-1">Learn how to register for and utilize our college central netowrk to connect with job and internship opportunities. We’ll also provide you resources to connect with companies in your hometown for summer internships. RSVP by emailing internships@stevenscollege.edu.</p>
         </div>
-        <div class="intern">
-          <h2 class="text-m-2">internship Workshops </h2>
-          <p class="text-r-1">Learn how to register for and utilize our college central netowrk to connect with job and internship opportunities. We’ll also provide you resources to connect with companies in your hometown for summer internships.</p>
+        <div class="upcoming-events2">
+          <h1 class="text-m-1">upcoming events</h1>
+          <h1 class="text-m-1">11/15, 3:00pm</h1>
+          <h2 class="text-m-2">Math Study Group</h2>
+          <h1 class="text-m-1">11/15, 7:00pm</h1>
+          <h2 class="text-m-2">Intermural Dodgeball</h2>
+          <h1 class="text-m-1">11/15, 9:00pm</h1>
+          <h2 class="text-m-2">Movie Night</h2>
+          <h1 class="text-m-1">11/16, 8:00am</h1>
+          <h2 class="text-m-2">Coffee Talk</h2>
+          <h1 class="text-m-1">11/15, 7:00pm</h1>
+          <h2 class="text-m-2">Intermural Dodgeball</h2>
+          <h1 class="text-m-1">11/15, 9:00pm</h1>
+          <h2 class="text-m-2">Movie Night</h2>
         </div>
-      </div>
-      <div class="UpEvents">
-        <h1 class="text-m-1">upcoming events:</h1>
-        <h1 class="text-m-1">11/15, 3:00pm</h1>
-        <h2 class="text-m-2">math study group</h2>
-        <h1 class="text-m-1">11/15, 7:00pm</h1>
-        <h2 class="text-m-2">intermural dodgeball</h2>
-        <h1 class="text-m-1">11/15, 9:00pm</h1>
-        <h2 class="text-m-2">Movie Night</h2>
-      </div>
-      <div class="bar">
-        <!-- space left empty for bar -->
-      </div>
-    </section>
-    <section class="Software-Project-I">
-      <div class="S-P-I">
-        <h1 class="text-m-1">12/15</h1>
-        <h2 class="text-m-2">Software Project I: Final Project due by 11:55pm EST</h2>
-      </div>
-      <div class="bar">
-        <!-- space left empty for bar -->
-      </div>
-    </section>
-    <section class="TutoringAvailable">
-      <div class="C-A-L">
-        <h1 class="text-m-1">college anouncments</h1>
-        <h2 class="text-m-2">Tutoring Availabile</h2>
-        <p class="text-r-1">Students may request free tutoring support in general education and program related courses at the Student Academic Center. Email tutoring@stevenscollege.edu to reserve a timeslot.</p>
-        <h2 class="text-m-2">Internship Workshops</h2>
-        <p class="text-r-1">Learn how to register for and utilize our college central netowrk to connect with job and internship opportunities. We’ll also provide you resources to connect with companies in your hometown for summer internships. RSVP by emailing internships@stevenscollege.edu.</p>
-      </div>
-      <div class="upcoming-events2">
-        <h1 class="text-m-1">upcoming events</h1>
-        <h1 class="text-m-1">11/15, 3:00pm</h1>
-        <h2 class="text-m-2">Math Study Group</h2>
-        <h1 class="text-m-1">11/15, 7:00pm</h1>
-        <h2 class="text-m-2">Intermural Dodgeball</h2>
-        <h1 class="text-m-1">11/15, 9:00pm</h1>
-        <h2 class="text-m-2">Movie Night</h2>
-        <h1 class="text-m-1">11/16, 8:00am</h1>
-        <h2 class="text-m-2">Coffee Talk</h2>
-        <h1 class="text-m-1">11/15, 7:00pm</h1>
-        <h2 class="text-m-2">Intermural Dodgeball</h2>
-        <h1 class="text-m-1">11/15, 9:00pm</h1>
-        <h2 class="text-m-2">Movie Night</h2>
-      </div>
-    </section>
+      </section>
 
-    <footer>
-      <!-- this is empty -->
-    </footer>
+      <footer>
+        <!-- this is empty -->
+      </footer>
+    </section>
   </section>
 </body>
 
