@@ -20,9 +20,22 @@ margin-top: 20px;
   margin-top: 0px;
 }
 .pie {
-  width: 100px; height: 100px;
+  width: 150px; height: 150px;
   border-radius: 50%;
-  background: yellowgreen;
-  margin-left: 15%;
+  background: #d8d8d8;
+  margin-left: 12%;
   margin-top: 10px;
+  background-image:
+  linear-gradient(to right, transparent 50%, teal 0);
+}
+
+.pie::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background: #d8d8d8;
+  transform-origin: left;
+  transform: rotate(.4turn);
 }
