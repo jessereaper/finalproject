@@ -1216,7 +1216,10 @@ td {
 
 .greaterthan {
   float: right;
-  margin-right: 55px; }
+  margin-right: 55px;
+  text-decoration: none;
+  color: #44ccc0;
+  font-family: "Montserrat", sans-serif; }
 
 .cset155 {
   font-family: "Montserrat", sans-serif;
@@ -1247,6 +1250,7 @@ td {
 
 .gethelp2 {
   color: #50e3c2;
+  letter-spacing: 0.2px;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   text-align: center;
@@ -1267,6 +1271,13 @@ td {
   display: inline-block;
   margin-left: 570px;
   margin-top: 40px; }
+
+.textlink {
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #44ccc0; }
 
 .body-uper-c-en {
   width: 98%;
