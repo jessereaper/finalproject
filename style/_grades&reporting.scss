@@ -182,3 +182,14 @@ td {
   height: auto;
   margin: 0px 0px 0px 10%;
 }
+.pie-container-two {
+  @extend .pie-container;
+  z-index: auto;
+}
+.pie-two {
+@extend .pie;
+}
+.pie-two::before {
+  @extend .pie::before;
+  transform: rotate(.2turn);
+}

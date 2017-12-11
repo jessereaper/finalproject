@@ -935,7 +935,7 @@ aside {
   color: #202020;
   margin-top: 0px; }
 
-.pie {
+.pie, .pie-two {
   width: 170px;
   height: 170px;
   border-radius: 50%;
@@ -945,7 +945,7 @@ aside {
   background-image: linear-gradient(to right, transparent 50%, teal 0);
   display: inline-block; }
 
-.pie::before {
+.pie::before, .pie-two::before {
   content: '';
   display: block;
   margin-left: 50%;
@@ -986,7 +986,7 @@ aside {
   color: #4a4a4a;
   margin-left: 35px; }
 
-.pie-container {
+.pie-container, .pie-container-two {
   width: 380px;
   height: 190px;
   background-color: #ffffff;
@@ -1081,6 +1081,12 @@ td {
   width: 100%;
   height: auto;
   margin: 0px 0px 0px 10%; }
+
+.pie-container-two {
+  z-index: auto; }
+
+.pie-two::before {
+  transform: rotate(0.2turn); }
 
 .headerupcoming {
   background-color: #f7f7f7;
