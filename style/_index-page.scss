@@ -1,16 +1,17 @@
 .body-index{
   width: 98%;
-  height: 89%;
+  height: 96%;
   margin: 2%;
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-top: 10px;
 .main-index-page{
   width: 96.5%;
+  height:730px;
+  overflow-y:scroll;
+  padding-bottom: 50px;
   background-color: #f7f7f7;
-.scroll-bar{
-  overflow-y: visible;
-  overflow-x: hidden;
-  height: 30%;
-  width: 99%;
 .second-section{
   margin-left: 0px;
   display: inline-block;
@@ -163,7 +164,6 @@
       padding-bottom: 10px;
     }
   }
-}
 }
 }
 }
