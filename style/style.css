@@ -905,6 +905,9 @@ aside {
         margin-left: 340px;
         margin-top: 15px; }
 
+.overflow {
+  overflow-y: scroll; }
+
 .inline-block-davian {
   width: 80%;
   height: 500px;
@@ -912,7 +915,7 @@ aside {
   float: right;
   background-color: #f7f7f7; }
 
-.GR-CSET, .GR-ITWA {
+.GR-CSET, .GR-ITWA, .GR-ITWA-two, .GR-CSET-two {
   width: 262px;
   height: 20px;
   font-family: "Montserrat", sans-serif;
@@ -925,7 +928,7 @@ aside {
   margin-left: 35%;
   margin-top: 20px; }
 
-.GR-ITWA {
+.GR-ITWA, .GR-ITWA-two {
   font-size: 15px;
   font-weight: normal;
   line-height: 1.4;
@@ -1068,6 +1071,16 @@ td {
   height: auto;
   float: right;
   margin-top: -160px; }
+
+.GR-CSET-two {
+  width: 100%;
+  height: auto;
+  margin: 57px 0px 0px 10%; }
+
+.GR-ITWA-two {
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 0px 10%; }
 
 .headerupcoming {
   background-color: #f7f7f7;
