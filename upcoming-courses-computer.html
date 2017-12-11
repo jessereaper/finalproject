@@ -47,11 +47,25 @@
       </div>
     </aside>
     <header class="header">
-      <a class="home" href="index.html">HOME</a>
-      <a class="log-out" href="#">LOG OUT?</a>
-      <div class="">
+      <div class="date">
+        <p class="text-m-1">
+          <script>
+            var m_names = new Array("Jan", "Feb", "Mar",
+              "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+              "Oct", "Nov", "Dec");
+
+            var d = new Date();
+            var curr_date = d.getDate();
+            var curr_month = d.getMonth();
+            var curr_year = d.getFullYear();
+            document.write(curr_date + "-" + m_names[curr_month] +
+              "-" + curr_year);
+          </script>
+        </p>
         <!--date done in JS-->
       </div>
+      <a class="home" href="index.html">HOME</a>
+      <a class="log-out" href="#">LOG OUT?</a>
       <div class="bar">
         <!-- this is for the bar -->
       </div>
@@ -83,17 +97,17 @@
       <div class="CS-inlineflex">
         <h1 class="CS">
       UPCOMING COURSES
-    </h1>
+      </h1>
       </div>
       <div class="CS-inlineflex">
         <h2 class="semester-up">
       Semester:
-    </h2>
+      </h2>
       </div>
       <div class="CS-inlineflex">
         <h2 class="spring-up">
       Spring 2018
-    </h2>
+      </h2>
       </div>
     </section>
     <section class="course-rege-en">
