@@ -374,32 +374,32 @@ aside {
           color: #59aac0;
           padding-bottom: 10px; }
 
-.schedule-page {
+.schedule-body {
   background-color: #f7f7f7; }
-  .schedule-page .current-schedule {
+  .schedule-body .current-schedule {
     width: 61.5%;
     display: inline-block;
     margin-left: 40px; }
-    .schedule-page .current-schedule .current-schedu {
+    .schedule-body .current-schedule .current-schedu {
       display: inline-block;
       width: 50%; }
-      .schedule-page .current-schedule .current-schedu .text-m-1 {
+      .schedule-body .current-schedule .current-schedu .text-m-1 {
         display: inline-block;
         padding-top: 10px;
         color: #59aac0;
         width: 100%; }
-  .schedule-page .view-as {
+  .schedule-body .view-as {
     display: inline-block;
     width: 20%;
     margin-left: 250px; }
-  .schedule-page .text-m-1 {
+  .schedule-body .text-m-1 {
     color: #59aac0;
     display: inline-block;
     width: 13%; }
-  .schedule-page .text-m-2 {
+  .schedule-body .text-m-2 {
     display: inline-block;
     width: 34%; }
-  .schedule-page .text-r-1 {
+  .schedule-body .text-r-1 {
     display: inline-block;
     width: 3%; }
 
@@ -416,6 +416,9 @@ aside {
 
 #solo {
   color: #48a2ba; }
+
+#sched-date {
+  margin-left: 1100px; }
 
 .semester-up {
   width: 165.1px;
