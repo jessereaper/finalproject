@@ -8,155 +8,170 @@
   <link rel="stylesheet" type="text/css" href="style/style.css">
 
 </head>
+
 <body class="body">
   <section class="Schedule-body">
-<aside>
-  <div class="oval-image">
-  </div>
-  <h1 class="henrietta-schmidtt">
+    <aside>
+      <div class="oval-image">
+      </div>
+      <h1 class="henrietta-schmidtt">
     Henrietta Schmidtt
   </h1>
-  <div class="Aside-P">
-    <h2 class="AcademicServices">
+      <div class="Aside-P">
+        <h2 class="AcademicServices">
     Academic Services
   </h2>
-    <a class="CurrentSchedule" href="schedule.html" alt="">
+        <a class="CurrentSchedule" href="schedule.html" alt="">
     Current Schedule
   </a>
-    <a class="GradesReporting" href="grades&reporting.html" alt="">
+        <a class="GradesReporting" href="grades&reporting.html" alt="">
     Grades &amp; Reporting
   </a>
-    <a class="UpcomingCourses" href="upcoming-classes.html" alt="">
+        <a class="UpcomingCourses" href="upcoming-classes.html" alt="">
     Upcoming Courses
   </a>
-  </div>
-  <div class="Aside-P">
-    <h2 class="CollegeInformation">
+      </div>
+      <div class="Aside-P">
+        <h2 class="CollegeInformation">
       College Information
     </h2>
-    <a class="CollegeCalendar" href="" alt="">
+        <a class="CollegeCalendar" href="" alt="">
     College Calendar
   </a>
-    <a class="FinancialAid" href="" alt="">
+        <a class="FinancialAid" href="" alt="">
     Financial Aid
   </a>
-    <a class="StudentServices" href="" alt="">
+        <a class="StudentServices" href="" alt="">
     Student Services
   </a>
-  </div>
-</aside>
-<header class="Header-schedule">
-  <a class="Home-schedule" href="home.html">HOME</a>
-  <a class="AcademicServices-schedule"> >ACADEMIC SERVICES></a>
-  <a class="CurrentSchedule-schedule"> UPCOMING COURSES</a>
-  <a class="Logout-schedule" href="#">LOG OUT?</a>
-  <div class="">
-    <!--date done in JS-->
-  </div>
-  <div class="bar-schedule">
-    <!-- this is for the bar -->
-  </div>
-</header>
-<section class="inline-block">
-  <section class="header-section">
-    <div class="current-prog">
-      <h1 class="text-m-1">CURRENT PROGRAM:</h1>
-      <h2 class="text-m-2">Computer Software Engineering Technology</h2>
-    </div>
-    <div class="header-block">
-      <div class="first">
-        <h3 class="text-m-1">Current Semester:</h3>
-        <p class="text-m-2">Fall 2017</p>
       </div>
-      <div class="second">
-        <h3 class="text-m-1">Enrolled Credit Hours:</h3>
-        <p class="text-m-2">15</p>
+    </aside>
+    <header class="Header-schedule">
+      <div class="date" id="sched-date">
+        <p class="text-m-1">
+          <script>
+            var m_names = new Array("Jan", "Feb", "Mar",
+              "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+              "Oct", "Nov", "Dec");
+
+            var d = new Date();
+            var curr_date = d.getDate();
+            var curr_month = d.getMonth();
+            var curr_year = d.getFullYear();
+            document.write(curr_date + "-" + m_names[curr_month] +
+              "-" + curr_year);
+          </script>
+        </p>
+        <!--date done in JS-->
       </div>
-      <div class="third">
-        <h3 class="text-m-1">Academic Standing:</h3>
-        <p class="text-m-2">Good</p>
+      <a class="Home-schedule" href="home.html">HOME</a>
+      <a class="AcademicServices-schedule"> >ACADEMIC SERVICES></a>
+      <a class="CurrentSchedule-schedule"> UPCOMING COURSES</a>
+      <a class="Logout-schedule" href="#">LOG OUT?</a>
+      <div class="bar-schedule">
+        <!-- this is for the bar -->
       </div>
-    </div>
-    <div class="bar">
-      <!-- this space is for the bar -->
-    </div>
-  </section>
-  <section class="CS-container">
-    <div class="CS-inlineflex">
-    <h1 class="CS">
+    </header>
+    <section class="inline-block">
+      <section class="header-section">
+        <div class="current-prog">
+          <h1 class="text-m-1">CURRENT PROGRAM:</h1>
+          <h2 class="text-m-2">Computer Software Engineering Technology</h2>
+        </div>
+        <div class="header-block">
+          <div class="first">
+            <h3 class="text-m-1">Current Semester:</h3>
+            <p class="text-m-2">Fall 2017</p>
+          </div>
+          <div class="second">
+            <h3 class="text-m-1">Enrolled Credit Hours:</h3>
+            <p class="text-m-2">15</p>
+          </div>
+          <div class="third">
+            <h3 class="text-m-1">Academic Standing:</h3>
+            <p class="text-m-2">Good</p>
+          </div>
+        </div>
+        <div class="bar">
+          <!-- this space is for the bar -->
+        </div>
+      </section>
+      <section class="CS-container">
+        <div class="CS-inlineflex">
+          <h1 class="CS">
       UPCOMING COURSES
     </h1>
-  </div>
-  <div class="CS-inlineflex">
-    <h2 class="semester-up">
+        </div>
+        <div class="CS-inlineflex">
+          <h2 class="semester-up">
       Semester:
     </h2>
-  </div>
-  <div class="CS-inlineflex">
-    <h2 class="spring-up">
+        </div>
+        <div class="CS-inlineflex">
+          <h2 class="spring-up">
       Spring 2018
     </h2>
-  </div>
-  </section>
-  <section class="genedsbox">
-    <div class="course-sixty">
-      <h1 class="courseregistration">Course Registration Completion:	</h1>
-      <h1 class="sixty">60%</h1>
-    </div>
-    <div class="linetogether">
-    <div class="lightblueline">
-      <!-- this is a gradiant bar -->
-    </div>
-    <div class="darkblueline">
-      <!-- this is a gradiant bar -->
-    </div>
-  </div>
-    <div class="generaleducation">
-      <p>General Education</p>
-    </div>
-    <div class="cis">
-      <a  class="textlink" href="upcoming-courses-computer.html">Computer Information Systems</a>
-      <a class="greaterthan" href="upcoming-courses-computer.html">></a>
-      <div class="genedbar">
-        <!-- bar -->
-      </div>
-      <div class="">
-        <a  class="textlink" href="upcoming-courses-en.html">English</a>
-        <a  class="greaterthan" href="upcoming-courses-en.html">></a>
-        <div class="genedbar">
-          <!-- bar -->
         </div>
-        <div class="">
-          <a class="textlink" href="#">History</a>
-          <a class="greaterthan" href="#">></a>
+      </section>
+      <section class="genedsbox">
+        <div class="course-sixty">
+          <h1 class="courseregistration">Course Registration Completion:	</h1>
+          <h1 class="sixty">60%</h1>
+        </div>
+        <div class="linetogether">
+          <div class="lightblueline">
+            <!-- this is a gradiant bar -->
+          </div>
+          <div class="darkblueline">
+            <!-- this is a gradiant bar -->
+          </div>
+        </div>
+        <div class="generaleducation">
+          <p>General Education</p>
+        </div>
+        <div class="cis">
+          <a class="textlink" href="upcoming-courses-computer.html">Computer Information Systems</a>
+          <a class="greaterthan" href="upcoming-courses-computer.html">></a>
           <div class="genedbar">
             <!-- bar -->
           </div>
           <div class="">
-            <a class="textlink" href="#">Math</a>
-            <a class="greaterthan" href="#">></a>
+            <a class="textlink" href="upcoming-courses-en.html">English</a>
+            <a class="greaterthan" href="upcoming-courses-en.html">></a>
             <div class="genedbar">
               <!-- bar -->
             </div>
             <div class="">
-              <a class="textlink" href="#">Physical Education &amp; Health</a>
+              <a class="textlink" href="#">History</a>
               <a class="greaterthan" href="#">></a>
               <div class="genedbar">
                 <!-- bar -->
               </div>
               <div class="">
-                <a class="textlink" href="#">Sciences</a>
+                <a class="textlink" href="#">Math</a>
                 <a class="greaterthan" href="#">></a>
                 <div class="genedbar">
                   <!-- bar -->
                 </div>
                 <div class="">
-                  <a class="textlink" href="#">Social Sciences</a>
+                  <a class="textlink" href="#">Physical Education &amp; Health</a>
                   <a class="greaterthan" href="#">></a>
-                </div>
+                  <div class="genedbar">
+                    <!-- bar -->
+                  </div>
+                  <div class="">
+                    <a class="textlink" href="#">Sciences</a>
+                    <a class="greaterthan" href="#">></a>
+                    <div class="genedbar">
+                      <!-- bar -->
+                    </div>
+                    <div class="">
+                      <a class="textlink" href="#">Social Sciences</a>
+                      <a class="greaterthan" href="#">></a>
+                    </div>
+      </section>
+    </section>
   </section>
-</section>
-</section>
 </body>
 
 </html>
