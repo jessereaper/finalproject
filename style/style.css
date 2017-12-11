@@ -909,6 +909,9 @@ aside {
         margin-left: 340px;
         margin-top: 15px; }
 
+.overflow {
+  overflow-y: scroll; }
+
 .inline-block-davian {
   width: 80%;
   height: 500px;
@@ -916,7 +919,7 @@ aside {
   float: right;
   background-color: #f7f7f7; }
 
-.GR-CSET, .GR-ITWA {
+.GR-CSET, .GR-ITWA, .GR-ITWA-two, .GR-CSET-two {
   width: 262px;
   height: 20px;
   font-family: "Montserrat", sans-serif;
@@ -929,14 +932,14 @@ aside {
   margin-left: 35%;
   margin-top: 20px; }
 
-.GR-ITWA {
+.GR-ITWA, .GR-ITWA-two {
   font-size: 15px;
   font-weight: normal;
   line-height: 1.4;
   color: #202020;
   margin-top: 0px; }
 
-.pie {
+.pie, .pie-two {
   width: 170px;
   height: 170px;
   border-radius: 50%;
@@ -946,7 +949,7 @@ aside {
   background-image: linear-gradient(to right, transparent 50%, teal 0);
   display: inline-block; }
 
-.pie::before {
+.pie::before, .pie-two::before {
   content: '';
   display: block;
   margin-left: 50%;
@@ -987,7 +990,7 @@ aside {
   color: #4a4a4a;
   margin-left: 35px; }
 
-.pie-container {
+.pie-container, .pie-container-two {
   width: 380px;
   height: 190px;
   background-color: #ffffff;
@@ -1019,7 +1022,7 @@ aside {
   text-align: left;
   color: #4a4a4a; }
 
-.nine-zero-GR {
+.nine-zero-GR, .nine-zero-GR-two {
   width: 110px;
   height: 70px;
   background-color: #ffffff;
@@ -1072,6 +1075,25 @@ td {
   height: auto;
   float: right;
   margin-top: -160px; }
+
+.GR-CSET-two {
+  width: 100%;
+  height: auto;
+  margin: 57px 0px 0px 10%; }
+
+.GR-ITWA-two {
+  width: 100%;
+  height: auto;
+  margin: 0px 0px -70px 10%; }
+
+.pie-container-two {
+  z-index: auto; }
+
+.pie-two::before {
+  transform: rotate(0.2turn); }
+
+.nine-zero-GR-two {
+  margin-left: 700px; }
 
 .headerupcoming {
   background-color: #f7f7f7;

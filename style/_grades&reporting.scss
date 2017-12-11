@@ -1,3 +1,6 @@
+.overflow {
+  overflow-y: scroll;
+}
 .inline-block-davian {
   width: 80%;
   height: 500px;
@@ -166,4 +169,31 @@ td {
   height: auto;
   float: right;
   margin-top: -160px;
+}
+.GR-CSET-two {
+  @extend .GR-CSET;
+  width: 100%;
+  height: auto;
+  margin: 57px 0px 0px 10%;
+}
+.GR-ITWA-two {
+  @extend .GR-ITWA;
+  width: 100%;
+  height: auto;
+  margin: 0px 0px -70px 10%;
+}
+.pie-container-two {
+  @extend .pie-container;
+  z-index: auto;
+}
+.pie-two {
+@extend .pie;
+}
+.pie-two::before {
+  @extend .pie::before;
+  transform: rotate(.2turn);
+}
+.nine-zero-GR-two {
+  @extend .nine-zero-GR;
+  margin-left: 700px;
 }
