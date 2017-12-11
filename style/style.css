@@ -82,7 +82,7 @@ html, body {
   margin: 0px;
   padding: 0px; }
 
-.body {
+.body, .body-grades {
   width: 98%;
   height: 92%;
   margin: 2%;
@@ -655,9 +655,9 @@ aside {
 .CSET-0netwozero-container {
   margin-top: 137px; }
 
-.body .headerupcoming {
+.body .headerupcoming, .body-grades .headerupcoming {
   margin-left: 300px; }
-.body .header-section {
+.body .header-section, .body-grades .header-section {
   margin-left: 110px; }
 
 .headerupcoming {
@@ -911,7 +911,8 @@ aside {
         margin-top: 15px; }
 
 .overflow {
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  overflow-x: hidden; }
 
 .inline-block-davian {
   width: 80%;
@@ -1086,9 +1087,6 @@ td {
   width: 100%;
   height: auto;
   margin: 0px 0px -70px 10%; }
-
-.pie-container-two {
-  z-index: auto; }
 
 .pie-two::before {
   transform: rotate(0.2turn); }
