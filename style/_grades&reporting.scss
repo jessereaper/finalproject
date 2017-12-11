@@ -180,7 +180,7 @@ td {
   @extend .GR-ITWA;
   width: 100%;
   height: auto;
-  margin: 0px 0px 0px 10%;
+  margin: 0px 0px -70px 10%;
 }
 .pie-container-two {
   @extend .pie-container;
@@ -192,4 +192,8 @@ td {
 .pie-two::before {
   @extend .pie::before;
   transform: rotate(.2turn);
+}
+.nine-zero-GR-two {
+  @extend .nine-zero-GR;
+  margin-left: 700px;
 }
