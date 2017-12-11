@@ -1,4 +1,4 @@
-.schedule-page{
+.schedule-body{
   background-color: #f7f7f7;
 .current-schedule{
   width: 61.5%;
@@ -52,4 +52,8 @@
 }
 #solo{
   color: $text-lightblue;
+}
+
+#sched-date{
+  margin-left: 1100px;
 }

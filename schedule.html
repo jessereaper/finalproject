@@ -46,6 +46,23 @@
       </div>
     </aside>
     <header class="Header-schedule">
+      <div class="date" id="sched-date">
+        <p class="text-m-1">
+          <script>
+            var m_names = new Array("Jan", "Feb", "Mar",
+              "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+              "Oct", "Nov", "Dec");
+
+            var d = new Date();
+            var curr_date = d.getDate();
+            var curr_month = d.getMonth();
+            var curr_year = d.getFullYear();
+            document.write(curr_date + "-" + m_names[curr_month] +
+              "-" + curr_year);
+          </script>
+        </p>
+        <!--date done in JS-->
+      </div>
       <a class="Home-schedule" href="home.html">HOME</a>
       <a class="AcademicServices-schedule"> >ACADEMIC SERVICES></a>
       <a class="CurrentSchedule-schedule"> CURRENT SCHEDULE</a>
@@ -132,7 +149,6 @@
         </div>
       </section>
     </section>
-  </section>
 </body>
 
 </html>
