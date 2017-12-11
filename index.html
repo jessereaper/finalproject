@@ -8,27 +8,44 @@
   <link rel="stylesheet" type="text/css" href="style/style.css">
 
 </head>
+
 <body class="body">
   <section class="Schedule-body">
-<header>
-  <p class="time-index">Sunday, October 21, 2017</p>
-  <div class="bar-login">
-    <!-- this is for the bar -->
-  </div>
-</header>
-<section class="whiteboxindex">
-  <p class="thad-title"> Thaddeus Stevens College of Technology </p>
-  <p class="studentportal">Student Portal</p>
-  <form action="/action_page.php">
-  <input class="email-index" type="text" name="email" value="Email Address"><br>
-  <input class="passw-index" type="text" name="passw" value="Password"><br>
-  <div class="submit-forgot">
-  <input class="submitb-index" type="submit" value="Submit">
-</form>
-<a class="forgot-index" href="#">Forgot Password?</a>
-</div>
-</section>
-</section>
+    <header>
+      <div class="date" id="index-date">
+        <p class="text-m-1">
+          <script>
+            var m_names = new Array("Jan", "Feb", "Mar",
+              "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+              "Oct", "Nov", "Dec");
+
+            var d = new Date();
+            var curr_date = d.getDate();
+            var curr_month = d.getMonth();
+            var curr_year = d.getFullYear();
+            document.write(curr_date + "-" + m_names[curr_month] +
+              "-" + curr_year);
+          </script>
+        </p>
+        <!--date done in JS-->
+      </div>
+      <div class="bar-login">
+        <!-- this is for the bar -->
+      </div>
+    </header>
+    <section class="whiteboxindex">
+      <p class="thad-title"> Thaddeus Stevens College of Technology </p>
+      <p class="studentportal">Student Portal</p>
+      <form action="/action_page.php">
+        <input class="email-index" type="text" name="email" value="Email Address"><br>
+        <input class="passw-index" type="text" name="passw" value="Password"><br>
+        <div class="submit-forgot">
+          <input class="submitb-index" type="submit" value="Submit">
+      </form>
+      <a class="forgot-index" href="#">Forgot Password?</a>
+      </div>
+    </section>
+  </section>
 </body>
 
 </html>
