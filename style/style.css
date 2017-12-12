@@ -265,7 +265,9 @@ aside {
       margin-left: 350px;
       margin-top: 200px; }
       .body-index .main-index-page .second-section .program-announ {
-        float: left; }
+        vertical-align: top;
+        width: 50%;
+        display: inline-block; }
         .body-index .main-index-page .second-section .program-announ .text-m-1 {
           padding-bottom: 10px;
           color: #59aac0; }
@@ -277,9 +279,10 @@ aside {
           width: 70%;
           font-size: 14px; }
       .body-index .main-index-page .second-section .upcoming-dates {
+        width: 40%;
         padding-right: 0px;
-        padding-left: 40px;
-        float: right; }
+        padding-left: 75px;
+        display: inline-block; }
         .body-index .main-index-page .second-section .upcoming-dates .text-m-1 {
           padding-bottom: 10px;
           color: #59aac0;
@@ -372,6 +375,7 @@ aside {
         width: 24%; }
         .body-index .main-index-page .TutoringAvailable .upcoming-events2 .text-m-1 {
           color: #59aac0;
+          padding-top: 10px;
           padding-bottom: 10px; }
 
 .schedule-body {
