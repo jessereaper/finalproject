@@ -1628,12 +1628,35 @@ td {
   margin-left: 10%;
   color: #48a2ba; }
 
+.CSET-Academic {
+  height: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.75;
+  color: #2e0a3a; }
+
+.Academic-Introtowebapps, .CSET-Academic {
+  width: 65%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #202020;
+  margin-bottom: 10px;
+  margin-left: 45px; }
+
 .Academic-pie-container {
-  width: 215px;
+  width: 200px;
   height: 275px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin-left: 10%;
+  padding-left: 5px; }
 
 .Academic-CurrentGrade {
   padding-top: 20px; }
+
+.Academic-pie::before {
+  transform: rotate(0.5turn); }
 
 /*# sourceMappingURL=style.css.map */
