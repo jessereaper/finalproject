@@ -1,0 +1,27 @@
+.AcademicStandingataGlance {
+	width: 368px;
+	height: 21px;
+	font-family: $font-montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.75;
+	letter-spacing: 0.2px;
+	margin-left: 10%;
+	color: #48a2ba;
+}
+.Academic-pie-container {
+  @extend .pie-container;
+	width: 215px;
+	height: 275px;
+	background-color: #ffffff;
+}
+.Academic-pie {
+  @extend .pie;
+}
+.Academic-circle {
+  @extend .circle;
+}
+.Academic-CurrentGrade {
+  @extend .ofclasscompleted;
+padding-top: 20px;
+}
