@@ -5,6 +5,7 @@
   @extend .Schedule-body;
 }
 .overflow {
+  height: 400px;
   overflow-y:scroll;
   overflow-x: hidden;
 }
@@ -202,4 +203,18 @@ td {
 .nine-zero-GR-two {
   @extend .nine-zero-GR;
   margin-left: 700px;
+}
+.pie-three {
+  @extend .pie;
+}
+.pie-three::before {
+  @extend .pie::before;
+  transform: rotate(.5turn);
+}
+.pie-four {
+  @extend .pie;
+}
+.pie-four::before {
+  @extend .pie::before;
+  transform: rotate(.1turn);
 }
