@@ -951,7 +951,7 @@ aside {
   color: #202020;
   margin-top: 0px; }
 
-.pie, .pie-two, .pie-three, .pie-four {
+.pie, .pie-two, .pie-three, .pie-four, .Academic-pie {
   width: 170px;
   height: 170px;
   border-radius: 50%;
@@ -961,7 +961,7 @@ aside {
   background-image: linear-gradient(to right, transparent 50%, teal 0);
   display: inline-block; }
 
-.pie::before, .pie-two::before, .pie-three::before, .pie-four::before {
+.pie::before, .pie-two::before, .pie-three::before, .pie-four::before, .Academic-pie::before {
   content: '';
   display: block;
   margin-left: 50%;
@@ -971,7 +971,7 @@ aside {
   transform-origin: left;
   transform: rotate(0.6turn); }
 
-.circle {
+.circle, .Academic-circle {
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -991,7 +991,7 @@ aside {
   color: #48a2ba;
   padding-top: 20px; }
 
-.ofclasscompleted {
+.ofclasscompleted, .Academic-CurrentGrade {
   width: 50%;
   height: auto;
   font-family: "Montserrat", sans-serif;
@@ -1002,7 +1002,7 @@ aside {
   color: #4a4a4a;
   margin-left: 35px; }
 
-.pie-container, .pie-container-two {
+.pie-container, .pie-container-two, .Academic-pie-container {
   width: 380px;
   height: 190px;
   background-color: #ffffff;
@@ -1616,5 +1616,24 @@ td {
 
 .submit-forgot {
   display: inline-block; }
+
+.AcademicStandingataGlance {
+  width: 368px;
+  height: 21px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  margin-left: 10%;
+  color: #48a2ba; }
+
+.Academic-pie-container {
+  width: 215px;
+  height: 275px;
+  background-color: #ffffff; }
+
+.Academic-CurrentGrade {
+  padding-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
