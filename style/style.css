@@ -920,6 +920,7 @@ aside {
         margin-top: 15px; }
 
 .overflow {
+  height: 400px;
   overflow-y: scroll;
   overflow-x: hidden; }
 
@@ -950,7 +951,7 @@ aside {
   color: #202020;
   margin-top: 0px; }
 
-.pie, .pie-two {
+.pie, .pie-two, .pie-three, .pie-four {
   width: 170px;
   height: 170px;
   border-radius: 50%;
@@ -960,7 +961,7 @@ aside {
   background-image: linear-gradient(to right, transparent 50%, teal 0);
   display: inline-block; }
 
-.pie::before, .pie-two::before {
+.pie::before, .pie-two::before, .pie-three::before, .pie-four::before {
   content: '';
   display: block;
   margin-left: 50%;
@@ -1102,6 +1103,12 @@ td {
 
 .nine-zero-GR-two {
   margin-left: 700px; }
+
+.pie-three::before {
+  transform: rotate(0.5turn); }
+
+.pie-four::before {
+  transform: rotate(0.1turn); }
 
 .headerupcoming {
   background-color: #f7f7f7;
