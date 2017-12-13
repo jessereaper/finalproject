@@ -175,7 +175,7 @@ aside {
   .header .date {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 830px; }
+    margin-left: 730px; }
   .header .log-out {
     margin-left: 400px;
     font-size: 14px;
@@ -196,7 +196,7 @@ aside {
   .body-index .header-section {
     background-color: #f7f7f7;
     position: fixed;
-    margin-top: 55px;
+    margin-top: 65px;
     margin-left: 350px;
     width: 68%; }
     .body-index .header-section .current-prog .text-m-1 {
@@ -378,6 +378,9 @@ aside {
           padding-top: 10px;
           padding-bottom: 10px; }
 
+#date-home {
+  margin-right: 10px; }
+
 .schedule-body {
   background-color: #f7f7f7; }
   .schedule-body .current-schedule {
@@ -422,7 +425,7 @@ aside {
   color: #48a2ba; }
 
 #sched-date {
-  margin-left: 1100px;
+  margin-left: 930px;
   margin-bottom: 10px; }
 
 #index-date {
