@@ -7,3 +7,7 @@ var dayList = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY",
 var dayOfWeek = dayList[date.getDay()];
 
 document.write(dayOfWeek + "," + monthName + " " + day + "," + year);
+//logout
+$('#logOutJava').on('click', function(){
+  $('#logOut').toggle();
+});
