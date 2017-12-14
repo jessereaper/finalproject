@@ -1620,7 +1620,6 @@ td {
 .submit-forgot {
   display: inline-block; }
 
-
 .overflow-two {
   height: 400px; }
 
@@ -1787,11 +1786,10 @@ td {
   margin-top: 35px; }
 
 .JS-white-box2 {
-  margin-left: 250px;
-  margin-top: -450px;
-  width: 35%;
+  margin-left: 550px;
+  margin-top: 550px;
+  width: 32%;
   height: 35%;
-  border: solid red;
   background-color: white; }
   .JS-white-box2 .text-m-1 {
     margin-left: 30px;
@@ -2014,7 +2012,7 @@ td {
 
 #alert {
   position: absolute;
-  opacity: .5;
+  opacity: .85;
   width: 110%;
   height: 1500px;
   background-color: black;
