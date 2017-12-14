@@ -67,3 +67,20 @@
   @extend .CSET-Academic;
   margin-top: 21px;
 }
+.Academic-pie-container-three {
+  @extend .Academic-pie-container-two;
+  margin-top: -15px;
+  display: block;
+  margin-left: 10%;
+}
+.Academic-WebDevelopment-three {
+  @extend .Academic-WebDevelopment;
+  width: 100%;
+  margin-left: 15px;
+}
+.SemesterSchedule-container {
+  display: inline-block;
+  float: right;
+  margin-right: 150px;
+  margin-top: -600px;
+}
