@@ -5,10 +5,10 @@ $(document).ready(() => {
     $('#alert').addClass('alert');
       $('#alert').removeClass('none');
     $('#getHelp').removeClass('none');
-}
-    $('#forgotPassw').on('click', () =>{
-  $('#alert').addClass('alert');
-    $('#alert').removeClass('none');
-}
-}
+
   })
+  $('#alert').on('click'), () =>{
+    $('#getHelp').hide('gethelp');
+    $('#alert').removeClass('alert');
+  }
+})
