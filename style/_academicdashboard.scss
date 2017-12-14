@@ -119,3 +119,11 @@
 	line-height: 1.4;
 	color: #202020;
 }
+.CSET-Academic-Tuesday {
+  @extend .CSET-Academic-Monday;
+  margin-top: 20px;
+}
+.CSET-Academic-Tuesday-Web {
+  @extend .CSET-Academic-Monday-Intro;
+  margin-top: 20px;
+}

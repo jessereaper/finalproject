@@ -1705,7 +1705,7 @@ td {
   color: #48a2ba;
   margin-bottom: 10px; }
 
-.CSET-Academic-Monday, .CSET-Academic-Monday-Intro {
+.CSET-Academic-Monday, .CSET-Academic-Monday-Intro, .CSET-Academic-Tuesday-Web, .CSET-Academic-Tuesday {
   width: 207px;
   height: 25px;
   font-family: "Montserrat", sans-serif;
@@ -1716,10 +1716,16 @@ td {
   text-align: left;
   color: #2e0a3a; }
 
-.CSET-Academic-Monday-Intro {
+.CSET-Academic-Monday-Intro, .CSET-Academic-Tuesday-Web {
   font-size: 15px;
   font-weight: normal;
   line-height: 1.4;
   color: #202020; }
+
+.CSET-Academic-Tuesday {
+  margin-top: 20px; }
+
+.CSET-Academic-Tuesday-Web {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
