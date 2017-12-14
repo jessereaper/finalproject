@@ -312,3 +312,14 @@
     margin-left: 0px;
   }
 }
+
+#alert{
+  position: absolute;
+  opacity: .5;
+  width: 110%;
+  height: 1500px;
+  background-color: black;
+  margin-top: -1000px;
+  margin-left: -300px;
+
+}
