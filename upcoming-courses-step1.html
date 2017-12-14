@@ -7,7 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style/style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet">
-
+  <script type="text/javascript" src="jquiery/jquery-3.2.1.min.js">
+  </script>
+  <script type="text/javascript" src="script.js">
+  </script>
 </head>
 
 <body class="body">
@@ -25,7 +28,7 @@
         <a class="CurrentSchedule" href="schedule.html" alt="">
     Current Schedule
   </a>
-        <a class="GradesReporting" href="grades&reporting.html" alt="">
+        <a class="GradesReporting" href="grades&amp;reporting.html" alt="">
     Grades &amp; Reporting
   </a>
         <a class="UpcomingCourses" href="upcoming-classes.html" alt="">
@@ -51,19 +54,19 @@
       <div class="date" id="sched-date">
         <p class="text-m-1">
           <script>
-          var date = new Date();
-          var year = date.getFullYear();
-          var day = date.getDate();
+            var date = new Date();
+            var year = date.getFullYear();
+            var day = date.getDate();
 
-          var monthList = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
+            var monthList = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
 
-          var monthName = monthList[date.getMonth()];
+            var monthName = monthList[date.getMonth()];
 
-          var dayList = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
+            var dayList = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-          var dayOfWeek = dayList[date.getDay()];
+            var dayOfWeek = dayList[date.getDay()];
 
-          document.write(dayOfWeek + "," + monthName + " " + day + "," + year);
+            document.write(dayOfWeek + "," + monthName + " " + day + "," + year);
           </script>
         </p>
         <!--date done in JS-->
@@ -159,13 +162,34 @@
         </div>
         <section>
           <div class="getstart">
-            <a class="gethelp2" href="">GET HELP »</a>
+            <a id=getHelpButton class="gethelp2">GET HELP »</a>
             <a href="upcoming-courses-geneds.html">
                  <button name="button" class="startb23">Next » </button> </a>
           </div>
         </section>
       </section>
+      <section id="getHelp" class="none">
 
+        <div class="JS-white-box2">
+          <h1 class="text-m-1">Course Registration Help</h1>
+          <form class="JS-forms-2" action="index.html" method="post">
+            <input class="JS-checkbox-1" type="checkbox" name="" value="">
+            <p class="JS-checkbox-1" id="space-needed">I’d like to change majors.</p>
+            </input>
+            <input class="JS-checkbox-1" type="checkbox" name="" value="">
+            <p class="JS-checkbox-1">My major courses are unavailable.</p>
+            </input>
+            <input class="JS-checkbox-1" type="checkbox" name="" value="">
+            <p class="JS-checkbox-1">Other issue.</p>
+            </input>
+          </form>
+          <div>
+            <button name="button" id="JS-button">Next >></button>
+          </div>
+        </div>
+      </section>
+      <div class="none" id="alert">
+      </div>
 </body>
 
 </html>

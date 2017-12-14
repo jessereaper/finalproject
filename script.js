@@ -1,10 +1,23 @@
-var m_names = new Array("Jan", "Feb", "Mar",
-"Apr", "May", "Jun", "Jul", "Aug", "Sep",
-"Oct", "Nov", "Dec");
+var date = new Date();
+var year = date.getFullYear();
+var day = date.getDate();
+var monthList = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
+var monthName = monthList[date.getMonth()];
+var dayList = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
+var dayOfWeek = dayList[date.getDay()];
 
-var d = new Date();
-var curr_date = d.getDate();
-var curr_month = d.getMonth();
-var curr_year = d.getFullYear();
-document.write(curr_date + "-" + m_names[curr_month]
-+ "-" + curr_year);
+document.write(dayOfWeek + "," + monthName + " " + day + "," + year);
+//logout
+//gethelp
+$(document).ready(() => {
+  $('#getHelpButton').on('click', () =>{
+    $('#alert').addClass('alert');
+      $('#alert').removeClass('none');
+    $('#getHelp').removeClass('none');
+    
+  })
+  $('#alert').on('click'), () =>{
+    $('#getHelp').hide('gethelp');
+    $('#alert').removeClass('alert');
+  }
+})
