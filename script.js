@@ -12,7 +12,9 @@ document.write(dayOfWeek + "," + monthName + " " + day + "," + year);
 $(document).ready(() => {
   $('#getHelpButton').on('click', () =>{
     $('#alert').addClass('alert');
+      $('#alert').removeClass('none');
     $('#getHelp').removeClass('none');
+    
   })
   $('#alert').on('click'), () =>{
     $('#getHelp').hide('gethelp');
