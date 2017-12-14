@@ -160,6 +160,7 @@
 	letter-spacing: 0.3px;
 	text-align: right;
 	color: #2e0a3a;
+  text-decoration: none;
 }
 .Academic-ViewCalendarView-container {
   margin: 20px 0px 0px 60px;
@@ -168,4 +169,20 @@
   @extend .SemesterSchedule;
   margin-top: 47px;
   width: 60%;
+}
+.WebDevelopmentoneJS-academic {
+  width:240px;
+	height: 20px;
+	font-family: $font-montserrat;
+	font-size: 15px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #202020;
+  margin-top: 30px;
+}
+.WebDevelopmentoneJS-academic-two {
+  @extend .WebDevelopmentoneJS-academic;
+  margin-top: 10px;
+  width: 210px;
 }
