@@ -1,0 +1,148 @@
+.overflow-two {
+  @extend .overflow;
+  height:400px;
+}
+.AcademicStandingataGlance {
+	width: 368px;
+	height: 21px;
+	font-family: $font-montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.75;
+	letter-spacing: 0.2px;
+	margin-left: 10%;
+	color: #48a2ba;
+}
+.CSET-Academic {
+  @extend .Academic-Introtowebapps;
+  height: 10px;
+  font-size: 10px;
+	font-weight: bold;
+	line-height: 1.75;
+	color: #2e0a3a;
+}
+.Academic-Introtowebapps {
+  width: 65%;
+	font-family: $font-montserrat;
+	font-size: 15px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: #202020;
+  margin-bottom: 10px;
+  margin-left: 45px;
+}
+.Academic-pie-container {
+  @extend .pie-container;
+	width: 200px;
+	height: 275px;
+	background-color: #ffffff;
+  margin-left: 10%;
+  padding-left: 5px;
+  display: inline-block;
+}
+.Academic-pie {
+  @extend .pie;
+  background-image:
+  linear-gradient(to right, transparent 50%, teal 0);
+}
+.Academic-circle {
+  @extend .circle;
+}
+.Academic-CurrentGrade {
+  @extend .ofclasscompleted;
+  padding-top: 20px;
+}
+.Academic-pie::before {
+  @extend .pie::before;
+  transform: rotate(.4turn);
+}
+.Academic-pie-container-two {
+  @extend .Academic-pie-container;
+  height: 275px;
+  margin-left: 15px;
+}
+.Academic-WebDevelopment {
+  @extend .Academic-Introtowebapps;
+  width: 80%;
+  margin-left: 30px;
+}
+.CSET-Academic-two {
+  @extend .CSET-Academic;
+  margin-top: 21px;
+}
+.Academic-pie-container-three {
+  @extend .Academic-pie-container-two;
+  margin-top: -45px;
+  display: block;
+  margin-left: 10%;
+}
+.Academic-WebDevelopment-three {
+  @extend .Academic-WebDevelopment;
+  width: 100%;
+  margin-left: 15px;
+}
+.Academic-pie-container-four {
+  @extend .Academic-pie-container;
+  margin-left: 33.5%;
+  margin-top: -278px;
+}
+.Academic-pie-container-five {
+  @extend .Academic-pie-container;
+  display: block;
+  margin-top: -45px;
+}
+.SemesterSchedule-container {
+  display: inline-block;
+  float: right;
+  margin-right: 150px;
+  margin-top: -920px;
+}
+.SemesterSchedule {
+	width: 262px;
+	height: 21px;
+	font-family: $font-montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.75;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #48a2ba;
+  margin-bottom: 10px;
+}
+.CSET-Academic-Monday {
+  width: 207px;
+	height: 25px;
+	font-family: $font-montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.75;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #2e0a3a;
+}
+.CSET-Academic-Monday-Intro {
+  @extend .CSET-Academic-Monday;
+  font-size: 15px;
+	font-weight: normal;
+	line-height: 1.4;
+	color: #202020;
+}
+.CSET-Academic-Tuesday {
+  @extend .CSET-Academic-Monday;
+  margin-top: 10px;
+}
+.CSET-Academic-Tuesday-Web {
+  @extend .CSET-Academic-Monday-Intro;
+  margin-top: 20px;
+}
+.CSET-Academic-Wednesday-tech {
+  @extend .CSET-Academic-Monday-Intro;
+}
+.Academic-pie-container-six {
+  @extend .Academic-pie-container-four;
+}
+.CSET-Academic-Thurs {
+  @extend .CSET-Academic-Tuesday;
+  margin-top: 35px;
+}
