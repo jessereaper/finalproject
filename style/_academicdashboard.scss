@@ -142,3 +142,7 @@
 .Academic-pie-container-six {
   @extend .Academic-pie-container-four;
 }
+.CSET-Academic-Thurs {
+  @extend .CSET-Academic-Tuesday;
+  margin-top: 40px;
+}
