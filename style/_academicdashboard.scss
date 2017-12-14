@@ -35,9 +35,12 @@
 	background-color: #ffffff;
   margin-left: 10%;
   padding-left: 5px;
+  display: inline-block;
 }
 .Academic-pie {
   @extend .pie;
+  background-image:
+  linear-gradient(to right, transparent 50%, teal 0);
 }
 .Academic-circle {
   @extend .circle;
@@ -48,5 +51,19 @@
 }
 .Academic-pie::before {
   @extend .pie::before;
-  transform: rotate(.5turn);
+  transform: rotate(.4turn);
+}
+.Academic-pie-container-two {
+  @extend .Academic-pie-container;
+  height: 275px;
+  margin-left: 15px;
+}
+.Academic-WebDevelopment {
+  @extend .Academic-Introtowebapps;
+  width: 80%;
+  margin-left: 30px;
+}
+.CSET-Academic-two {
+  @extend .CSET-Academic;
+  margin-top: 21px;
 }
