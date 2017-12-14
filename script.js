@@ -7,8 +7,3 @@ $(document).ready(() => {
     $('#getHelp').removeClass('none');
 
   })
-  $('#alert').on('click'), () =>{
-    $('#getHelp').hide('gethelp');
-    $('#alert').removeClass('alert');
-  }
-})
