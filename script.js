@@ -8,6 +8,14 @@ var dayOfWeek = dayList[date.getDay()];
 
 document.write(dayOfWeek + "," + monthName + " " + day + "," + year);
 //logout
-$('#logOutJava').on('click', function(){
-  $('#logOut').toggle();
-});
+//gethelp
+$(document).ready(() => {
+  $('#getHelpButton').on('click', () =>{
+    $('#alert').addClass('alert');
+    $('#getHelp').removeClass('none');
+  })
+  $('#alert').on('click'), () =>{
+    $('#getHelp').hide('gethelp');
+    $('#alert').removeClass('alert');
+  }
+})
