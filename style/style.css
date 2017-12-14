@@ -1620,7 +1620,6 @@ td {
 .submit-forgot {
   display: inline-block; }
 
-
 .overflow-two {
   height: 400px; }
 
@@ -1642,7 +1641,7 @@ td {
   line-height: 1.75;
   color: #2e0a3a; }
 
-.Academic-Introtowebapps, .CSET-Academic, .CSET-Academic-two, .Academic-WebDevelopment, .Academic-WebDevelopment-three {
+.Academic-Introtowebapps, .CSET-Academic, .CSET-Academic-two, .Academic-WebDevelopment, .Academic-WebDevelopment-three, .Gen-edu-class {
   width: 65%;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
@@ -1674,7 +1673,7 @@ td {
   height: 275px;
   margin-left: 15px; }
 
-.Academic-WebDevelopment, .Academic-WebDevelopment-three {
+.Academic-WebDevelopment, .Academic-WebDevelopment-three, .Gen-edu-class {
   width: 80%;
   margin-left: 30px; }
 
@@ -1741,6 +1740,10 @@ td {
 
 .CSET-Academic-Thurs {
   margin-top: 35px; }
+
+.Gen-edu-class {
+  width: 100%;
+  margin-left: 5px; }
 
 .JS-white-box {
   margin-left: 500px;

@@ -146,3 +146,8 @@
   @extend .CSET-Academic-Tuesday;
   margin-top: 35px;
 }
+.Gen-edu-class {
+  @extend .Academic-WebDevelopment;
+  width: 100%;
+  margin-left: 5px;
+}
