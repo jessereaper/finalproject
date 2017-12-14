@@ -49,8 +49,8 @@
 
 //* divide *//
 .JS-white-box2{
-  margin-left: 450px;
-  margin-top: 280px;
+  margin-left: 250px;
+      margin-top: -450px;
   width: 35%;
   height: 35%;
   border: solid red;
@@ -75,7 +75,10 @@
       }
   }
 }
-
+.none
+{
+  display: none;
+}
 #space-needed{
   margin-right: 48px;
 }
