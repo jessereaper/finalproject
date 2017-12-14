@@ -53,9 +53,75 @@
   @extend .ofclasscompleted;
   padding-top: 20px;
 }
+.Academic-pie-two {
+  @extend .Academic-pie;
+}
+.Academic-pie-three {
+  @extend .Academic-pie;
+}
+.Academic-pie-four {
+  @extend .Academic-pie;
+}
+.Academic-pie-five {
+  @extend .Academic-pie;
+}
+.Academic-pie-six {
+  @extend .Academic-pie;
+}
 .Academic-pie::before {
   @extend .pie::before;
+  background-color: teal;
   transform: rotate(.4turn);
+}
+.Academic-pie-two::before {
+content: '';
+display: block;
+margin-left: 50%;
+height: 100%;
+border-radius: 0 100% 100% 0 / 50%;
+background: #d8d8d8;
+transform-origin: left;
+transform: rotate(.5turn);
+}
+.Academic-pie-three::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background: #d8d8d8;
+  transform-origin: left;
+  transform: rotate(.9turn);
+}
+.Academic-pie-four::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background: #d8d8d8;
+  transform-origin: left;
+  transform: rotate(.21turn);
+}
+.Academic-pie-five::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background: #d8d8d8;
+  transform-origin: left;
+  transform: rotate(.45turn);
+}
+.Academic-pie-six::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background: #d8d8d8;
+  transform-origin: left;
+  transform: rotate(.34turn);
 }
 .Academic-pie-container-two {
   @extend .Academic-pie-container;
@@ -145,4 +211,51 @@
 .CSET-Academic-Thurs {
   @extend .CSET-Academic-Tuesday;
   margin-top: 35px;
+}
+.Gen-edu-class {
+  @extend .Academic-WebDevelopment;
+  width: 100%;
+  margin-left: 5px;
+}
+.Academic-ViewCalendarView {
+	width: 137px;
+	height: 15px;
+	font-family: $font-montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.3px;
+	text-align: right;
+	color: #2e0a3a;
+  text-decoration: none;
+}
+.Academic-ViewCalendarView-container {
+  margin: 20px 0px 0px 60px;
+}
+.SemesterSchedule-two {
+  @extend .SemesterSchedule;
+  margin-top: 47px;
+  width: 60%;
+}
+.WebDevelopmentoneJS-academic {
+  width:240px;
+	height: 20px;
+	font-family: $font-montserrat;
+	font-size: 15px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #202020;
+  margin-top: 30px;
+}
+.WebDevelopmentoneJS-academic-two {
+  @extend .WebDevelopmentoneJS-academic;
+  margin-top: 10px;
+  width: 210px;
+}
+.Seemore {
+  @extend .Academic-ViewCalendarView;
+}
+.Seemore-container {
+  margin-top: 40px;
+  margin-left: 130px;
 }
