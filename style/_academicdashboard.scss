@@ -96,7 +96,7 @@
   display: inline-block;
   float: right;
   margin-right: 150px;
-  margin-top: -640px;
+  margin-top: -920px;
 }
 .SemesterSchedule {
 	width: 262px;
@@ -138,4 +138,7 @@
 }
 .CSET-Academic-Wednesday-tech {
   @extend .CSET-Academic-Monday-Intro;
+}
+.Academic-pie-container-six {
+  @extend .Academic-pie-container-four;
 }

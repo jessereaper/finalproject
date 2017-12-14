@@ -1002,7 +1002,7 @@ aside {
   color: #4a4a4a;
   margin-left: 35px; }
 
-.pie-container, .pie-container-two, .Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three, .Academic-pie-container-four, .Academic-pie-container-five {
+.pie-container, .pie-container-two, .Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three, .Academic-pie-container-four, .Academic-pie-container-six, .Academic-pie-container-five {
   width: 380px;
   height: 190px;
   background-color: #ffffff;
@@ -1649,7 +1649,7 @@ td {
   margin-bottom: 10px;
   margin-left: 45px; }
 
-.Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three, .Academic-pie-container-four, .Academic-pie-container-five {
+.Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three, .Academic-pie-container-four, .Academic-pie-container-six, .Academic-pie-container-five {
   width: 200px;
   height: 275px;
   background-color: #ffffff;
@@ -1686,7 +1686,7 @@ td {
   width: 100%;
   margin-left: 15px; }
 
-.Academic-pie-container-four {
+.Academic-pie-container-four, .Academic-pie-container-six {
   margin-left: 33.5%;
   margin-top: -278px; }
 
@@ -1698,7 +1698,7 @@ td {
   display: inline-block;
   float: right;
   margin-right: 150px;
-  margin-top: -640px; }
+  margin-top: -920px; }
 
 .SemesterSchedule {
   width: 262px;
