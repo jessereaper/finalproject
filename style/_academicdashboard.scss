@@ -53,9 +53,75 @@
   @extend .ofclasscompleted;
   padding-top: 20px;
 }
+.Academic-pie-two {
+  @extend .Academic-pie;
+}
+.Academic-pie-three {
+  @extend .Academic-pie;
+}
+.Academic-pie-four {
+  @extend .Academic-pie;
+}
+.Academic-pie-five {
+  @extend .Academic-pie;
+}
+.Academic-pie-six {
+  @extend .Academic-pie;
+}
 .Academic-pie::before {
   @extend .pie::before;
+  background-color: teal;
   transform: rotate(.4turn);
+}
+.Academic-pie-two::before {
+content: '';
+display: block;
+margin-left: 50%;
+height: 100%;
+border-radius: 0 100% 100% 0 / 50%;
+background: #d8d8d8;
+transform-origin: left;
+transform: rotate(.5turn);
+}
+.Academic-pie-three::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background: #d8d8d8;
+  transform-origin: left;
+  transform: rotate(.9turn);
+}
+.Academic-pie-four::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background: #d8d8d8;
+  transform-origin: left;
+  transform: rotate(.21turn);
+}
+.Academic-pie-five::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background: #d8d8d8;
+  transform-origin: left;
+  transform: rotate(.45turn);
+}
+.Academic-pie-six::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background: #d8d8d8;
+  transform-origin: left;
+  transform: rotate(.34turn);
 }
 .Academic-pie-container-two {
   @extend .Academic-pie-container;
@@ -185,4 +251,11 @@
   @extend .WebDevelopmentoneJS-academic;
   margin-top: 10px;
   width: 210px;
+}
+.Seemore {
+  @extend .Academic-ViewCalendarView;
+}
+.Seemore-container {
+  margin-top: 40px;
+  margin-left: 130px;
 }
