@@ -130,7 +130,7 @@
 }
 .CSET-Academic-Tuesday {
   @extend .CSET-Academic-Monday;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .CSET-Academic-Tuesday-Web {
   @extend .CSET-Academic-Monday-Intro;
@@ -144,5 +144,5 @@
 }
 .CSET-Academic-Thurs {
   @extend .CSET-Academic-Tuesday;
-  margin-top: 40px;
+  margin-top: 35px;
 }
