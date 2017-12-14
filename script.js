@@ -20,4 +20,8 @@ $(document).ready(() => {
   $('#alert').on('click'), () =>{
     $('#alert').addClass('none');
   }
+  $('forgotPassw').on('click')() =>{
+    $('#alert').addClass('alert');
+      $('#alert').removeClass('none');
+  }
 })
