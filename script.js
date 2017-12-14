@@ -7,3 +7,15 @@ var dayList = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY",
 var dayOfWeek = dayList[date.getDay()];
 
 document.write(dayOfWeek + "," + monthName + " " + day + "," + year);
+//logout
+//gethelp
+$(document).ready(() => {
+  $('#getHelpButton').on('click', () =>{
+    $('#alert').addClass('alert');
+    $('#getHelp').removeClass('none');
+  })
+  $('#alert').on('click'), () =>{
+    $('#getHelp').hide('gethelp');
+    $('#alert').removeClass('alert');
+  }
+})
