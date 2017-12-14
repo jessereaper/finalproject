@@ -164,3 +164,8 @@
 .Academic-ViewCalendarView-container {
   margin: 20px 0px 0px 60px;
 }
+.SemesterSchedule-two {
+  @extend .SemesterSchedule;
+  margin-top: 47px;
+  width: 60%;
+}
