@@ -1002,7 +1002,7 @@ aside {
   color: #4a4a4a;
   margin-left: 35px; }
 
-.pie-container, .pie-container-two, .Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three {
+.pie-container, .pie-container-two, .Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three, .Academic-pie-container-four {
   width: 380px;
   height: 190px;
   background-color: #ffffff;
@@ -1646,7 +1646,7 @@ td {
   margin-bottom: 10px;
   margin-left: 45px; }
 
-.Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three {
+.Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three, .Academic-pie-container-four {
   width: 200px;
   height: 275px;
   background-color: #ffffff;
@@ -1683,10 +1683,43 @@ td {
   width: 100%;
   margin-left: 15px; }
 
+.Academic-pie-container-four {
+  margin-left: 33.5%;
+  margin-top: -278px; }
+
 .SemesterSchedule-container {
   display: inline-block;
   float: right;
   margin-right: 150px;
-  margin-top: -600px; }
+  margin-top: -640px; }
+
+.SemesterSchedule {
+  width: 262px;
+  height: 21px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #48a2ba;
+  margin-bottom: 10px; }
+
+.CSET-Academic-Monday, .CSET-Academic-Monday-Intro {
+  width: 207px;
+  height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #2e0a3a; }
+
+.CSET-Academic-Monday-Intro {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #202020; }
 
 /*# sourceMappingURL=style.css.map */
