@@ -1690,4 +1690,195 @@ td {
 #space-needed {
   margin-right: 48px; }
 
+.JS-white-box4 {
+  margin-left: 440px;
+  margin-top: 240px;
+  width: 35%;
+  height: 50%;
+  border: solid red;
+  background-color: #D3D3D3; }
+  .JS-white-box4 .text-m-1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #33c7ba;
+    font-weight: bold; }
+  .JS-white-box4 .text-m-2 {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bold; }
+  .JS-white-box4 .input-2 {
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 400px;
+    height: 200px; }
+
+.JS-white-box5 {
+  margin-left: 450px;
+  margin-top: 280px;
+  width: 35%;
+  height: 35%;
+  border: solid red; }
+  .JS-white-box5 .text-m-1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #33c7ba;
+    font-weight: bold; }
+  .JS-white-box5 .text-m-2 {
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 79%; }
+  .JS-white-box5 .lightbluelineJs {
+    width: 130px;
+    height: 5px;
+    background-color: #50e3c2;
+    float: left; }
+  .JS-white-box5 .darklineJs {
+    width: 505px;
+    height: 5px;
+    background-color: black; }
+  .JS-white-box5 .linetogether {
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 0px; }
+
+#1 {
+  padding-bottom: 20px; }
+
+.JsInline {
+  display: inline-block; }
+  .JsInline .JsInlineButton {
+    display: inline-block; }
+  .JsInline .JsInlineIA {
+    display: inline-block; }
+    .JsInline .JsInlineIA .text-m-1 {
+      color: red;
+      padding-left: 60px; }
+
+.JS-white-box6 {
+  margin-left: 450px;
+  margin-top: 280px;
+  width: 35%;
+  height: 35%;
+  border: solid red; }
+  .JS-white-box6 .text-m-1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #33c7ba;
+    font-weight: bold; }
+  .JS-white-box6 .text-m-2 {
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 79%; }
+  .JS-white-box6 .TextBox1 {
+    margin-left: 30px; }
+    .JS-white-box6 .TextBox1 .boxy {
+      color: #59aac0;
+      font-size: 16px;
+      padding-left: 20px;
+      padding-right: 80px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+  .JS-white-box6 .lightbluelineJs {
+    width: 0px;
+    height: 5px;
+    background-color: #50e3c2;
+    float: left; }
+  .JS-white-box6 .darklineJs {
+    width: 505px;
+    height: 5px;
+    background-color: black; }
+  .JS-white-box6 .linetogether {
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 0px; }
+
+.JS-white-box7 {
+  margin-left: 450px;
+  margin-top: 280px;
+  width: 35%;
+  height: 35%;
+  border: solid red; }
+  .JS-white-box7 .text-m-1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #33c7ba;
+    font-weight: bold; }
+  .JS-white-box7 .text-m-2 {
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 79%; }
+  .JS-white-box7 .TextBox1 {
+    margin-left: 30px; }
+    .JS-white-box7 .TextBox1 .boxy {
+      color: #59aac0;
+      font-size: 16px;
+      padding-left: 20px;
+      padding-right: 80px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+  .JS-white-box7 .lightbluelineJs {
+    width: 150px;
+    height: 5px;
+    background-color: #50e3c2;
+    float: left; }
+  .JS-white-box7 .darklineJs {
+    width: 505px;
+    height: 5px;
+    background-color: black; }
+  .JS-white-box7 .linetogether {
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 0px; }
+
+.JS-white-box8 {
+  margin-left: 450px;
+  margin-top: 280px;
+  width: 35%;
+  height: 35%;
+  border: solid red; }
+  .JS-white-box8 .text-m-1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #33c7ba;
+    font-weight: bold; }
+  .JS-white-box8 .text-m-2 {
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 79%; }
+  .JS-white-box8 .TextBox1 {
+    margin-left: 30px; }
+    .JS-white-box8 .TextBox1 .boxy {
+      color: #59aac0;
+      font-size: 16px;
+      padding-left: 20px;
+      padding-right: 80px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+  .JS-white-box8 .lightbluelineJs {
+    width: 505px;
+    height: 5px;
+    background-color: #50e3c2;
+    float: left; }
+  .JS-white-box8 .darklineJs {
+    width: 505px;
+    height: 5px;
+    background-color: black; }
+  .JS-white-box8 .linetogether {
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 0px; }
+
 /*# sourceMappingURL=style.css.map */
