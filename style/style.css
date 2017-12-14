@@ -1745,6 +1745,19 @@ td {
   width: 100%;
   margin-left: 5px; }
 
+.Academic-ViewCalendarView {
+  width: 137px;
+  height: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-align: right;
+  color: #2e0a3a; }
+
+.Academic-ViewCalendarView-container {
+  margin: 20px 0px 0px 60px; }
+
 .JS-white-box {
   margin-left: 500px;
   margin-top: 280px;
