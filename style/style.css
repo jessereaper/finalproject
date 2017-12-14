@@ -919,7 +919,7 @@ aside {
         margin-left: 340px;
         margin-top: 15px; }
 
-.overflow {
+.overflow, .overflow-two {
   height: 400px;
   overflow-y: scroll;
   overflow-x: hidden; }
@@ -1002,7 +1002,7 @@ aside {
   color: #4a4a4a;
   margin-left: 35px; }
 
-.pie-container, .pie-container-two, .Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three, .Academic-pie-container-four {
+.pie-container, .pie-container-two, .Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three, .Academic-pie-container-four, .Academic-pie-container-five {
   width: 380px;
   height: 190px;
   background-color: #ffffff;
@@ -1617,6 +1617,9 @@ td {
 .submit-forgot {
   display: inline-block; }
 
+.overflow-two {
+  height: 400px; }
+
 .AcademicStandingataGlance {
   width: 368px;
   height: 21px;
@@ -1630,7 +1633,7 @@ td {
 
 .CSET-Academic, .CSET-Academic-two {
   height: 10px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   line-height: 1.75;
   color: #2e0a3a; }
@@ -1646,7 +1649,7 @@ td {
   margin-bottom: 10px;
   margin-left: 45px; }
 
-.Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three, .Academic-pie-container-four {
+.Academic-pie-container, .Academic-pie-container-two, .Academic-pie-container-three, .Academic-pie-container-four, .Academic-pie-container-five {
   width: 200px;
   height: 275px;
   background-color: #ffffff;
@@ -1675,7 +1678,7 @@ td {
   margin-top: 21px; }
 
 .Academic-pie-container-three {
-  margin-top: -15px;
+  margin-top: -45px;
   display: block;
   margin-left: 10%; }
 
@@ -1686,6 +1689,10 @@ td {
 .Academic-pie-container-four {
   margin-left: 33.5%;
   margin-top: -278px; }
+
+.Academic-pie-container-five {
+  display: block;
+  margin-top: -45px; }
 
 .SemesterSchedule-container {
   display: inline-block;
