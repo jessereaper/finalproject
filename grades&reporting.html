@@ -21,7 +21,7 @@
         <h2 class="AcademicServices">
       Academic Services
     </h2>
-    <a class="CurrentSchedule" href="academicdashboard.html" alt="">
+        <a class="CurrentSchedule" href="academicdashboard.html" alt="">
   Academic Dashboard
 </a>
         <a class="CurrentSchedule" href="schedule.html" alt="">
@@ -50,13 +50,30 @@
       </div>
     </aside>
     <header class="Header-schedule">
+      <div class="date" id="sched-date">
+        <p class="text-m-1">
+          <script>
+            var date = new Date();
+            var year = date.getFullYear();
+            var day = date.getDate();
+
+            var monthList = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
+
+            var monthName = monthList[date.getMonth()];
+
+            var dayList = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
+
+            var dayOfWeek = dayList[date.getDay()];
+
+            document.write(dayOfWeek + "," + monthName + " " + day + "," + year);
+          </script>
+        </p>
+        <!--date done in JS-->
+      </div>
       <a class="Home-schedule" href="home.html">HOME</a>
       <a class="AcademicServices-schedule"> >ACADEMIC SERVICES></a>
       <a class="CurrentSchedule-schedule"> CURRENT SCHEDULE</a>
       <a class="Logout-schedule" href="#">LOG OUT?</a>
-      <div class="">
-        <!--date done in JS-->
-      </div>
       <div class="bar-schedule">
         <!-- this is for the bar -->
       </div>
@@ -84,9 +101,9 @@
         </div>
         <div class="bar-schedules">
         </div>
-          <div class="date" id="index-date">
-            <p class="text-m-1">
-              <script>
+        <div class="date" id="index-date">
+          <p class="text-m-1">
+            <script>
               var date = new Date();
               var year = date.getFullYear();
               var day = date.getDate();
@@ -100,10 +117,10 @@
               var dayOfWeek = dayList[date.getDay()];
 
               document.write(dayOfWeek + "," + monthName + " " + day + "," + year);
-              </script>
-            </p>
-            <!--date done in JS-->
-          </div>
+            </script>
+          </p>
+          <!--date done in JS-->
+        </div>
       </section>
       <section class="overflow">
         <section class="CS-container">
@@ -239,7 +256,8 @@ Web Development I
             CSET 115, 12:00 - 4:30pm
 </h3>
           <h2 class="GR-ITWA-two">
-  Technical  Requirements &amp; Data Structures
+  Technical
+Requirements &amp; Data Structures
 </h2>
         </div>
         <div class="nine-zero-GR-two">

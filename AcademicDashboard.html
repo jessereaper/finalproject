@@ -21,7 +21,7 @@
         <h2 class="AcademicServices">
       Academic Services
     </h2>
-    <a class="CurrentSchedule" href="academicdashboard.html" alt="">
+        <a class="CurrentSchedule" href="academicdashboard.html" alt="">
   Academic Dashboard
 </a>
         <a class="CurrentSchedule" href="schedule.html" alt="">
@@ -50,13 +50,30 @@
       </div>
     </aside>
     <header class="Header-schedule">
+      <div class="date" id="sched-date">
+        <p class="text-m-1">
+          <script>
+            var date = new Date();
+            var year = date.getFullYear();
+            var day = date.getDate();
+
+            var monthList = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
+
+            var monthName = monthList[date.getMonth()];
+
+            var dayList = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
+
+            var dayOfWeek = dayList[date.getDay()];
+
+            document.write(dayOfWeek + "," + monthName + " " + day + "," + year);
+          </script>
+        </p>
+        <!--date done in JS-->
+      </div>
       <a class="Home-schedule" href="home.html">HOME</a>
       <a class="AcademicServices-schedule"> >ACADEMIC SERVICES></a>
       <a class="CurrentSchedule-schedule"> CURRENT SCHEDULE</a>
       <a class="Logout-schedule" href="#">LOG OUT?</a>
-      <div class="">
-        <!--date done in JS-->
-      </div>
       <div class="bar-schedule">
         <!-- this is for the bar -->
       </div>
@@ -87,185 +104,188 @@
         </div>
       </section>
       <section class="overflow-two">
-      <div class="CS-inlineflex">
-        <h1 class="AcademicStandingataGlance ">
+        <div class="CS-inlineflex">
+          <h1 class="AcademicStandingataGlance ">
           Academic Standing At A Glance
         </h1>
-      </div>
+        </div>
 
-    <section class="Academic-pie-container">
-      <h2 class="CSET-Academic">
+        <section class="Academic-pie-container">
+          <h2 class="CSET-Academic">
         CSET 105
       </h2>
-      <h1 class="Academic-Introtowebapps">
+          <h1 class="Academic-Introtowebapps">
         Intro to Web Applications
       </h1>
-      <div class="Academic-pie">
-        <div class="Academic-circle">
-          <p class="Academic-CurrentGrade">
-            CURRENT GRADE
-          </p>
-          <h1 class="forty">
+          <div class="Academic-pie">
+            <div class="Academic-circle">
+              <p class="Academic-CurrentGrade">
+                CURRENT GRADE
+              </p>
+              <h1 class="forty">
               90%
             </h1>
-        </div>
-      </div>
-  </section>
-  <section class="Academic-pie-container-two">
-    <h2 class="CSET-Academic-two">
+            </div>
+          </div>
+        </section>
+        <section class="Academic-pie-container-two">
+          <h2 class="CSET-Academic-two">
       CSET 110
     </h2>
-    <h1 class="Academic-WebDevelopment">
+          <h1 class="Academic-WebDevelopment">
       Web Development I
     </h1>
-    <div class="Academic-pie-two">
-      <div class="Academic-circle">
-        <p class="Academic-CurrentGrade">
-          CURRENT GRADE
-        </p>
-        <h1 class="forty">
+          <div class="Academic-pie-two">
+            <div class="Academic-circle">
+              <p class="Academic-CurrentGrade">
+                CURRENT GRADE
+              </p>
+              <h1 class="forty">
             50%
           </h1>
-      </div>
-    </div>
-</section>
-<section class="Academic-pie-container-three">
-<h2 class="CSET-Academic-two">
+            </div>
+          </div>
+        </section>
+        <section class="Academic-pie-container-three">
+          <h2 class="CSET-Academic-two">
   CSET 115
 </h2>
-<h1 class="Academic-WebDevelopment-three">
-  Technical Requirements  &amp; Data Structures
+          <h1 class="Academic-WebDevelopment-three">
+  Technical Requirements
+&amp; Data Structures
 </h1>
-<div class="Academic-pie-three">
-  <div class="Academic-circle">
-    <p class="Academic-CurrentGrade">
-      CURRENT GRADE
-    </p>
-    <h1 class="forty">
+          <div class="Academic-pie-three">
+            <div class="Academic-circle">
+              <p class="Academic-CurrentGrade">
+                CURRENT GRADE
+              </p>
+              <h1 class="forty">
         10%
       </h1>
-  </div>
-</div>
-</section>
-<section class="Academic-pie-container-four">
-  <h2 class="CSET-Academic-two">
+            </div>
+          </div>
+        </section>
+        <section class="Academic-pie-container-four">
+          <h2 class="CSET-Academic-two">
     CSET 120
   </h2>
-  <h1 class="Academic-WebDevelopment">
+          <h1 class="Academic-WebDevelopment">
     Software Project I
   </h1>
-  <div class="Academic-pie-four">
-    <div class="Academic-circle">
-      <p class="Academic-CurrentGrade">
-        CURRENT GRADE
-      </p>
-      <h1 class="forty">
+          <div class="Academic-pie-four">
+            <div class="Academic-circle">
+              <p class="Academic-CurrentGrade">
+                CURRENT GRADE
+              </p>
+              <h1 class="forty">
           25%
         </h1>
-    </div>
-  </div>
-</section>
-<section class="Academic-pie-container-five">
-  <h2 class="CSET-Academic-two">
+            </div>
+          </div>
+        </section>
+        <section class="Academic-pie-container-five">
+          <h2 class="CSET-Academic-two">
     GENED 101
   </h2>
-  <h1 class="Academic-WebDevelopment">
-    General Education  Credit
+          <h1 class="Academic-WebDevelopment">
+    General Education
+Credit
   </h1>
-  <div class="Academic-pie-five">
-    <div class="Academic-circle">
-      <p class="Academic-CurrentGrade">
-        CURRENT GRADE
-      </p>
-      <h1 class="forty">
+          <div class="Academic-pie-five">
+            <div class="Academic-circle">
+              <p class="Academic-CurrentGrade">
+                CURRENT GRADE
+              </p>
+              <h1 class="forty">
           45%
         </h1>
-    </div>
-  </div>
-</section>
-<section class="Academic-pie-container-six">
-  <h2 class="CSET-Academic-two">
+            </div>
+          </div>
+        </section>
+        <section class="Academic-pie-container-six">
+          <h2 class="CSET-Academic-two">
     CSET 110
   </h2>
-  <h1 class="Gen-edu-class">
+          <h1 class="Gen-edu-class">
   General Education Class
   </h1>
-  <div class="Academic-pie-six">
-    <div class="Academic-circle">
-      <p class="Academic-CurrentGrade">
-        CURRENT GRADE
-      </p>
-      <h1 class="forty">
+          <div class="Academic-pie-six">
+            <div class="Academic-circle">
+              <p class="Academic-CurrentGrade">
+                CURRENT GRADE
+              </p>
+              <h1 class="forty">
           35%
         </h1>
-    </div>
-  </div>
-</section>
-<section class="SemesterSchedule-container">
-  <h1 class="SemesterSchedule">
+            </div>
+          </div>
+        </section>
+        <section class="SemesterSchedule-container">
+          <h1 class="SemesterSchedule">
     Semester Schedule
   </h1>
-    <h2 class="CSET-Academic-Monday">
+          <h2 class="CSET-Academic-Monday">
       CSET 105, M, 12:00pm - 4:30pm
     </h2>
-    <h1 class="CSET-Academic-Monday-Intro">
+          <h1 class="CSET-Academic-Monday-Intro">
       Intro to Web Applications
     </h1>
-    <h2 class="CSET-Academic-Tuesday">
+          <h2 class="CSET-Academic-Tuesday">
       CSET 110, T 12:00pm - 4:30pm, W 12:30pm - 4:30pm
     </h2>
-    <h1 class="CSET-Academic-Tuesday-Web">
+          <h1 class="CSET-Academic-Tuesday-Web">
       Web Development I
     </h1>
-    <h2 class="CSET-Academic-Tuesday">
+          <h2 class="CSET-Academic-Tuesday">
       CSET 115, R, 12:00pm - 4:30pm
     </h2>
-    <h1 class="CSET-Academic-Wednesday-tech">
+          <h1 class="CSET-Academic-Wednesday-tech">
       Technical Requirements &amp; Data Structures
     </h1>
-    <h2 class="CSET-Academic-Thurs">
+          <h2 class="CSET-Academic-Thurs">
       CSET 120, F, 12:00pm - 4:30pm
     </h2>
-    <h1 class="CSET-Academic-Wednesday-tech">
+          <h1 class="CSET-Academic-Wednesday-tech">
       Software Project I
     </h1>
-    <h2 class="CSET-Academic-Thurs">
+          <h2 class="CSET-Academic-Thurs">
       GENED 101, R, 12:00pm - 4:30pm
     </h2>
-    <h1 class="CSET-Academic-Wednesday-tech">
+          <h1 class="CSET-Academic-Wednesday-tech">
         General Education Requirement #1
     </h1>
-    <h2 class="CSET-Academic-Thurs">
+          <h2 class="CSET-Academic-Thurs">
       GENED 102, F, 12:00pm - 4:30pm
     </h2>
-    <h1 class="CSET-Academic-Wednesday-tech">
+          <h1 class="CSET-Academic-Wednesday-tech">
       GenEd Req
     </h1>
-    <div class="Academic-ViewCalendarView-container">
-    <a class="Academic-ViewCalendarView" href="schedule.html">
+          <div class="Academic-ViewCalendarView-container">
+            <a class="Academic-ViewCalendarView" href="schedule.html">
       View Calendar View »
     </a>
-  </div>
-  <h2 class="SemesterSchedule-two">
+          </div>
+          <h2 class="SemesterSchedule-two">
     Upcoming Due Dates 11/15
   </h2>
-  <h1 class="WebDevelopmentoneJS-academic">
+          <h1 class="WebDevelopmentoneJS-academic">
     Web Development I: JavaScript Fundamentals Test
 </h1>
-<h2 class="SemesterSchedule-two">
+          <h2 class="SemesterSchedule-two">
   12/15
 </h2>
-<h1 class="WebDevelopmentoneJS-academic-two">
+          <h1 class="WebDevelopmentoneJS-academic-two">
 Software Project I: Final Project due by 11:55pm EST
 </h1>
-<div class="Seemore-container">
-<a class="Seemore" href="">
+          <div class="Seemore-container">
+            <a class="Seemore" href="">
 See More »
 </a>
-</div>
-</section>
-</section>
-</section>
+          </div>
+        </section>
+      </section>
+    </section>
   </section>
 </body>
+
 </html>
